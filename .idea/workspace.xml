@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00c786fa-9b44-4a14-891d-5b6e2f880132" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/browserRender.md" beforeDir="false" afterPath="$PROJECT_DIR$/browserRender.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/differencesOfThese.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,7 +26,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="browserRender.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="browserRender.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/browserRender.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -38,7 +39,16 @@
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="26" lean-forward="true" selection-end-column="26" />
+              <caret column="26" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="differencesOfThese.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/differencesOfThese.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -61,6 +71,7 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/browserRender.md" />
+        <option value="$PROJECT_DIR$/differencesOfThese.md" />
       </list>
     </option>
   </component>
@@ -146,12 +157,12 @@
       <updated>1555382526386</updated>
       <workItem from="1555382527832" duration="1993000" />
       <workItem from="1555469402060" duration="941000" />
-      <workItem from="1556071922541" duration="714000" />
+      <workItem from="1556071922541" duration="2686000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3648000" />
+    <option name="totallyTimeSpent" value="5620000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -205,10 +216,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html" />
-    <entry file="file://$PROJECT_DIR$/_config.yml">
+    <entry file="file://$PROJECT_DIR$/browserRender.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" lean-forward="true" selection-end-column="26" />
+        <state relative-caret-position="180">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -219,10 +230,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/browserRender.md">
+    <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        <state>
+          <caret column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/differencesOfThese.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
         </state>
       </provider>
     </entry>
