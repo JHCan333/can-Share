@@ -1,4 +1,4 @@
-# nvm 常用命令
+# nvm常用命令
 | 命令 | 介绍 |
 |----|----|
 |nvm install <version> | 安装指定node版本 |
