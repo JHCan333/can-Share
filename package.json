@@ -3,11 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "create-react-class": "^15.6.3",
     "highlight.js": "^9.15.6",
+    "history": "^4.9.0",
     "jquery": "^3.4.1",
     "marked": "^0.6.2",
     "react": "^16.8.6",
+    "react-devtools": "^3.6.1",
     "react-dom": "^16.8.6",
+    "react-router": "^5.0.0",
     "react-scripts": "3.0.0"
   },
   "scripts": {

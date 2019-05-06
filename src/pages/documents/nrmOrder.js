@@ -9,9 +9,6 @@ class Game extends React.Component {
         this.state = {_html:'Welcome !'};
     }
     componentWillMount() {
-        require.config({
-            baseUrl: 'src/markDownFile',
-        })
         // marked相关配置
         marked.setOptions({
             renderer: new marked.Renderer(),
@@ -29,8 +26,10 @@ class Game extends React.Component {
 
     }
     componentDidMount() {
-        $.get('./markDownFile/nrmOrder.md',(res,aaa,bbb)=>{
-            this.setState({_html:res})
+        fetch('./markDownFile/nrmOrder.md').then((res)=>{
+            return res.text()
+        }).then((val)=>{
+            this.setState({_html:val})
         })
     }
     render () {
