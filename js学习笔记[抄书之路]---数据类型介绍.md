@@ -312,4 +312,5 @@ c.propertyIsEnumerable(propetyname) // 用于检查给定的属性能否使用fo
 c.toLocaleString() //返回对象的字符串表示，该字符串与执行环境的地区对应
 c.toString() // 返回对象的字符串表示
 ```
-
+## 参考资料
++ JavaScript高级程序设计（第三版）
