@@ -172,3 +172,5 @@ throw 'aaa'
 // url http://127.0.0.1:8020/Test/testError/testError.html?__hbt=1557751037433
 // line 24
 ```
+## 参考资料
++ JavaScript高级程序设计（第三版）
