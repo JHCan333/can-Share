@@ -26,8 +26,11 @@ class Game extends React.Component {
 
     }
     componentDidMount() {
-        $.get('./markDownFile/browserRender.md',(res,aaa,bbb)=>{
-            this.setState({_html:res})
+        let markDownName = this.props.markDownName || 'nrmOrder'
+        fetch(require(`../../markDownFile/${markDownName}.md`)).then((res)=>{
+            return res.text()
+        }).then((val)=>{
+            this.setState({_html:val})
         })
     }
     render () {

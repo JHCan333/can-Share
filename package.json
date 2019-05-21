@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "antd": "^3.18.2",
     "create-react-class": "^15.6.3",
     "highlight.js": "^9.15.6",
     "history": "^4.9.0",
