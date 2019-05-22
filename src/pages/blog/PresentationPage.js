@@ -1,12 +1,18 @@
+/**
+ * @author 靳宏灿
+ * @date 2019/5/22
+ * @time 下午3:54
+ * @Description: 文章展示页
+ */
 import React from 'react'
 import $ from 'jquery'
-import RouteList from '../router'
+import RouteList from './router'
 import { Router } from 'react-router'
 import {createHashHistory } from 'history'
 
 const history = createHashHistory()
 
-class Home extends React.Component {
+class PresentationPage extends React.Component {
     constructor (props) {
         super(props)
         this.handleClick = this.handleClick.bind(this);
@@ -17,15 +23,11 @@ class Home extends React.Component {
     }
     render () {
         return (
-            <div>
-                <div onClick={()=>{this.handleClick('/nrmOrder')}}>nrmOrder</div>
-                <div onClick={()=>{this.handleClick('/browserRender')}}>browserRender</div>
-                <Router history={history}>
-                    {RouteList}
-                </Router>
-            </div>
+            <Router history={history}>
+                {RouteList}
+            </Router>
         )
     }
 }
 
-export default Home
+export default PresentationPage

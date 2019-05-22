@@ -1,3 +1,9 @@
+/**
+ * @author 靳宏灿
+ * @date 2019/5/22
+ * @time 下午3:55
+ * @Description:markDown的渲染文件
+ */
 import React from 'react'
 import marked from 'marked'
 import hljs from 'highlight.js';
@@ -6,7 +12,7 @@ import $ from 'jquery'
 class Game extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {_html:'Welcome !'};
+        this.state = {_html:''};
     }
     componentWillMount() {
         // marked相关配置
