@@ -6,7 +6,7 @@
 ### 1.1什么叫不够好？
 important某些情况下不能决定最终的样式属性。
 ### 1.2代码！代码！！
-```html
+```JavaScript
 <style type="text/css">
 div{
 width:100px;

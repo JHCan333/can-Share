@@ -9,6 +9,7 @@
     "history": "^4.9.0",
     "jquery": "^3.4.1",
     "marked": "^0.6.2",
+    "node-sass": "^4.12.0",
     "react": "^16.8.6",
     "react-devtools": "^3.6.1",
     "react-dom": "^16.8.6",

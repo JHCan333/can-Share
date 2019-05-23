@@ -5,16 +5,15 @@
  * @Description: 项目的布局
  */
 import React from 'react'
-import { Layout } from 'antd';
-import {WebFrameHeader} from '../components/index'
-import { Router,Route } from 'react-router'
-import {createHashHistory } from 'history'
+import { Layout } from 'antd'
+import { WebFrameHeader } from '../components/index'
+import { Router, Route } from 'react-router'
+import { createHashHistory } from 'history'
 import Home from './home/index'
-import Index from './blog/index'
+import Blog from './blog/index'
 import menuList from './router/menuList'
 
 const history = createHashHistory()
-
 
 class WebFrame extends React.Component {
     state = {
@@ -30,10 +29,12 @@ class WebFrame extends React.Component {
     render () {
         return (
             <Layout>
-                <WebFrameHeader menuList={menuList}></WebFrameHeader>
                 <Router history={history}>
                     <Route path={'/home'} key={1} render={props => (<Home/>)}/>
-                    <Route path={'/blog'} key={2} component={Index}></Route>
+                    <Route path={'/blog'} key={2} render={props => (
+                            [<WebFrameHeader key='a' menuList={menuList}></WebFrameHeader>,
+                            <Blog key={'b'}/>]
+                    )}></Route>
                     <Route path={'/wait'} key={3} render={props => (<Home/>)}/>
                 </Router>
             </Layout>

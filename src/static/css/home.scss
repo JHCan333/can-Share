@@ -1,0 +1,52 @@
+$head_portrait_width:150px;
+$center_area_group_Height:$head_portrait_width * 1.6;
+$testBorder:0px solid #000;
+
+body {
+  margin: 0;
+  padding:0;
+}
+
+// 主页的css
+.#{$prefix}_home_page {
+  width:100%;
+  height:100vh;
+  background: url("../image/beautifulGreenSky.jpg") no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  filter: grayscale(0.1);
+}
+
+// 首页的中心区域
+.#{$prefix}_center_area{
+  position: absolute;
+  top:30%;
+  width:100%;
+  .#{$prefix}_center_area_group{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items:center;
+    height:$center_area_group_Height;
+
+    .#{$prefix}_main_font{
+      font-size: x-large;
+      color: white;
+      font-weight: bold;
+      border:$testBorder;
+    }
+
+    .#{$prefix}_head_portrait{
+      //opacity: 0.7;
+      width:$head_portrait_width;
+      height:$head_portrait_width;
+      border:1px solid #000;
+      border-radius: 50%;
+      border:$testBorder;
+      background: url("../image/headPortrait.jpg") no-repeat;
+      background-size: 100% 100%;
+    }
+  }
+
+}
+
