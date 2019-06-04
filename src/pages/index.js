@@ -6,38 +6,30 @@
  */
 import React from 'react'
 import { Layout } from 'antd'
-import { WebFrameHeader } from '../components/index'
-import { Router, Route } from 'react-router'
+import { WebFrameHeader } from './components/index'
+import { Router, Route, IndexRoute } from 'react-router'
 import { createHashHistory } from 'history'
 import Home from './home/index'
 import Blog from './blog/index'
 import menuList from './router/menuList'
+import { $prefix } from '../common'
 
 const history = createHashHistory()
 
 class WebFrame extends React.Component {
-    state = {
-        collapsed: true,
-    }
-
-    toggle = () => {
-        this.setState({
-            collapsed: !this.state.collapsed,
-        })
-    }
-
     render () {
         return (
-            <Layout>
+            <section className={`${$prefix}_page_home`}>
                 <Router history={history}>
+                    <Route path={'/'} exact={true} key={0} render={props => (<Home/>)}/>
                     <Route path={'/home'} key={1} render={props => (<Home/>)}/>
                     <Route path={'/blog'} key={2} render={props => (
-                            [<WebFrameHeader key='a' menuList={menuList}></WebFrameHeader>,
+                        [<WebFrameHeader key='a' menuList={menuList}></WebFrameHeader>,
                             <Blog key={'b'}/>]
                     )}></Route>
                     <Route path={'/wait'} key={3} render={props => (<Home/>)}/>
                 </Router>
-            </Layout>
+            </section>
         )
     }
 }

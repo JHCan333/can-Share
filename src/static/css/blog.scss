@@ -1,0 +1,27 @@
+//博客头部的css
+.#{$prefix}_blog_header{
+  background-color: #fff;
+}
+
+//博客的头部menu的css
+.#{$prefix}_blog_header_menu{
+  text-align: center;
+}
+
+//博客简介的
+.#{$prefix}_blog_pandect{
+  width:40% ;
+  border:1px #000 solid;
+}
+
+// 博客的首页
+.#{$prefix}_blog_home{
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+
+// 博客的文章
+.#{$prefix}_blog_article{
+  width:40%;
+}

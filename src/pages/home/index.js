@@ -5,28 +5,18 @@
  * @Description: home 首页
  */
 import React from 'react'
-import { createHashHistory } from 'history'
 import { $prefix } from '../../common'
-
-const history = createHashHistory()
+import {HeadGroup} from '../components'
 
 class Home extends React.Component {
     constructor (props) {
         super(props)
         this.state = {
-            _html: 'Welcome !',
             cssName: {
                 homePage: `${$prefix}_home_page`,
-                mainFont: `${$prefix}_main_font`,
-                headPortrait: `${$prefix}_head_portrait`,
-                centerArea: `${$prefix}_center_area`,
-                centerAreaGroup: `${$prefix}_center_area_group`,
+                centerArea: `${$prefix}_center_area`
             }
         }
-    }
-
-    handleClick (path) {
-        history.push(path)
     }
 
     render () {
@@ -34,12 +24,7 @@ class Home extends React.Component {
         return (
             <div className={homePage}>
                 <div className={centerArea}>
-                    <div className={centerAreaGroup}>
-                        <div className={headPortrait}  onClick={() => {this.handleClick('/blog')}}></div>
-                        <div className={mainFont}>
-                            愿经万种事，成万全人
-                        </div>
-                    </div>
+                    <HeadGroup></HeadGroup>
                 </div>
             </div>
         )

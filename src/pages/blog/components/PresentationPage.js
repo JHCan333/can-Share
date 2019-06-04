@@ -6,7 +6,7 @@
  */
 import React from 'react'
 import $ from 'jquery'
-import RouteList from './router'
+import RouteList from '../router/index'
 import { Router } from 'react-router'
 import {createHashHistory } from 'history'
 

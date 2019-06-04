@@ -6,30 +6,42 @@
  */
 import React from 'react'
 import { Layout,Menu } from 'antd';
-import PresentationPage from './PresentationPage'
-import {getMenuList} from './router/menuList'
-import {WebFrameHeader,WebFrameLeftMenu,WebFrameBreadcrumb,WebFrameContent} from '../../components/index'
+import { $prefix } from '../../common'
 
-class Index extends React.Component {
+import {getMenuList} from './router/menuList'
+import {WebFrameHeader,WebFrameLeftMenu,WebFrameBreadcrumb,WebFrameContent} from '../components/index'
+
+import {PresentationPage,BlogPandect} from './components'
+
+
+const {Sider} = Layout
+
+class Blog extends React.Component {
     constructor (props) {
         super(props)
         this.state = {
-            menuList:getMenuList()
+            menuList:getMenuList(),
+            cssName:{
+                blogHome:`${$prefix}_blog_home`,
+                blogArticle:`${$prefix}_blog_article`,
+            }
         }
     }
     render () {
+        let {blogHome,blogArticle } = this.state.cssName
         return (
-            <Layout>
+            <section className={blogHome}>
                 <WebFrameLeftMenu menuList={this.state.menuList}></WebFrameLeftMenu>,
-                <Layout style={{padding: '0 24px 24px'}}>
+                <div className={blogArticle}>
                     <WebFrameBreadcrumb></WebFrameBreadcrumb>
                     <WebFrameContent>
                         <PresentationPage></PresentationPage>
                     </WebFrameContent>
-                </Layout>
-            </Layout>
+                </div>
+                <BlogPandect/>
+            </section>
         )
     }
 }
 
-export default Index
+export default Blog
