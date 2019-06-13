@@ -12,3 +12,23 @@
 9. ie上的line-height和谷歌里面的不太一样，主要是盒模型的问题。ie中的line-height需要减去上下padding之和。
 10. ie8不支持flex布局；
 11. ies不支持unset覆盖，比如在前面写了border:1px solid #000,后面如果写border-bottom:unset;的话，不会将bottom-bottom清空。不过设置为none则会有效。
+12. ie禁止中文输入：在style中添加ime-mode:disabled;-ms-ime-mode:disabled;
+13. ie8上的paste事件：如果在paste事件触发的时候，修改input的value，还是会被paste事件覆盖掉，可以使用setTimeout解决；
+14. ie9以及以上ie浏览器，支持中文输入的识别事件。compositionstart中文输入开始，compositionend中文输入结束。如果需要清除中文，可以在compositionend中，对value进行修正；
+15. 检测是否是inputNumber所需要的值，【'-','0~9','.'】可以使用 (keyCode !== 8 && keyCode !== 46 && keyCode !== 45 && keyCode < 48) || keyCode > 57 来判断，为false则是需要的值；
+16. 非ie浏览器，可以使用 thisDom.selectionStart 获取光标位置；而ie浏览器，则需要
+```
+let range = document.selection.createRange()
+range.collapse(false)
+range.setEndPoint('StartToStart', thisInput.createTextRange())
+position = range.text.length
+```
+17. 方法要规划好，避免乱糟糟的
+18. js小数相加减，可以考虑扩大10^n倍，n为小数点后的位数。做完加减后，除以10^n；
+19. input在ie11上会自带叉号。如下清除
+```
+// 清除input在ie11上的自带的叉号
+input::-ms-clear{display:none;}
+input::-ms-reveal{display:none;}
+```
+
