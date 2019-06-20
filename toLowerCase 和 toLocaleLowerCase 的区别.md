@@ -13,6 +13,4 @@ console.log('TR: ' + dotted.toLocaleLowerCase('tr'));
 ```
 github上看不出效果，贴个图
 
-<img src="./image/other/toLocaleUpperCase.png" width="800px" height="600px"> 
-
-![正常的toLocaleUpperCase](./image/other/toLocaleUpperCase.png "正常的toLocaleUpperCase")
+<img src="./image/other/toLocaleLowerCase.png"> 
