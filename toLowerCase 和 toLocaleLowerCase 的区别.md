@@ -11,3 +11,8 @@ console.log('EN-US: ' + dotted.toLocaleLowerCase('en-US'));
 console.log('TR: ' + dotted.toLocaleLowerCase('tr'));
 // expected output: "istanbul"
 ```
+github上看不出效果，贴个图
+
+<img src="./image/other/toLocaleUpperCase.png" width="800px" height="600px"> 
+
+![正常的toLocaleUpperCase](./image/other/toLocaleUpperCase.png "正常的toLocaleUpperCase")
