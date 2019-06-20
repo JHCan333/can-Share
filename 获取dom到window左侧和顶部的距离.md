@@ -1,10 +1,10 @@
 1. 通过方法 getBoundingClientRect，如下：`推荐`
 
 ```JavaScript
-let domToTop = dom.getBoundingClientRect().top
-let domToLeft = dom.getBoundingClientRect().left
-let domToBottom = dom.getBoundingClientRect().bottom
-let domToRight = dom.getBoundingClientRect().right
+let domToTop = dom.getBoundingClientRect().top  // dom 的顶边到页面顶部的距离
+let domToLeft = dom.getBoundingClientRect().left // dom 的左边到页面左边的距离
+let domToBottom = dom.getBoundingClientRect().bottom // dom 的底边到页面顶部的距离
+let domToRight = dom.getBoundingClientRect().right // dom 的右边到页面左边的距离
 ```
 
 2. 循环获取offsetLeft，求加和；`不推荐，易出错`
