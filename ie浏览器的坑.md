@@ -31,5 +31,5 @@ position = range.text.length
 input::-ms-clear{display:none;}
 input::-ms-reveal{display:none;}
 ```
-20. ie8对通过js对style进行操作的时候，如果同一时间段先后对==绝对定位==的元素修改`left`和right，会造成定位失准，==目前规律不明，待仔细排查==；
+20. ie8对通过js对style进行操作的时候，如果同一时间段先后对 **绝对定位** 的元素修改`left`和`right`，会造成定位失准，**目前规律不明，待仔细排查**；
 
