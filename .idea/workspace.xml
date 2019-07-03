@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00c786fa-9b44-4a14-891d-5b6e2f880132" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/image/clock/clockBack.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/clock/hourPoint.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/clock/minPoint.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gaugeDemo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/clock/gaugeBack.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clockDemo.html" beforeDir="false" afterPath="$PROJECT_DIR$/clockDemo.html" afterDir="false" />
     </list>
@@ -60,8 +59,17 @@
       <file leaf-file-name="clockDemo.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/clockDemo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="564">
-              <caret line="44" column="45" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
+            <state relative-caret-position="238">
+              <caret line="130" column="18" lean-forward="true" selection-start-line="130" selection-start-column="18" selection-end-line="130" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gaugeDemo.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gaugeDemo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="326">
+              <caret line="292" column="14" lean-forward="true" selection-start-line="292" selection-start-column="14" selection-end-line="292" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -75,6 +83,31 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>#{$prefix}</find>
+      <find>class</find>
+      <find>gaugeBack</find>
+      <find>gauge-back</find>
+      <find>gaugeScaleVal</find>
+      <find>gauge-scale</find>
+      <find>gaugeNeedle</find>
+      <find>gauge-needle</find>
+      <find>gauge-circle</find>
+      <find>gaugeCircle</find>
+      <find>gaugeDot</find>
+      <find>gauge-dot</find>
+      <find>setScaleColor</find>
+      <find>cssDotWrap2</find>
+      <find>setSize</find>
+      <find>shortLth</find>
+      <find>area</find>
+      <find>console</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>.jhc</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -86,6 +119,7 @@
         <option value="$PROJECT_DIR$/browserRender.md" />
         <option value="$PROJECT_DIR$/differencesOfThese.md" />
         <option value="$PROJECT_DIR$/clockDemo.html" />
+        <option value="$PROJECT_DIR$/gaugeDemo.html" />
       </list>
     </option>
   </component>
@@ -4626,12 +4660,12 @@
       <workItem from="1556071922541" duration="3243000" />
       <workItem from="1556499878847" duration="1545000" />
       <workItem from="1561001276745" duration="1178000" />
-      <workItem from="1562134506632" duration="127000" />
+      <workItem from="1562134506632" duration="1895000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9188000" />
+    <option name="totallyTimeSpent" value="10956000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -4854,10 +4888,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gaugeDemo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="292" column="14" lean-forward="true" selection-start-line="292" selection-start-column="14" selection-end-line="292" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/clockDemo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="44" column="45" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
+        <state relative-caret-position="238">
+          <caret line="130" column="18" lean-forward="true" selection-start-line="130" selection-start-column="18" selection-end-line="130" selection-end-column="18" />
         </state>
       </provider>
     </entry>
