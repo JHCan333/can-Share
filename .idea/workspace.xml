@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00c786fa-9b44-4a14-891d-5b6e2f880132" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/css-tips/ie6下css碰到的坑.md" beforeDir="false" afterPath="$PROJECT_DIR$/css-tips/ie6下css碰到的坑.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http-tips/三次握手和四次挥手的详细介绍.md" beforeDir="false" afterPath="$PROJECT_DIR$/http-tips/三次握手和四次挥手的详细介绍.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js-tips/toLowerCase 和 toLocaleLowerCase 的区别.md" beforeDir="false" afterPath="$PROJECT_DIR$/js-tips/toLowerCase 和 toLocaleLowerCase 的区别.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/work-experience/看不到的捣蛋鬼---Zero Width Space.md" beforeDir="false" afterPath="$PROJECT_DIR$/work-experience/看不到的捣蛋鬼---Zero Width Space.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -49,8 +46,8 @@
       <file leaf-file-name="看不到的捣蛋鬼---Zero Width Space.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/work-experience/看不到的捣蛋鬼---Zero Width Space.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+            <state relative-caret-position="228">
+              <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -4705,12 +4702,12 @@
       <workItem from="1562134506632" duration="2317000" />
       <workItem from="1562205954434" duration="359000" />
       <workItem from="1564382624569" duration="51000" />
-      <workItem from="1566828977538" duration="1456000" />
+      <workItem from="1566828977538" duration="1684000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13244000" />
+    <option name="totallyTimeSpent" value="13472000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -4952,8 +4949,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/work-experience/看不到的捣蛋鬼---Zero Width Space.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+        <state relative-caret-position="228">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
         </state>
       </provider>
     </entry>
