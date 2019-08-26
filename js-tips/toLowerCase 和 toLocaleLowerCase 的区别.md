@@ -13,4 +13,4 @@ console.log('TR: ' + dotted.toLocaleLowerCase('tr'));
 ```
 github上看不出效果，贴个图
 
-<img src="./image/other/toLocaleLowerCase.png"> 
+<img src="../image/other/toLocaleLowerCase.png">

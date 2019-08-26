@@ -34,7 +34,7 @@ background-color: blue;
 ### 1.3 上图！上图！！
 | 谷歌 | ie6 |
 | ----- | ----- |
-| <img src="./image/ie6/1.3.1.png" width="60px" height="180px"> | <img src="./image/ie6/1.3.2.png" width="60px" height="180px"> |
+| <img src="../image/ie6/1.3.1.png" width="60px" height="180px"> | <img src="../image/ie6/1.3.2.png" width="60px" height="180px"> |
 
 ### 1.4我们学到了啥！
 ```
@@ -90,7 +90,7 @@ background-color: teal;
 ### 2.3来看看效果
 | 谷歌 | ie6 |
 | ----- | ----- |
-| <img src="./image/ie6/2.3.1.png" width="50%" height="50%"> | <img src="./image/ie6/2.3.2.png" width="50%" height="50%"> |
+| <img src="../image/ie6/2.3.1.png" width="50%" height="50%"> | <img src="../image/ie6/2.3.2.png" width="50%" height="50%"> |
 
 ### 2.4.怎么解决？
 #### 方案1：
@@ -119,7 +119,7 @@ _margin: 50px 25px;
 }
 ```
 ### 2.5解决结果
-<img src="./image/ie6/2.5.1.png" width="200px" height="200px">
+<img src="../image/ie6/2.5.1.png" width="200px" height="200px">
 
 ## 3.ie6下图片的会带有蓝灰色背景色
 ### 3.1 css代码
@@ -166,9 +166,9 @@ _background:none;/*IE6有效*/
 ```
 ### 3.3展示效果
 #### 1.谷歌浏览器
-<img src="./image/ie6/3.3.1.png" width="600px" height="150px">
+<img src="../image/ie6/3.3.1.png" width="600px" height="150px">
 #### 2.IE6浏览器
-<img src="./image/ie6/3.3.2.png" width="600px" height="150px">
+<img src="../image/ie6/3.3.2.png" width="600px" height="150px">
 
 ### 3.4怎么搞
 IE6不支持png背景透明或半透明，所以img标签中的图片会带有背景色，需要借助css滤镜来实现
@@ -243,17 +243,17 @@ height:100px;
 ```
 ### 4.3上图
 #### 1.谷歌
-<img src="./image/ie6/4.3.1.png" >
+<img src="../image/ie6/4.3.1.png" >
 
 #### 2.ie6
-<img src="./image/ie6/4.3.2.png" >
+<img src="../image/ie6/4.3.2.png" >
 
 ### 4.4怎么搞？
 ```
 1.若无特殊要求，可以把div改为span
 2.可以设置float属性。如float为right时，效果如下
 ```
-<img src="./image/ie6/4.4.1.png" >
+<img src="../image/ie6/4.4.1.png" >
 
 ## 5.ie6下min-height和min-width失效
 ### 5.1上代码
@@ -269,10 +269,10 @@ background-color: #00FF00;
 ```
 ### 5.2上对比图
 #### 1.谷歌
-<img src="./image/ie6/5.2.1.png" >
+<img src="../image/ie6/5.2.1.png" >
 
 #### 2.ie6（没错，这是一张空白的图）
-<img src="./image/ie6/5.2.2.png" >
+<img src="../image/ie6/5.2.2.png" >
 
 ### 5.3 怎嘛整？
 直接设置width、height。
@@ -281,7 +281,7 @@ background-color: #00FF00;
 ### 6.1what？
 本来我把select框的样式给调的美美的，比如这样
 
-<img src="./image/ie6/6.3.1.png" >
+<img src="../image/ie6/6.3.1.png" >
 
 结果在ie6上乱了套，源码我就不写了，直接写demo
 
@@ -318,10 +318,10 @@ top:10px;
 
 ### 6.3各个浏览器展示
 
-| 谷歌 | <img src="./image/ie6/6.3.1.png" > |
+| 谷歌 | <img src="../image/ie6/6.3.1.png" > |
 | ----- | ----- |
-| ie8 | <img src="./image/ie6/6.3.2.png" > |
-| ie6 | <img src="./image/ie6/6.3.3.png" > |
+| ie8 | <img src="../image/ie6/6.3.2.png" > |
+| ie6 | <img src="../image/ie6/6.3.3.png" > |
 
 ### 6.4有木有发现ie6下select不听话？
 高度~边框~~~完全不好整~~~
@@ -366,7 +366,7 @@ _display:none;
 ```
 差不多是这个效果了吧~（原生的也还是很整齐的啊）
 
-<img src="./image/ie6/6.5.1.png" >
+<img src="../image/ie6/6.5.1.png" >
 
 ```
 ie6上的css问题就先整理到这里了，欢迎大家评论讨论

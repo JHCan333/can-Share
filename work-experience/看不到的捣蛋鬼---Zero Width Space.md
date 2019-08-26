@@ -4,11 +4,11 @@
 昨天，“某某某”的代码出现了一个bug。大概是这个情况：
 有一个提示信息，需要展示，大概这样：
 
-<img src="./image/faker/label.png" >
+<img src="../image/faker/label.png" >
 
 这行文字，在谷歌上一点问题都没有，但是在ie上出现了奇怪的框框。比如这样：
 
-<img src="./image/faker/labelIE.png" >
+<img src="../image/faker/labelIE.png" >
 
 ie浏览器真的是代码检查器啊，稍微一个不注意，就搞事情～～～
 
@@ -19,7 +19,7 @@ ie浏览器真的是代码检查器啊，稍微一个不注意，就搞事情～
 功夫不负有心人，我找到了这个关键词-----Zero Width Space。
 百度了一下：
 
-<img src="./image/faker/baidu.png" >
+<img src="../image/faker/baidu.png" >
 
 ## 3.这是个什么东西呢？
 ```
@@ -32,7 +32,7 @@ http://tool.chinaz.com/tools/unicode.aspx
 
 把我的那个符号考进去，点击中文转unicode，然后就这样：
 
-<img src="./image/faker/转换.png" >
+<img src="../image/faker/转换.png" >
 
 `备注：`这种符号可能有很多，大家可以在探索其他的相似符号.
 
@@ -59,11 +59,11 @@ document.getElementById('have20').value = have20;
 
 ie上大概这样
 
-<img src="./image/faker/10IE.png" >
+<img src="../image/faker/10IE.png" >
 
 谷歌上这样：
 
-<img src="./image/faker/10google.png" >
+<img src="../image/faker/10google.png" >
 
 大家可以试一试，需要按10次退格键，才可以删到10的位置；需要按20次退格键，才可以删到20的位置。
 是不是有一点恐怖？
