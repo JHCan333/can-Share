@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--<link rel="stylesheet" href="home/bootStrap/css/bootstrap.css" >-->
+    <!--<link rel="stylesheet" href="home/css/common.css" >-->
+    <!--<script src="home/js/jquery.js" type="application/javascript"></script>-->
+    <!--<script src="home/js/common.js" type="application/javascript"></script>-->
+    <!--<script src="home/bootStrap/js/bootstrap.js" type="application/javascript"></script>-->
+    <!--<script src="home/js/main.js" type="application/javascript"></script>-->
+    <script type="application/javascript">
+        // 手动下载css文件
+        function downLoadCssFile (url) {
+            let head = document.getElementsByTagName('head')[0]
+            let link = document.createElement('link')
+            link.type = 'text/css'
+            link.rel = 'stylesheet'
+            link.href = url + '?v=' + new Date().getTime()
+            head.appendChild(link)
+        }
+
+        // 手动下载js文件
+        function downLoadJsFile (url, success) {
+            let head = document.getElementsByTagName('head')[0]
+            let jsDom = document.createElement('script')
+            jsDom.type = 'application/javascript'
+            jsDom.src = url + '?v=' + new Date().getTime()
+            head.appendChild(jsDom)
+            success && success()
+        }
+
+        downLoadCssFile('./home/css/common.css')
+        downLoadCssFile('./home/css/login.css')
+        downLoadCssFile('./home/css/content.css')
+        downLoadCssFile('./home/css/search_content.css')
+        downLoadCssFile('./home/bootStrap/css/bootstrap.css')
+        downLoadJsFile('./home/js/jquery.js')
+        window.onload = function () {
+            downLoadJsFile('./home/js/common.js')
+            downLoadJsFile('./home/js/articleData.js')
+            downLoadJsFile('./articleList.js')
+            downLoadJsFile('./home/bootStrap/js/bootstrap.js')
+            downLoadJsFile('./home/js/main.js')
+        }
+    </script>
+</head>
+<body class="home_body">
+<div class="home_start_background" id="login">
+    <div class="home_center_login">
+        <img src="./home/images/headPortrait.jpg" class="img-circle head_portrait">
+        <button type="button" class="btn  btn-lg  btn-block login_button" onclick="goAssignPage('content')">点击进入</button>
+    </div>
+    <div class="home_start_blur_modal"></div>
+</div>
+<div class="home_content_area " id="content">
+    <div class="home_content_background"></div>
+    <div class="home_search_area">
+        <div class="home_search_box">
+            <div class="input-group col-lg-4">
+                <input type="text" class="form-control" placeholder="Search for...">
+                <span class="input-group-btn">
+                    <button class="btn btn-default" type="button">
+                        <span class="glyphicon glyphicon-search"></span>
+                    </button>
+                </span>
+            </div>
+        </div>
+        <div class="home_search_condition_area">
+            <div class="home_search_condition_list">
+                <div class="home_search_condition_group">
+                    <span class="home_search_type">
+                        <button type="button" class="btn btn-info btn-xs">类别</button>
+                    </span>
+                    <span class="home_search_item_group">
+                        <span class="home_search_item">
+                            <button type="button" class="btn btn-primary btn-xs">基础知识</button>
+                        </span>
+                        <span class="home_search_item">
+                            <button type="button" class="btn btn-primary btn-xs">浏览器知识</button>
+                        </span>
+                        <span class="home_search_item">
+                            <button type="button" class="btn btn-primary btn-xs">css知识</button>
+                        </span>
+                        <span class="home_search_item">
+                            <button type="button" class="btn btn-primary btn-xs">数据库知识</button>
+                        </span>
+                        <span class="home_search_item">
+                            <button type="button" class="btn btn-primary btn-xs">demo文件</button>
+                        </span>
+                    </span>
+                </div>
+                <div class="home_search_condition_group">
+                    <span class="home_search_type">
+                        <button type="button" class="btn btn-info btn-xs">标签</button>
+                    </span>
+                    <span class="home_search_item_group">
+                        <span class="home_search_item">
+                            <button type="button" class="btn btn-primary btn-xs">基础知识</button>
+                        </span>
+                        <span class="home_search_item">
+                            <button type="button" class="btn btn-primary btn-xs">浏览器知识</button>
+                        </span>
+                        <span class="home_search_item">
+                            <button type="button" class="btn btn-primary btn-xs">css知识</button>
+                        </span>
+                        <span class="home_search_item">
+                            <button type="button" class="btn btn-primary btn-xs">数据库知识</button>
+                        </span>
+                        <span class="home_search_item">
+                            <button type="button" class="btn btn-primary btn-xs">demo文件</button>
+                        </span>
+                    </span>
+                </div>
+                <div class="home_search_condition_group">
+                    <span class="home_search_type">
+                        <button type="button" class="btn btn-info btn-xs">程度</button>
+                    </span>
+                    <span class="home_search_item_group">
+                        <span class="home_search_item">
+                            <button type="button" class="btn btn-primary btn-xs">基础知识</button>
+                        </span>
+                        <span class="home_search_item">
+                            <button type="button" class="btn btn-primary btn-xs">浏览器知识</button>
+                        </span>
+                        <span class="home_search_item">
+                            <button type="button" class="btn btn-primary btn-xs">css知识</button>
+                        </span>
+                        <span class="home_search_item">
+                            <button type="button" class="btn btn-primary btn-xs">数据库知识</button>
+                        </span>
+                        <span class="home_search_item">
+                            <button type="button" class="btn btn-primary btn-xs">demo文件</button>
+                        </span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="home_search_result_area">
+        <div class="home_search_result_list" id="home_search_result_list">
+            <!--<div class="home_roll_item col-md-3"-->
+                 <!--onclick="window.open('https://github.com/JHCan333/can-Share/blob/master/basic-tips/%E4%BA%92%E8%81%94%E7%BD%91%E8%A1%8C%E4%B8%9A%E5%B8%B8%E7%94%A8%E6%9C%AF%E8%AF%AD.md','_blank')">-->
+                <!--<img src="home/images/road.jpg" style="width:100%;height:100%;">-->
+                <!--<span class="home_roll_item_title item_title">互联网行业常用术语</span>-->
+            <!--</div>-->
+        </div>
+    </div>
+</div>
+</body>
+</html>

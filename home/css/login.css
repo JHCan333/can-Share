@@ -1,0 +1,76 @@
+/**
+ * @author 靳宏灿
+ * @date 2019/8/28
+ * @time 下午5:08
+ * @Description:  登录页的css
+*/
+
+/*首页开始的背景图片*/
+.home_start_background {
+    height:100%;
+    width:100%;
+    position: absolute;
+    top:0;
+    left:0;
+
+    background: url("../images/road.jpg") no-repeat center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: -5;
+}
+
+/* home 中间的区域，包含 头像和登录按钮 */
+.home_center_login{
+    text-align: center;
+    width:150px;
+    z-index: 5;
+}
+
+/* 登陆时的遮罩层 */
+.home_start_blur_modal{
+    display: none;
+    width:100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: #fff;
+    filter: blur(3px);
+    opacity: 0;
+}
+
+/*头像*/
+.head_portrait {
+    width:150px;
+    height:150px;
+    filter: sepia(1) saturate(4) hue-rotate(17deg);
+}
+
+/* 鼠标划上去时，颜色恢复正常 */
+.home_center_login:hover .head_portrait{
+    filter:none;
+}
+
+/*登录按钮*/
+.login_button {
+    background-color: transparent;
+    margin-top: 15px;
+}
+
+/* 登录按钮的样式 */
+.login_button:hover{
+    border:#337ab7 1px solid;
+}
+
+button.login_button:active:focus,
+button.login_button:focus,
+button.login_button:active,
+button.login_button:visited{
+    outline: 0px;
+}
+
+

@@ -1,0 +1,29 @@
+/**
+ * @author 靳宏灿
+ * @date 2019/8/28
+ * @time 下午5:09
+ * @Description: 公共区的css
+*/
+
+/* 首页的body */
+.home_body{
+    height:100%;
+    width:100%;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+}
+
+ /* 首页的全部盒子的公共设置 */
+.home_body  [class^="home_"] {
+    box-sizing: border-box;
+}
+
+/* 滚动列表中的标题字体 */
+.item_title {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+}

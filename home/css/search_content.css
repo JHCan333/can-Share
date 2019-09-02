@@ -1,0 +1,89 @@
+/**
+ * @author 靳宏灿
+ * @date 2019/8/30
+ * @time 上午9:59
+ * @Description: 搜索内容区的样式
+*/
+
+/* 搜索区 */
+.home_search_area {
+    min-height:200px;
+}
+
+/* 搜索区的outline清除 */
+.home_search_area * {
+    outline: 0px !important;
+}
+
+/* 搜索框 */
+.home_search_box {
+    min-height:80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 搜索条件区 */
+.home_search_condition_area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:10px;
+}
+
+/* 搜索条件列表 */
+.home_search_condition_list{
+    width:70%;
+    background: #f8f8f8;
+}
+
+/* 搜索条件单个集合 */
+.home_search_condition_group {
+    width:100%;
+}
+
+/* 搜索标签的垂直对齐 */
+.home_search_type ,.home_search_item_group,.home_search_item{
+    min-height:45px;
+    line-height:45px;
+    display: inline-block;
+}
+
+/* 搜索条件的类别 */
+.home_search_type {
+    width:70px;
+    text-align: center;
+}
+
+/* 搜索标签的 btn 的样式 */
+.home_search_condition_group .btn {
+    border-radius: 8px;
+}
+
+/* 搜索标签的样式 */
+.home_search_item {
+    margin-right:10px;
+}
+
+/* 搜索标签的下划线 */
+.home_search_item_group {
+    border-bottom:1px solid #ccc;
+    width:calc(100% - 80px);
+}
+
+.home_search_condition_list .home_search_condition_group:last-child .home_search_item_group{
+    border-bottom:0px solid #ccc;
+}
+
+/* 搜索结果区 */
+.home_search_result_area {
+    display: flex;
+    justify-content: center;
+}
+
+/* 搜索结果列表 */
+.home_search_result_list {
+    width:70%;
+    min-height:1000px;
+    border:1px solid #000;
+}

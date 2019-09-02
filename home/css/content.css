@@ -1,0 +1,86 @@
+/**
+ * @author 靳宏灿
+ * @date 2019/8/28
+ * @time 下午5:08
+ * @Description:  内容区的css
+*/
+
+/* 内容区域 */
+.home_content_area {
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+
+    /*border: 1px solid blue;*/
+}
+
+.home_content_background {
+    /*background: url("../images/love.jpg") no-repeat center;*/
+    /*background-size: cover;*/
+    background: #fff;
+    /*filter:blur(4px);*/
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.home_content_area [class^='home'] {
+    /*border: 0.5px solid #000;*/
+}
+
+/* 走马灯区域 */
+.home_carousel_area {
+    height: 200px;
+    /*border: 1px #000 solid;*/
+}
+
+/* 各个模块的展示区域 */
+.home_roll_area {
+    width: 100%;
+    height: 16%;
+    /*border: 1px solid #000;*/
+}
+
+/* 滚动区域的 title */
+.home_roll_title {
+    width:100%;
+    height:30px;
+}
+
+
+/* 各个模块的展示区域 */
+.home_roll_list_area {
+    width: 100%;
+    height: calc(100% - 30px);
+    overflow-x: scroll;
+    /*border: 1px solid green;*/
+}
+
+/* 滑动的list */
+.home_roll_list {
+    width:120%;
+    height:100%;
+}
+
+/* 展示的单个单元 */
+.home_roll_item {
+    height: 170px;
+    padding: 10px 15px;
+    /*border:1px solid red;*/
+    float:left;
+}
+
+/* 展示单元的 title */
+.home_roll_item_title {
+    position:absolute;
+    bottom:10%;
+    left:10%;
+}
