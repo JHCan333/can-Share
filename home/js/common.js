@@ -174,12 +174,24 @@ function setSearchResultByModuleName (moduleName,node) {
         })
         setSearchResult(data)
     }
-    console.log('$(node)',$(node))
-    console.log('$(node).parent().parent()',$(node).parent().parent())
-    console.log('$(node).parent().parent().children(\'.home_search_item\')',$(node).parent().parent().children('.home_search_item'))
     $(node).parent().parent().children('.home_search_item').removeClass('home_search_condition_selected')
     $(node).parent().addClass('home_search_condition_selected')
 }
+
+/**
+ * @author 靳宏灿
+ * @date 2019/9/3
+ * @time 下午9:36
+ * @Description: 根据关键字查找对应文章
+*/
+function setSearchResultByKey () {
+    var key = $('#home_search_key').val()
+    var data = articleList.filter(function(seg){
+        return key ? (~seg.moduleName.indexOf(key) || ~seg.title.indexOf(key)) : true
+    })
+    setSearchResult(data)
+}
+
 
 /**
  * @author 靳宏灿

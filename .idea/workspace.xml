@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00c786fa-9b44-4a14-891d-5b6e2f880132" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/articleList.js" beforeDir="false" afterPath="$PROJECT_DIR$/articleList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/home/css/common.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/home/js/common.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -19,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="75" column="84" selection-start-line="75" selection-start-column="84" selection-end-line="75" selection-end-column="84" />
+            <state relative-caret-position="581">
+              <caret line="60" column="84" selection-start-line="60" selection-start-column="69" selection-end-line="60" selection-end-column="84" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -44,8 +42,8 @@
       <file leaf-file-name="articleList.js" pinned="true" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/articleList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="407" column="21" lean-forward="true" selection-start-line="407" selection-start-column="21" selection-end-line="407" selection-end-column="21" />
+            <state relative-caret-position="250">
+              <caret line="401" column="10" selection-start-line="401" selection-start-column="5" selection-end-line="401" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -59,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="common.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/home/js/common.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="180" column="61" selection-start-line="180" selection-start-column="31" selection-end-line="180" selection-end-column="61" />
+            <state relative-caret-position="299">
+              <caret line="176" column="19" selection-start-line="176" selection-start-column="19" selection-end-line="176" selection-end-column="19" />
               <folding>
                 <element signature="e#1844#3924#0" />
               </folding>
@@ -178,8 +176,8 @@
         <option value="$PROJECT_DIR$/home/css/search_content.css" />
         <option value="$PROJECT_DIR$/articleList.js" />
         <option value="$PROJECT_DIR$/home/css/common.css" />
-        <option value="$PROJECT_DIR$/home/js/common.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/home/js/common.js" />
       </list>
     </option>
   </component>
@@ -325,12 +323,12 @@
       <workItem from="1567127947496" duration="9431000" />
       <workItem from="1567387666029" duration="12877000" />
       <workItem from="1567474669711" duration="5323000" />
-      <workItem from="1567492294144" duration="10225000" />
+      <workItem from="1567492294144" duration="10909000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72910000" />
+    <option name="totallyTimeSpent" value="73594000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
@@ -620,13 +618,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/articleList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="407" column="21" lean-forward="true" selection-start-line="407" selection-start-column="21" selection-end-line="407" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/home/css/search_content.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-180">
@@ -641,23 +632,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home/js/common.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="180" column="61" selection-start-line="180" selection-start-column="31" selection-end-line="180" selection-end-column="61" />
+        <state relative-caret-position="581">
+          <caret line="60" column="84" selection-start-line="60" selection-start-column="69" selection-end-line="60" selection-end-column="84" />
           <folding>
-            <element signature="e#1844#3924#0" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/articleList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
-          <caret line="75" column="84" selection-start-line="75" selection-start-column="84" selection-end-line="75" selection-end-column="84" />
+          <caret line="401" column="10" selection-start-line="401" selection-start-column="5" selection-end-line="401" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="176" column="19" selection-start-line="176" selection-start-column="19" selection-end-line="176" selection-end-column="19" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#1844#3924#0" />
           </folding>
         </state>
       </provider>
