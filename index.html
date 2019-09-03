@@ -46,14 +46,14 @@
     </script>
 </head>
 <body class="home_body">
-<div class="home_start_background" id="login">
+<div class="home_start_background" id="login" style="display: none">
     <div class="home_center_login">
         <img src="./home/images/headPortrait.jpg" class="img-circle head_portrait">
         <button type="button" class="btn  btn-lg  btn-block login_button" onclick="goAssignPage('content')">点击进入</button>
     </div>
     <div class="home_start_blur_modal"></div>
 </div>
-<div class="home_content_area " id="content">
+<div class="home_content_area " id="content" style="display: block">
     <div class="home_content_background"></div>
     <div class="home_search_area">
         <div class="home_search_box">
@@ -73,9 +73,9 @@
                         <button type="button" class="btn btn-info btn-sm">类别</button>
                     </span>
                     <span class="home_search_item_group" id="home_search_item_group_module_name">
-                        <!--<span class="home_search_item">-->
-                            <!--<button type="button" class="btn btn-primary btn-xs">基础知识</button>-->
-                        <!--</span>-->
+                        <span class="home_search_item home_search_condition_selected">
+                            <button type="button" class="btn btn-primary btn-sm" onclick="setSearchResultByModuleName('all',this)">全部</button>
+                        </span>
                     </span>
                 </div>
                 <!--<div class="home_search_condition_group">-->

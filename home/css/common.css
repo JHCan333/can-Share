@@ -40,6 +40,11 @@
     padding-right:20px !important;
 }
 
+.home_search_condition_selected .btn-primary{
+    background-color: #c60224 !important;
+    border-color: #c60224 !important;
+}
+
 .color1 {
     color: #ec860f;
 }

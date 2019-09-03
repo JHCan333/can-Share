@@ -156,7 +156,29 @@ function setSearchResult (data) {
         var urlPrefix = 'https://github.com/JHCan333/can-Share/blob/master/' + item.moduleKey + '/'
         searchResultStr += createShowItem(item, urlPrefix)
     })
-    $('#home_search_result_list').append(searchResultStr)
+    $('#home_search_result_list').html(searchResultStr)
+}
+
+/**
+ * @author 靳宏灿
+ * @date 2019/9/3
+ * @time 下午9:05
+ * @Description: 根据类别筛选文章
+*/
+function setSearchResultByModuleName (moduleName,node) {
+    if(moduleName === 'all'){
+        setSearchResult(articleList)
+    } else {
+        var data = articleList.filter(function(seg){
+            return seg.moduleName === moduleName
+        })
+        setSearchResult(data)
+    }
+    console.log('$(node)',$(node))
+    console.log('$(node).parent().parent()',$(node).parent().parent())
+    console.log('$(node).parent().parent().children(\'.home_search_item\')',$(node).parent().parent().children('.home_search_item'))
+    $(node).parent().parent().children('.home_search_item').removeClass('home_search_condition_selected')
+    $(node).parent().addClass('home_search_condition_selected')
 }
 
 /**
@@ -175,7 +197,7 @@ function setSearchCondition (data) {
     var searchConditionStr = '' // 拼接的查询条件的字符串
     moduleNameList.map(function (seg) {
         var addStr = '<span class="home_search_item">'
-            + '<button type="button" class="btn btn-primary btn-sm">' + seg + '</button>'
+            + '<button type="button" class="btn btn-primary btn-sm" onclick="setSearchResultByModuleName(\'' +seg+ '\',this)">' + seg + '</button>'
             + '</span>'
         searchConditionStr += addStr
     })
