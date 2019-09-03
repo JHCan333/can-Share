@@ -1,0 +1,24 @@
+{
+  "name": "can-share",
+  "version": "1.0.0",
+  "description": "一个个人分享的github，有什么不太好的地方欢迎指正，不过如果能够帮到你的话，那样就更好了。我的个人分享网站是 https://jhcan333.github.io/can-Share/",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare":"node createFileList.js $*",
+    "config":"node createFileList.js $* config",
+    "list":"node createFileList.js $* list",
+    "dev":" http-server -p8081 -o -c-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JHCan333/can-Share.git"
+  },
+  "author": "JHCan333",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JHCan333/can-Share/issues"
+  },
+  "homepage": "https://github.com/JHCan333/can-Share#readme"
+}

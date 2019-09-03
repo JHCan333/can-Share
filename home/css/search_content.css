@@ -7,7 +7,7 @@
 
 /* 搜索区 */
 .home_search_area {
-    min-height:200px;
+    /*min-height: 200px;*/
 }
 
 /* 搜索区的outline清除 */
@@ -17,10 +17,44 @@
 
 /* 搜索框 */
 .home_search_box {
-    min-height:80px;
+    min-height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* input 边框样式设置 */
+.home_search_box .form-control:focus{
+    border-color: #e54645;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(229, 38, 31, 0.6);
+}
+
+/* 重写搜索框的圆角 */
+.home_search_box .form-control {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.home_search_box .btn{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width:100%;
+    background-color: #e54645;
+    border-color: #e54645;
+    color:#fff;
+}
+
+.home_search_box .btn:hover,
+.home_search_box .btn:active:hover,
+.home_search_box .btn:focus,
+.home_search_box .btn:active{
+    background-color: #c60224;
+    border-color: #c60224;
+    color:#fff;
+}
+
+.home_search_box .input-group-btn{
+    width:15%;
 }
 
 /* 搜索条件区 */
@@ -28,31 +62,32 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom:10px;
+    margin-bottom: 10px;
 }
 
 /* 搜索条件列表 */
-.home_search_condition_list{
-    width:70%;
-    background: #f8f8f8;
+.home_search_condition_list {
+    width: 70%;
+    /*background: #f8f8f8;*/
 }
 
 /* 搜索条件单个集合 */
 .home_search_condition_group {
-    width:100%;
+    width: 100%;
 }
 
 /* 搜索标签的垂直对齐 */
-.home_search_type ,.home_search_item_group,.home_search_item{
-    min-height:45px;
-    line-height:45px;
+.home_search_type, .home_search_item_group, .home_search_item {
+    min-height: 45px;
+    line-height: 45px;
     display: inline-block;
 }
 
 /* 搜索条件的类别 */
 .home_search_type {
-    width:70px;
+    width: 90px;
     text-align: center;
+    vertical-align: top;
 }
 
 /* 搜索标签的 btn 的样式 */
@@ -62,17 +97,17 @@
 
 /* 搜索标签的样式 */
 .home_search_item {
-    margin-right:10px;
+    margin-right: 10px;
 }
 
 /* 搜索标签的下划线 */
 .home_search_item_group {
-    border-bottom:1px solid #ccc;
-    width:calc(100% - 80px);
+    border-bottom: 1px solid #ccc;
+    width: calc(100% - 100px);
 }
 
-.home_search_condition_list .home_search_condition_group:last-child .home_search_item_group{
-    border-bottom:0px solid #ccc;
+.home_search_condition_list .home_search_condition_group:last-child .home_search_item_group {
+    border-bottom: 0px solid #ccc;
 }
 
 /* 搜索结果区 */
@@ -83,7 +118,7 @@
 
 /* 搜索结果列表 */
 .home_search_result_list {
-    width:70%;
-    min-height:1000px;
-    border:1px solid #000;
+    width: 70%;
+    min-height: 1000px;
+    /*border: 1px solid #000;*/
 }

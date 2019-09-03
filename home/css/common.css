@@ -6,18 +6,18 @@
 */
 
 /* 首页的body */
-.home_body{
-    height:100%;
-    width:100%;
+.home_body {
+    height: 100%;
+    width: 100%;
     position: absolute;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
- /* 首页的全部盒子的公共设置 */
-.home_body  [class^="home_"] {
+/* 首页的全部盒子的公共设置 */
+.home_body [class^="home_"] {
     box-sizing: border-box;
 }
 
@@ -26,4 +26,64 @@
     font-size: 20px;
     font-weight: bold;
     font-family: cursive;
+}
+
+.btn-primary{
+    background-color: #d2760a !important;
+    border-color: #ec860f !important;
+}
+
+.btn-info{
+    background-color: #01a6ad !important;
+    border-color: #00a06b !important;
+    padding-left:20px !important;
+    padding-right:20px !important;
+}
+
+.color1 {
+    color: #ec860f;
+}
+
+.color2 {
+    color: #00a06b;
+}
+
+.color1 {
+    color: #01b2bf;
+}
+
+.color1 {
+    color: #f5b16d;
+}
+
+.color1 {
+    color: #e54645;
+}
+
+.color1 {
+    color: #01a6ad;
+}
+
+.color1 {
+    color: #face9b;
+}
+
+.color1 {
+    color: #c60224;
+}
+
+.color1 {
+    color: #009298;
+}
+
+.color1 {
+    color: #d2760a;
+}
+
+.color1 {
+    color: #ee7b6b;
+}
+
+.color1 {
+    color: #01a6ad;
 }

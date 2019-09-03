@@ -140,7 +140,7 @@ function setContentPandect (data) {
     data.map(function (module) {
         contentStr += createRollArea(module)
     })
-    console.log("contentStr",contentStr)
+    console.log('contentStr', contentStr)
     // $('#content').append(contentStr)
 }
 
@@ -150,13 +150,36 @@ function setContentPandect (data) {
  * @time 下午3:35
  * @Description: 设置查询结果区
  */
-function setSearchResult (data){
+function setSearchResult (data) {
     var searchResultStr = ''
-    data.map(function(item){
+    data.map(function (item) {
         var urlPrefix = 'https://github.com/JHCan333/can-Share/blob/master/' + item.moduleKey + '/'
-        searchResultStr += createShowItem(item,urlPrefix)
+        searchResultStr += createShowItem(item, urlPrefix)
     })
-    $("#home_search_result_list").append(searchResultStr)
+    $('#home_search_result_list').append(searchResultStr)
+}
+
+/**
+ * @author 靳宏灿
+ * @date 2019/9/3
+ * @time 下午2:33
+ * @Description: 设置查询条件区
+ */
+function setSearchCondition (data) {
+    var moduleNameList = [] // 存放 moduleName 的列表
+    data.map(function (seg) {
+        if (!~moduleNameList.indexOf(seg.moduleName)) {
+            moduleNameList.push(seg.moduleName)
+        }
+    })
+    var searchConditionStr = '' // 拼接的查询条件的字符串
+    moduleNameList.map(function (seg) {
+        var addStr = '<span class="home_search_item">'
+            + '<button type="button" class="btn btn-primary btn-sm">' + seg + '</button>'
+            + '</span>'
+        searchConditionStr += addStr
+    })
+    $('#home_search_item_group_module_name').append(searchConditionStr)
 }
 
 /**
@@ -176,13 +199,13 @@ function createRollArea (module) {
  * @date 2019/8/30
  * @time 上午11:31
  * @Description: 创建滚动列
-*/
+ */
 function createRollList (list, key) {
     // 网页链接的前缀
     var urlPrefix = 'https://github.com/JHCan333/can-Share/blob/master/' + key + '/'
     var rollItemStr = ''
     list.map(function (item) {
-        rollItemStr += createShowItem(item,urlPrefix)
+        rollItemStr += createShowItem(item, urlPrefix)
     })
     return '<div class="home_roll_list_area">'
         + '<div class="home_roll_list">'
@@ -196,10 +219,12 @@ function createRollList (list, key) {
  * @date 2019/8/30
  * @time 上午11:33
  * @Description: 创建滚动单位
-*/
-function createShowItem (item ,urlPrefix){
-    return '<div class="home_roll_item col-md-3" onclick="window.open(\'' + urlPrefix + item.articleUrl + '\',\'_blank\')">'
-        + '<img src="' + item.imgSrc + '" style="width:100%;height:100%;">'
-        + '<span class="home_roll_item_title item_title">' + item.title + '</span>'
+ */
+function createShowItem (item, urlPrefix) {
+    return '<div class="home_roll_item col-md-3">'
+        + '<div class="home_roll_item_background"'
+        +' onclick="window.open(\'' + urlPrefix + item.articleUrl + '\',\'_blank\')">'
+        + '<p class="home_roll_item_title item_title">' + item.title + '</p>'
+        + '</div>'
         + '</div>'
 }

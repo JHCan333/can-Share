@@ -1,15 +1,6 @@
-/Users/JHCan333/personProject/can-Share/database-tips/Redis相关介绍.md
 /Users/JHCan333/personProject/can-Share/browser-tips/browserRender.md
 /Users/JHCan333/personProject/can-Share/browser-tips/ie浏览器的坑.md
-/Users/JHCan333/personProject/can-Share/css-tips/CSS精灵图（雪碧图）介绍.md
-/Users/JHCan333/personProject/can-Share/css-tips/css兼容方案【hack写法】.md
-/Users/JHCan333/personProject/can-Share/css-tips/css小技能总结.md
-/Users/JHCan333/personProject/can-Share/css-tips/differencesOfThese.md
-/Users/JHCan333/personProject/can-Share/css-tips/ie6下css碰到的坑.md
-/Users/JHCan333/personProject/can-Share/form-tips/Blob和File.md
-/Users/JHCan333/personProject/can-Share/demos-tips/clockDemo.html
-/Users/JHCan333/personProject/can-Share/demos-tips/gaugeDemo.html
-/Users/JHCan333/personProject/can-Share/demos-tips/js操作style.md
+/Users/JHCan333/personProject/can-Share/database-tips/Redis相关介绍.md
 /Users/JHCan333/personProject/can-Share/basic-tips/互联网行业常用术语.md
 /Users/JHCan333/personProject/can-Share/basic-tips/代码重用和复用的关系.md
 /Users/JHCan333/personProject/can-Share/basic-tips/发布订阅模式和观察者模式的异同.md
@@ -19,22 +10,27 @@
 /Users/JHCan333/personProject/can-Share/basic-tips/文件流是什么.md
 /Users/JHCan333/personProject/can-Share/basic-tips/百度搜索时去除广告.md
 /Users/JHCan333/personProject/can-Share/basic-tips/简述ECMAScript和JavaScript的区别.md
+/Users/JHCan333/personProject/can-Share/css-tips/CSS精灵图（雪碧图）介绍.md
+/Users/JHCan333/personProject/can-Share/css-tips/css兼容方案【hack写法】.md
+/Users/JHCan333/personProject/can-Share/css-tips/css小技能总结.md
+/Users/JHCan333/personProject/can-Share/css-tips/differencesOfThese.md
+/Users/JHCan333/personProject/can-Share/css-tips/ie6下css碰到的坑.md
+/Users/JHCan333/personProject/can-Share/demos-tips/clockDemo.html
+/Users/JHCan333/personProject/can-Share/demos-tips/gaugeDemo.html
+/Users/JHCan333/personProject/can-Share/demos-tips/js操作style.md
 /Users/JHCan333/personProject/can-Share/dev-tips/express挂载静态资源.md
 /Users/JHCan333/personProject/can-Share/dev-tips/http-server.md
 /Users/JHCan333/personProject/can-Share/dev-tips/node中获取post请求的body，并且根据body中的属性，决定使用哪个mock.md
 /Users/JHCan333/personProject/can-Share/dev-tips/nrmOrder.md
 /Users/JHCan333/personProject/can-Share/dev-tips/nvmOrder.md
 /Users/JHCan333/personProject/can-Share/dev-tips/无限使用Beyond Compare for mac.md
-/Users/JHCan333/personProject/can-Share/react-tips/React生命周期介绍.md
+/Users/JHCan333/personProject/can-Share/form-tips/Blob和File.md
 /Users/JHCan333/personProject/can-Share/http-tips/HTTP百度之路—【状态码】.md
 /Users/JHCan333/personProject/can-Share/http-tips/WebSocket相关介绍.md
 /Users/JHCan333/personProject/can-Share/http-tips/What is Socket?.md
 /Users/JHCan333/personProject/can-Share/http-tips/三次握手和四次挥手的详细介绍.md
 /Users/JHCan333/personProject/can-Share/http-tips/前端数据流文件的下载三种方式.md
 /Users/JHCan333/personProject/can-Share/http-tips/域名访问和ip访问区别.md
-/Users/JHCan333/personProject/can-Share/optimizing-tips/RCS.md
-/Users/JHCan333/personProject/can-Share/optimizing-tips/spa,sso,ssr简介.md
-/Users/JHCan333/personProject/can-Share/safe-tips/前端安全问题及解决方法.md
 /Users/JHCan333/personProject/can-Share/js-tips/DOM,DOM2,DOM3 区别？.md
 /Users/JHCan333/personProject/can-Share/js-tips/js-String的slice和substr和substring作对比.md
 /Users/JHCan333/personProject/can-Share/js-tips/js学习笔记[抄书之路]---this.md
@@ -46,11 +42,14 @@
 /Users/JHCan333/personProject/can-Share/js-tips/给定一个整数数组和一个目标值，在数组中找出和为目标值的那两个整数，并返回下标.md
 /Users/JHCan333/personProject/can-Share/js-tips/获取dom到window左侧和顶部的距离.md
 /Users/JHCan333/personProject/can-Share/js-tips/获取网页宽度和高度.md
+/Users/JHCan333/personProject/can-Share/optimizing-tips/RCS.md
+/Users/JHCan333/personProject/can-Share/optimizing-tips/spa,sso,ssr简介.md
+/Users/JHCan333/personProject/can-Share/safe-tips/前端安全问题及解决方法.md
 /Users/JHCan333/personProject/can-Share/san-tips/san中的owner 与 parent.md
 /Users/JHCan333/personProject/can-Share/san-tips/解决san框架下ie8浏览器刷新时input值残留问题.md
-/Users/JHCan333/personProject/can-Share/work-experience-tips/云图工作经验.md
+/Users/JHCan333/personProject/can-Share/vue-tips/vue 的 data 为何最好写成函数.md
+/Users/JHCan333/personProject/can-Share/react-tips/React生命周期介绍.md
 /Users/JHCan333/personProject/can-Share/work-experience-tips/开票软件开发经验.md
+/Users/JHCan333/personProject/can-Share/work-experience-tips/云图工作经验.md
 /Users/JHCan333/personProject/can-Share/work-experience-tips/看不到的捣蛋鬼---Zero Width Space.md
 /Users/JHCan333/personProject/can-Share/work-experience-tips/确认点击的位置是否是当前组件.md
-/Users/JHCan333/personProject/can-Share/work-experience-tips/解决时间不够用的小技巧
-/Users/JHCan333/personProject/can-Share/vue-tips/vue 的 data 为何最好写成函数.md

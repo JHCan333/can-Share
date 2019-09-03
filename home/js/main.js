@@ -11,5 +11,6 @@ $(document).ready(function(){
     setBlurModal()
     // setContentPandect(contentTotalData)
     // setSearchResult(articleData)
+    setSearchCondition(articleList)
     setSearchResult(articleList)
 });

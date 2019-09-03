@@ -1,14 +1,31 @@
+/**
+ * @author 靳宏灿
+ * @date 2019/9/3
+ * @time 上午10:26
+ * @Description: 创建文件列表，并且生成每个文件夹下的 config.js 文件
+ */
+
 var fs = require('fs')
 var path = require('path')
 
 //解析需要遍历的文件夹，我这以E盘根目录为例
 var filePath = path.resolve('../can-Share')
-// 文件列表
-var fileArr = []
 // 文章列表
 var articleList = []
 // 数据缓存
 var dataStash = {}
+// 所需展示的文件类型
+var fileShowTypeList = ['.md', '.html']
+
+// 判断是生成 config 还是 list
+var ifConfig, ifList = false
+if (~process.argv.indexOf('config')) {
+    ifConfig = true
+} else if (~process.argv.indexOf('list')) {
+    ifList = true
+} else if (!~process.argv.indexOf('config') && !~process.argv.indexOf('list')) {
+    ifConfig = ifList = true
+}
 
 //调用文件遍历方法
 fileDisplay(filePath)
@@ -28,29 +45,46 @@ function fileDisplay (filePath, lastDir) {
                 //获取当前文件的绝对路径
                 var filedir = path.join(filePath, filename)
                 //根据文件路径获取文件信息，返回一个fs.Stats对象
-                fs.stat(filedir, function (eror, stats) {
-                    if (eror) {
+                fs.stat(filedir, function (error, stats) {
+                    if (error) {
                         console.warn('获取文件stats失败')
                     } else {
                         var isFile = stats.isFile()//是文件
                         var isDir = stats.isDirectory()//是文件夹
-                        if (isFile && ~filedir.indexOf('tips')) {
-                            fileArr.push(filedir)
-                            articleList.push({
-                                title: filename.split('.')[0],
-                                moduleKey: lastDir,
-                                imgSrc: 'home/images/road.jpg',
-                                articleUrl: filename
-                            })
-                            if (dataStash[lastDir]) {
-                                dataStash[lastDir].push(filename)
-                            } else {
-                                dataStash[lastDir] = [filename]
+                        // 对含 tips 文件夹下的 符合 fileShowTypeList 后缀名的文件进行处理，其余的滤掉
+                        if (isFile && ~filedir.indexOf('tips') && ~fileShowTypeList.indexOf(path.extname(filename))) {
+                            // 文章 list，用于生成 articleList.js
+                            var title = filename.split('.')[0]
+                            // 生成 文件 list
+                            if (ifList) {
+                                var historyData = getLastConfig(lastDir)
+                                var {moduleName} = historyData
+                                var {finishExtent,tags} = historyData[title]
+                                articleList.push({
+                                    title,
+                                    moduleKey: lastDir,
+                                    imgSrc: 'home/images/titleBackground.jpg',
+                                    articleUrl: filename,
+                                    moduleName,
+                                    tags,
+                                    finishExtent
+                                })
+                                // 生成 articleList.js
+                                writeArticleList(articleList)
                             }
-                            writeFile(fileArr)
-                            writeArticleList(articleList)
-                            createConfigFile(lastDir, dataStash[lastDir])
+                            // 生成 config 文件
+                            if (ifConfig) {
+                                // 配置文件所需缓存对象，用于生成每个文件夹下的 config.js
+                                if (dataStash[lastDir]) {
+                                    dataStash[lastDir].push(title)
+                                } else {
+                                    dataStash[lastDir] = [title]
+                                }
+                                // 生成每个文件夹下的 config.js
+                                createConfigFile(lastDir, dataStash[lastDir])
+                            }
                         }
+                        // 对包含 tips 字段的除了 node_modules 的文件夹执行递归操作
                         if (isDir && filename !== 'node_modules' && ~filename.indexOf('tips')) {
                             fileDisplay(filedir, filename)//递归，如果是文件夹，就继续遍历该文件夹下面的文件
                         }
@@ -61,24 +95,15 @@ function fileDisplay (filePath, lastDir) {
     })
 }
 
-var a = {
-    title: '互联网行业常用术语',
-    moduleKey: 'basic-tips',
-    imgSrc: 'home/images/road.jpg',
-    articleUrl: '互联网行业常用术语.md',
-    moduleName: '',
-    tags: [''],
-    finishExtent: ''  // 完成情况 0：未完成；1：已完成；2：初步完成，待完善
-}
-
-// 写入到 filelist.txt 文件
-function writeFile (data) {
-    var data = data.join('\n')
-    fs.writeFile(filePath + '/' + 'filelist.txt', data + '\n', function (err) {
-        if (err) throw err
-        // console.log("写入成功");
-    })
-}
+// var a = {
+//     title: '互联网行业常用术语',
+//     moduleKey: 'basic-tips',
+//     imgSrc: 'home/images/road.jpg',
+//     articleUrl: '互联网行业常用术语.md',
+//     moduleName: '',
+//     tags: [''],
+//     finishExtent: ''
+// }
 
 // 写入到 articleList.js 文件
 function writeArticleList (data) {
@@ -89,19 +114,26 @@ function writeArticleList (data) {
     })
 }
 
-// 创建配置文件
+// 创建每个文件夹下的配置文件 config.js
 function createConfigFile (modulePath, list) {
+    var historyData = getLastConfig(modulePath)
     var data = {}
-    list.map(function(seg){
-        data[seg] = {
+    list.map(function (seg) {
+        data[seg] = historyData[seg] || {
             tags: [],
-            finishExtent: 1
+            finishExtent: 1 // 完成情况 0：未完成；1：已完成；2：初步完成，待完善
         }
     })
-    data['moduleName'] = ''
-    data = JSON.stringify(data)
-    fs.writeFile(filePath + '/' + modulePath + '/config.js', data + '\n', function (err) {
+    data['moduleName'] = historyData['moduleName'] || ''
+    data = 'var config = ' + JSON.stringify(data) + '\n' + 'module.exports = config'
+    fs.writeFile(configPath, data + '\n', function (err) {
         if (err) throw err
         // console.log("写入成功");
     })
+}
+
+// 获取上一版本的配置文件
+function getLastConfig(modulePath){
+    var configPath = filePath + '/' + modulePath + '/config.js'
+   return require(configPath)
 }
