@@ -16,6 +16,17 @@ var articleList = []
 var dataStash = {}
 // 所需展示的文件类型
 var fileShowTypeList = ['.md', '.html']
+// 日志记录
+var logList = []
+var date = new Date()
+var year = date.getFullYear()
+
+var month = date.getMonth() + 1
+var day = date.getDate()
+var hour = date.getHours()
+var minute = date.getMinutes()
+var second = date.getSeconds()
+var current = year + '年' + month + '月' + day + '日 ' + hour + ':' + minute + ':' + second
 
 // 判断是生成 config 还是 list
 var ifConfig, ifList = false
@@ -59,7 +70,8 @@ function fileDisplay (filePath, lastDir) {
                             if (ifList) {
                                 var historyData = getLastConfig(lastDir)
                                 var {moduleName} = historyData
-                                var {finishExtent,tags} = historyData[title]
+                                console.log(lastDir, title)
+                                var {finishExtent, tags} = historyData[title]
                                 articleList.push({
                                     title,
                                     moduleKey: lastDir,
@@ -117,7 +129,13 @@ function writeArticleList (data) {
 // 创建每个文件夹下的配置文件 config.js
 function createConfigFile (modulePath, list) {
     var configPath = filePath + '/' + modulePath + '/config.js'
+    logList.push('\n configPath：\n')
+    logList.push(configPath)
+    recordLog(logList)
     var historyData = getLastConfig(modulePath)
+    logList.push('\n historyData: \n')
+    logList.push(historyData)
+    recordLog(logList)
     var data = {}
     list.map(function (seg) {
         data[seg] = historyData[seg] || {
@@ -126,7 +144,10 @@ function createConfigFile (modulePath, list) {
         }
     })
     data['moduleName'] = historyData['moduleName'] || ''
-    data = 'var config = ' + JSON.stringify(data) + '\n' + 'module.exports = config'
+    data = 'var config = ' + JSON.stringify(data) + ';\n' + 'module.exports = config;'
+    logList.push('\n data: \n')
+    logList.push(data)
+    recordLog(logList)
     fs.writeFile(configPath, data + '\n', function (err) {
         if (err) throw err
         // console.log("写入成功");
@@ -134,7 +155,15 @@ function createConfigFile (modulePath, list) {
 }
 
 // 获取上一版本的配置文件
-function getLastConfig(modulePath){
+function getLastConfig (modulePath) {
     var configPath = filePath + '/' + modulePath + '/config.js'
-   return require(configPath)
+    return require(configPath)
+}
+
+// 记录日志
+function recordLog (logList) {
+    var str = logList.join(' ')
+    fs.writeFile(filePath + '/log/' + 'log' + current + '.txt', str + '\n', function (err) {
+        if (err) throw err
+    })
 }
