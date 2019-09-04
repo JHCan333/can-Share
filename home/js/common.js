@@ -60,6 +60,7 @@ function setBlurModal () {
  * @Description: 前往指定页面
  */
 function goAssignPage (url) {
+    console.log('url',url)
     var urlList = ['login', 'content']
     if (url === 'content') {
         $('#login').css('z-index', -5)

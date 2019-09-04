@@ -11,7 +11,7 @@
 }
 
 /* 搜索区的outline清除 */
-.home_search_area * {
+.home_body *,.home_body *:focus {
     outline: 0px !important;
 }
 
@@ -121,4 +121,13 @@
     width: 70%;
     min-height: 1000px;
     /*border: 1px solid #000;*/
+}
+
+/* 返回首页按钮 */
+.home_back_to_home_btn .btn{
+    position: absolute;
+    right:10%;
+    top:25px;
+    border-color: #01a6ad !important;
+    background-color: #01a6ad !important;
 }

@@ -46,15 +46,20 @@
     </script>
 </head>
 <body class="home_body">
-<div class="home_start_background" id="login" style="display: none">
+<div class="home_start_background" id="login">
     <div class="home_center_login">
         <img src="./home/images/headPortrait.jpg" class="img-circle head_portrait">
         <button type="button" class="btn  btn-lg  btn-block login_button" onclick="goAssignPage('content')">点击进入</button>
     </div>
     <div class="home_start_blur_modal"></div>
 </div>
-<div class="home_content_area " id="content" style="display: block">
+<div class="home_content_area " id="content">
     <div class="home_content_background"></div>
+    <div class="home_back_to_home_btn">
+        <button type="button" class="btn btn-success" onclick="goAssignPage('login')">
+            <span class="glyphicon glyphicon-home"></span>
+        </button>
+    </div>
     <div class="home_search_area">
         <div class="home_search_box">
             <div class="input-group col-lg-4">
