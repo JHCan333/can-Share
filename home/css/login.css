@@ -59,11 +59,13 @@
 .login_button {
     background-color: transparent;
     margin-top: 15px;
+    border:transparent 2px dashed !important;
 }
 
 /* 登录按钮的样式 */
 .login_button:hover{
-    border:#337ab7 1px solid;
+    border:#01a6ad 2px dashed !important;
+    color:#c60224 !important;
 }
 
 button.login_button:active:focus,
