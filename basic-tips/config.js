@@ -1,12 +1,6 @@
 var config = {
-    '互联网行业常用术语': {
-        'tags': ['常用术语'],
-        'finishExtent': 1
-    },
-    '代码重用和复用的关系': {
-        'tags': [],
-        'finishExtent': 1
-    },
+    '互联网行业常用术语': {'tags': [], 'finishExtent': 1},
+    '代码重用和复用的关系': {'tags': [], 'finishExtent': 1},
     '发布订阅模式和观察者模式的异同': {'tags': [], 'finishExtent': 1},
     '基于任务的处理与流式处理': {'tags': [], 'finishExtent': 1},
     '字面量': {'tags': [], 'finishExtent': 1},

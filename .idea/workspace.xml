@@ -2,8 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00c786fa-9b44-4a14-891d-5b6e2f880132" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/home/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/home/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev-tips/关于mock.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/articleList.js" beforeDir="false" afterPath="$PROJECT_DIR$/articleList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-tips/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/basic-tips/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/browser-tips/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/browser-tips/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/createFileList.js" beforeDir="false" afterPath="$PROJECT_DIR$/createFileList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css-tips/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/css-tips/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database-tips/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/database-tips/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demos-tips/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/demos-tips/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-tips/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/dev-tips/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form-tips/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/form-tips/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http-tips/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/http-tips/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js-tips/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/js-tips/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/optimizing-tips/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/optimizing-tips/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-tips/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-tips/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/san-tips/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/san-tips/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-tips/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-tips/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-experience-tips/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/work-experience-tips/config.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,91 +32,96 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="288">
-                  <caret line="50" column="81" selection-start-line="50" selection-start-column="68" selection-end-line="50" selection-end-column="81" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/home/js/common.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="328">
-                  <caret line="63" column="25" selection-start-line="63" selection-start-column="20" selection-end-line="63" selection-end-column="25" />
-                  <folding>
-                    <element signature="e#1844#3924#0" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="search_content.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/home/css/search_content.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="582">
-                  <caret line="39" column="37" lean-forward="true" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="articleList.js" pinned="true" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/articleList.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="250">
-                  <caret line="401" column="10" selection-start-line="401" selection-start-column="5" selection-end-line="401" selection-end-column="10" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/home/js/main.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="content.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/home/css/content.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="login.css" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/home/css/login.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="670">
-                  <caret line="66" column="41" selection-start-line="66" selection-start-column="41" selection-end-line="66" selection-end-column="41" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="common.css" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/home/css/common.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="685">
-                  <caret line="68" column="18" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="18" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/basic-tips/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/browser-tips/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="117" selection-start-column="117" selection-end-column="117" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/form-tips/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="71" selection-start-column="71" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/http-tips/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js-tips/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/optimizing-tips/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react-tips/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="80" lean-forward="true" selection-start-column="80" selection-end-column="80" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/safe-tips/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="77" selection-start-column="77" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/san-tips/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="articleList.js" pinned="true" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/articleList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-112" />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -113,7 +134,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>area</find>
       <find>console</find>
       <find>bw</find>
       <find>src</find>
@@ -143,6 +163,7 @@
       <find>home_roll_item_title</find>
       <find>goAssignPage</find>
       <find>this</find>
+      <find>getLastConfig</find>
     </findStrings>
     <replaceStrings>
       <replace>.jhc</replace>
@@ -177,7 +198,20 @@
         <option value="$PROJECT_DIR$/home/css/index.css" />
         <option value="$PROJECT_DIR$/home/js/articleData.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/basic-tips/config.js" />
+        <option value="$PROJECT_DIR$/react-tips/config.js" />
+        <option value="$PROJECT_DIR$/safe-tips/config.js" />
+        <option value="$PROJECT_DIR$/vue-tips/config.js" />
+        <option value="$PROJECT_DIR$/work-experience-tips/config.js" />
+        <option value="$PROJECT_DIR$/home/js/main.js" />
+        <option value="$PROJECT_DIR$/articleList.js" />
+        <option value="$PROJECT_DIR$/home/css/common.css" />
+        <option value="$PROJECT_DIR$/home/js/common.js" />
+        <option value="$PROJECT_DIR$/home/css/content.css" />
+        <option value="$PROJECT_DIR$/home/css/search_content.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/home/css/login.css" />
+        <option value="$PROJECT_DIR$/dev-tips/关于mock.md" />
+        <option value="$PROJECT_DIR$/createFileList.js" />
         <option value="$PROJECT_DIR$/browser-tips/config.js" />
         <option value="$PROJECT_DIR$/css-tips/config.js" />
         <option value="$PROJECT_DIR$/database-tips/config.js" />
@@ -187,20 +221,8 @@
         <option value="$PROJECT_DIR$/http-tips/config.js" />
         <option value="$PROJECT_DIR$/js-tips/config.js" />
         <option value="$PROJECT_DIR$/optimizing-tips/config.js" />
-        <option value="$PROJECT_DIR$/react-tips/config.js" />
-        <option value="$PROJECT_DIR$/safe-tips/config.js" />
         <option value="$PROJECT_DIR$/san-tips/config.js" />
-        <option value="$PROJECT_DIR$/vue-tips/config.js" />
-        <option value="$PROJECT_DIR$/work-experience-tips/config.js" />
-        <option value="$PROJECT_DIR$/home/js/main.js" />
-        <option value="$PROJECT_DIR$/createFileList.js" />
-        <option value="$PROJECT_DIR$/articleList.js" />
-        <option value="$PROJECT_DIR$/home/css/common.css" />
-        <option value="$PROJECT_DIR$/home/js/common.js" />
-        <option value="$PROJECT_DIR$/home/css/content.css" />
-        <option value="$PROJECT_DIR$/home/css/search_content.css" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/home/css/login.css" />
+        <option value="$PROJECT_DIR$/basic-tips/config.js" />
       </list>
     </option>
   </component>
@@ -249,25 +271,12 @@
             <path>
               <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
               <item name="can-Share" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="basic-tips" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
               <item name="can-Share" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
-              <item name="can-Share" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
-              <item name="can-Share" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="browser-tips" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -346,12 +355,12 @@
       <workItem from="1567127947496" duration="9431000" />
       <workItem from="1567387666029" duration="12877000" />
       <workItem from="1567474669711" duration="5323000" />
-      <workItem from="1567492294144" duration="12720000" />
+      <workItem from="1567492294144" duration="13567000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75405000" />
+    <option name="totallyTimeSpent" value="76252000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
@@ -383,9 +392,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js-tips/xml与String互转.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/basic-tips/互联网行业常用术语.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -494,62 +500,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/basic-tips/a.md" />
-    <entry file="file://$PROJECT_DIR$/dev-tips/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/form-tips/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="75" selection-start-column="75" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/http-tips/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js-tips/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/optimizing-tips/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-tips/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="84" selection-start-column="84" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/safe-tips/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="77" selection-start-column="77" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/san-tips/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/work-experience-tips/config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -564,52 +514,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/browser-tips/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css-tips/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database-tips/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demos-tips/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic-tips/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/createFileList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="65" column="76" selection-start-line="65" selection-start-column="76" selection-end-line="65" selection-end-column="76" />
         </state>
       </provider>
     </entry>
@@ -622,9 +530,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/articleList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="401" column="10" selection-start-line="401" selection-start-column="5" selection-end-line="401" selection-end-column="10" />
-        </state>
+        <state relative-caret-position="-112" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/home/css/search_content.css">
@@ -676,6 +582,111 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="670">
           <caret line="66" column="41" selection-start-line="66" selection-start-column="41" selection-end-line="66" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev-tips/关于mock.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/createFileList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="626">
+          <caret line="127" column="36" selection-start-line="127" selection-start-column="25" selection-end-line="127" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-tips/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database-tips/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="72" selection-start-column="72" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos-tips/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev-tips/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form-tips/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="71" selection-start-column="71" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http-tips/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js-tips/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/optimizing-tips/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-tips/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="80" lean-forward="true" selection-start-column="80" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/safe-tips/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="77" selection-start-column="77" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/san-tips/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/browser-tips/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="117" selection-start-column="117" selection-end-column="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic-tips/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
         </state>
       </provider>
     </entry>

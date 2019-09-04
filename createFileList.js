@@ -116,6 +116,7 @@ function writeArticleList (data) {
 
 // 创建每个文件夹下的配置文件 config.js
 function createConfigFile (modulePath, list) {
+    var configPath = filePath + '/' + modulePath + '/config.js'
     var historyData = getLastConfig(modulePath)
     var data = {}
     list.map(function (seg) {
