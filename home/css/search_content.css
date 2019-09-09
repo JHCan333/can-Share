@@ -124,10 +124,13 @@
 }
 
 /* 返回首页按钮 */
-.home_back_to_home_btn .btn{
+.home_back_to_home_btn .btn-group{
     position: absolute;
     right:10%;
     top:25px;
+}
+
+.home_back_to_home_btn .btn-success{
     border-color: #01a6ad !important;
     background-color: #01a6ad !important;
 }

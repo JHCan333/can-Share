@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00c786fa-9b44-4a14-891d-5b6e2f880132" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/basic-tips/CDN技术原理.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/css/search_content.css" beforeDir="false" afterPath="$PROJECT_DIR$/home/css/search_content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,20 +27,29 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="395">
+              <caret line="65" column="18" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search_content.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/home/css/search_content.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="694">
+              <caret line="126" column="33" selection-start-line="126" selection-start-column="33" selection-end-line="126" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="config.js" pinned="true" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/browser-tips/config.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
               <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/safe-tips/config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="75" selection-start-column="75" selection-end-column="75" />
             </state>
           </provider>
         </entry>
@@ -56,16 +67,7 @@
         <entry file="file://$PROJECT_DIR$/work-experience-tips/config.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue-tips/config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="84" selection-start-column="84" selection-end-column="84" />
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -84,7 +86,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CDN技术原理.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CDN技术原理.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basic-tips/CDN技术原理.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
@@ -115,7 +117,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>console</find>
       <find>bw</find>
       <find>src</find>
       <find>src=&quot;..//</find>
@@ -145,6 +146,7 @@
       <find>this</find>
       <find>getLastConfig</find>
       <find>home_roll_item_background</find>
+      <find>home_back_to_home_btn</find>
     </findStrings>
     <replaceStrings>
       <replace>.jhc</replace>
@@ -183,8 +185,6 @@
         <option value="$PROJECT_DIR$/articleList.js" />
         <option value="$PROJECT_DIR$/home/css/common.css" />
         <option value="$PROJECT_DIR$/home/js/common.js" />
-        <option value="$PROJECT_DIR$/home/css/search_content.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/home/css/login.css" />
         <option value="$PROJECT_DIR$/dev-tips/关于mock.md" />
         <option value="$PROJECT_DIR$/home/css/content.css" />
@@ -206,6 +206,8 @@
         <option value="$PROJECT_DIR$/vue-tips/config.js" />
         <option value="$PROJECT_DIR$/work-experience-tips/config.js" />
         <option value="$PROJECT_DIR$/basic-tips/CDN技术原理.md" />
+        <option value="$PROJECT_DIR$/home/css/search_content.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -231,10 +233,9 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1680" />
-    <option name="height" value="1027" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -244,6 +245,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -285,6 +287,17 @@
               <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
               <item name="can-Share" type="462c0819:PsiDirectoryNode" />
               <item name="form-tips" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="can-Share" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="can-Share" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
@@ -340,7 +353,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -414,15 +426,17 @@
       <workItem from="1567387666029" duration="12877000" />
       <workItem from="1567474669711" duration="5323000" />
       <workItem from="1567492294144" duration="13859000" />
-      <workItem from="1567579047527" duration="4369000" />
+      <workItem from="1567579047527" duration="4732000" />
+      <workItem from="1567739156287" duration="91000" />
+      <workItem from="1567993320545" duration="1067000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80913000" />
+    <option name="totallyTimeSpent" value="82434000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.119349" />
@@ -564,13 +578,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home/css/search_content.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="582">
-          <caret line="39" column="37" lean-forward="true" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/home/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -589,13 +596,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
           <caret line="63" column="25" selection-start-line="63" selection-start-column="20" selection-end-line="63" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="50" column="81" selection-start-line="50" selection-start-column="68" selection-end-line="50" selection-end-column="81" />
         </state>
       </provider>
     </entry>
@@ -627,16 +627,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log2019年9月4日 16:11:16.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic-tips/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/log2019年9月4日 16:11:16.txt" />
     <entry file="file://$PROJECT_DIR$/browser-tips/config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -731,7 +722,7 @@
     <entry file="file://$PROJECT_DIR$/work-experience-tips/config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
@@ -749,6 +740,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic-tips/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/css/search_content.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="694">
+          <caret line="126" column="33" selection-start-line="126" selection-start-column="33" selection-end-line="126" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="65" column="18" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
         </state>
       </provider>
     </entry>
