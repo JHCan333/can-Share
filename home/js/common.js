@@ -62,12 +62,20 @@ function setBlurModal () {
 function goAssignPage (url) {
     console.log('url',url)
     var urlList = ['login', 'content']
+    var showStyle = {
+        'z-index':5,
+        'opacity':1
+    }
+    var hideStyle = {
+        'z-index':-5,
+        'opacity':0
+    }
     if (url === 'content') {
-        $('#login').css('z-index', -5)
-        $('#content').css('z-index', 5)
+        $('#login').css(hideStyle)
+        $('#content').css(showStyle)
     } else if (url === 'login') {
-        $('#content').css('z-index', -5)
-        $('#login').css('z-index', 5)
+        $('#content').css(hideStyle)
+        $('#login').css(showStyle)
     }
 }
 

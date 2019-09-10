@@ -6,7 +6,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare":"node createFileList.js $*",
+    "pre":"npm run config && npm run list",
     "config":"node createFileList.js $* config",
     "list":"node createFileList.js $* list",
     "dev":" http-server -p8081 -o -c-1"
