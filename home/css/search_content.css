@@ -154,13 +154,13 @@
 .home_search_result_area {
     display: flex;
     justify-content: center;
+    max-height: calc(100% - 440px);
+    overflow-y: scroll;
 }
 
 /* 搜索结果列表 */
 .home_search_result_list {
     width: 70%;
-    min-height: 1000px;
-    /*border: 1px solid #000;*/
 }
 
 /* 右上角链接按钮组 */
