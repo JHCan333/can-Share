@@ -14,6 +14,7 @@
     top: 0;
     left: 0;
     z-index: -5;
+    opacity:0;
 
     /*border: 1px solid blue;*/
 }
