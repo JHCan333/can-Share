@@ -74,65 +74,6 @@ function goAssignPage (url) {
 /**
  * @author 靳宏灿
  * @date 2019/8/29
- * @time 下午3:37
- * @Description: 文章的数据总览
- */
-var contentTotalData = [
-    {
-        title: '基础知识',
-        key: 'basic-tips',
-        list: [
-            {
-                title: '互联网行业常用术语',
-                imgSrc: 'home/images/road.jpg',
-                articleUrl: '%E4%BA%92%E8%81%94%E7%BD%91%E8%A1%8C%E4%B8%9A%E5%B8%B8%E7%94%A8%E6%9C%AF%E8%AF%AD.md'
-            }, {
-                title: '代码重用和复用的关系',
-                imgSrc: 'home/images/road.jpg',
-                articleUrl: '代码重用和复用的关系.md'
-            }, {
-                title: '互联网行业常用术语',
-                imgSrc: 'home/images/road.jpg',
-                articleUrl: '%E4%BA%92%E8%81%94%E7%BD%91%E8%A1%8C%E4%B8%9A%E5%B8%B8%E7%94%A8%E6%9C%AF%E8%AF%AD.md'
-            }, {
-                title: '互联网行业常用术语',
-                imgSrc: 'home/images/road.jpg',
-                articleUrl: '%E4%BA%92%E8%81%94%E7%BD%91%E8%A1%8C%E4%B8%9A%E5%B8%B8%E7%94%A8%E6%9C%AF%E8%AF%AD.md'
-            }, {
-                title: '互联网行业常用术语',
-                imgSrc: 'home/images/road.jpg',
-                articleUrl: '%E4%BA%92%E8%81%94%E7%BD%91%E8%A1%8C%E4%B8%9A%E5%B8%B8%E7%94%A8%E6%9C%AF%E8%AF%AD.md'
-            }, {
-                title: '互联网行业常用术语',
-                imgSrc: 'home/images/road.jpg',
-                articleUrl: '%E4%BA%92%E8%81%94%E7%BD%91%E8%A1%8C%E4%B8%9A%E5%B8%B8%E7%94%A8%E6%9C%AF%E8%AF%AD.md'
-            }, {
-                title: '互联网行业常用术语',
-                imgSrc: 'home/images/road.jpg',
-                articleUrl: '%E4%BA%92%E8%81%94%E7%BD%91%E8%A1%8C%E4%B8%9A%E5%B8%B8%E7%94%A8%E6%9C%AF%E8%AF%AD.md'
-            },
-        ]
-    },
-    {
-        title: '浏览器知识',
-        key: 'browser-tips',
-        list: [
-            {
-                title: '互联网行业常用术语',
-                imgSrc: 'home/images/road.jpg',
-                articleUrl: '%E4%BA%92%E8%81%94%E7%BD%91%E8%A1%8C%E4%B8%9A%E5%B8%B8%E7%94%A8%E6%9C%AF%E8%AF%AD.md'
-            }, {
-                title: '互联网行业常用术语',
-                imgSrc: 'home/images/road.jpg',
-                articleUrl: '%E4%BA%92%E8%81%94%E7%BD%91%E8%A1%8C%E4%B8%9A%E5%B8%B8%E7%94%A8%E6%9C%AF%E8%AF%AD.md'
-            }
-        ]
-    }
-]
-
-/**
- * @author 靳宏灿
- * @date 2019/8/29
  * @time 下午3:36
  * @Description: 设置内容总览区
  */
@@ -210,7 +151,7 @@ function setSearchCondition (data) {
     var searchConditionStr = '' // 拼接的查询条件的字符串
     moduleNameList.map(function (seg) {
         var addStr = '<span class="home_search_item">'
-            + '<button type="button" class="btn btn-primary btn-sm" onclick="setSearchResultByModuleName(\'' +seg+ '\',this)">' + seg + '</button>'
+            + '<button type="button" class="btn jhc_search_type_btn" onclick="setSearchResultByModuleName(\'' +seg+ '\',this)">' + seg + '</button>'
             + '</span>'
         searchConditionStr += addStr
     })

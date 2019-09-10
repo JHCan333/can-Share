@@ -88,10 +88,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /*background: url(../images/titleBackground.jpg) no-repeat center;*/
-    background: #ccc no-repeat center;
-    background-size: cover;
     cursor: pointer;
+    border-radius: 6px;
+    box-shadow:0 0 6px 0px #ccc;
 }
 
 /* 文件的 title 的英文换行 */
