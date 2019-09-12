@@ -94,6 +94,11 @@
     box-shadow:0 0 6px 0px #ccc;
 }
 
+.home_roll_item_background:hover {
+    background-color: #dddddd;
+}
+
+
 /* 文件的 title 的英文换行 */
 .home_roll_item_title {
     word-break: break-all;
