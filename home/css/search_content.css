@@ -86,7 +86,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 10px;
+    background: linear-gradient(#f5efc8 30%,#fbfaf7);
 }
 
 /* 搜索条件列表 */

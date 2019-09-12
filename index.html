@@ -3,51 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <title>JHCan333个人分享</title>
-    <link rel="stylesheet" href="home/bootStrap/css/bootstrap.css" >
-    <link rel="stylesheet" href="home/css/index.css" >
-    <script src="home/js/jquery.js" type="application/javascript"></script>
-    <script src="home/js/common.js" type="application/javascript"></script>
-    <script src="articleList.js" type="application/javascript"></script>
-    <script src="home/bootStrap/js/bootstrap.js" type="application/javascript"></script>
-    <script src="home/js/main.js" type="application/javascript"></script>
+    <!--<link rel="stylesheet" href="home/bootStrap/css/bootstrap.css" >-->
+    <!--<link rel="stylesheet" href="home/css/index.css" >-->
+    <!--<script src="home/js/jquery.js" type="application/javascript"></script>-->
+    <!--<script src="home/js/common.js" type="application/javascript"></script>-->
+    <!--<script src="articleList.js" type="application/javascript"></script>-->
+    <!--<script src="home/bootStrap/js/bootstrap.js" type="application/javascript"></script>-->
+    <!--<script src="home/js/main.js" type="application/javascript"></script>-->
     <script type="application/javascript">
-        // // 手动下载css文件
-        // function downLoadCssFile (url) {
-        //     let head = document.getElementsByTagName('head')[0]
-        //     let link = document.createElement('link')
-        //     link.type = 'text/css'
-        //     link.rel = 'stylesheet'
-        //     link.href = url + '?v=' + new Date().getTime()
-        //     head.appendChild(link)
-        // }
-        //
-        // // 手动下载js文件
-        // function downLoadJsFile (url, success) {
-        //     let head = document.getElementsByTagName('head')[0]
-        //     let jsDom = document.createElement('script')
-        //     jsDom.type = 'application/javascript'
-        //     jsDom.src = url + '?v=' + new Date().getTime()
-        //     head.appendChild(jsDom)
-        //     success && success()
-        // }
-        //
-        // // 加载所有文件
-        // function loadAllFile () {
-        //     downLoadCssFile('./home/css/common.css')
-        //     downLoadCssFile('./home/css/login.css')
-        //     downLoadCssFile('./home/css/content.css')
-        //     downLoadCssFile('./home/css/search_content.css')
-        //     downLoadCssFile('./home/bootStrap/css/bootstrap.css')
-        //     downLoadJsFile('./home/js/jquery.js')
-        //     window.onload = function () {
-        //         downLoadJsFile('./home/js/common.js')
-        //         downLoadJsFile('./articleList.js')
-        //         downLoadJsFile('./home/bootStrap/js/bootstrap.js')
-        //         downLoadJsFile('./home/js/main.js')
-        //     }
-        // }
-        //
-        // loadAllFile()
+        // 手动下载css文件
+        function downLoadCssFile (url) {
+            let head = document.getElementsByTagName('head')[0]
+            let link = document.createElement('link')
+            link.type = 'text/css'
+            link.rel = 'stylesheet'
+            link.href = url + '?v=' + new Date().getTime()
+            head.appendChild(link)
+        }
+
+        // 手动下载js文件
+        function downLoadJsFile (url, success) {
+            let head = document.getElementsByTagName('head')[0]
+            let jsDom = document.createElement('script')
+            jsDom.type = 'application/javascript'
+            jsDom.src = url + '?v=' + new Date().getTime()
+            head.appendChild(jsDom)
+            success && success()
+        }
+
+        // 加载所有文件
+        function loadAllFile () {
+            downLoadCssFile('./home/css/common.css')
+            downLoadCssFile('./home/css/login.css')
+            downLoadCssFile('./home/css/content.css')
+            downLoadCssFile('./home/css/search_content.css')
+            downLoadCssFile('./home/bootStrap/css/bootstrap.css')
+            downLoadJsFile('./home/js/jquery.js')
+            window.onload = function () {
+                downLoadJsFile('./home/js/common.js')
+                downLoadJsFile('./articleList.js')
+                downLoadJsFile('./home/bootStrap/js/bootstrap.js')
+                downLoadJsFile('./home/js/main.js')
+            }
+        }
+
+        loadAllFile()
     </script>
 </head>
 <body class="home_body">
