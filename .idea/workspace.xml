@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00c786fa-9b44-4a14-891d-5b6e2f880132" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/js-tips/捕获右键粘贴事件.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/ie6/404.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -44,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="js学习笔记[抄书之路] — event.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js-tips/js学习笔记[抄书之路] — event.md">
+      <file leaf-file-name="ie6下css碰到的坑.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css-tips/ie6下css碰到的坑.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+            <state relative-caret-position="406">
+              <caret line="152" column="37" selection-start-line="152" selection-start-column="31" selection-end-line="152" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -65,13 +65,13 @@
       <file leaf-file-name="js防抖和节流.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js-tips/js防抖和节流.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
+            <state relative-caret-position="510">
               <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="捕获右键粘贴事件.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="捕获右键粘贴事件.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js-tips/捕获右键粘贴事件.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
@@ -241,11 +241,9 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="26" />
-    <option name="y" value="23" />
-    <option name="width" value="1673" />
-    <option name="height" value="1027" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -265,7 +263,18 @@
             <path>
               <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
               <item name="can-Share" type="462c0819:PsiDirectoryNode" />
-              <item name="js-tips" type="462c0819:PsiDirectoryNode" />
+              <item name="css-tips" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="can-Share" type="462c0819:PsiDirectoryNode" />
+              <item name="image" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="can-Share" type="462c0819:PsiDirectoryNode" />
+              <item name="image" type="462c0819:PsiDirectoryNode" />
+              <item name="ie6" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -355,18 +364,19 @@
       <workItem from="1568166974883" duration="482000" />
       <workItem from="1568250648464" duration="2646000" />
       <workItem from="1568616593404" duration="846000" />
-      <workItem from="1568681338485" duration="801000" />
+      <workItem from="1568681338485" duration="1384000" />
+      <workItem from="1568721133323" duration="632000" />
+      <workItem from="1568724520971" duration="877000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98379000" />
+    <option name="totallyTimeSpent" value="100471000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17600964" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17239301" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -405,13 +415,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="142" selection-start-column="142" selection-end-column="142" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css-tips/ie6下css碰到的坑.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4065">
-          <caret line="271" column="8" selection-start-line="271" selection-start-column="5" selection-end-line="271" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -659,13 +662,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -696,7 +692,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js-tips/js防抖和节流.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
+        <state relative-caret-position="510">
           <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
         </state>
       </provider>
@@ -705,6 +701,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-tips/ie6下css碰到的坑.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="152" column="37" selection-start-line="152" selection-start-column="31" selection-end-line="152" selection-end-column="37" />
         </state>
       </provider>
     </entry>
