@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00c786fa-9b44-4a14-891d-5b6e2f880132" name="Default" comment="" />
+    <list default="true" id="00c786fa-9b44-4a14-891d-5b6e2f880132" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/css-tips/ie6下css碰到的坑.md" beforeDir="false" afterPath="$PROJECT_DIR$/css-tips/ie6下css碰到的坑.md" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -44,8 +46,17 @@
       <file leaf-file-name="ie6下css碰到的坑.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css-tips/ie6下css碰到的坑.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="159" column="14" lean-forward="true" selection-start-line="159" selection-start-column="14" selection-end-line="159" selection-end-column="14" />
+            <state relative-caret-position="890">
+              <caret line="423" lean-forward="true" selection-start-line="423" selection-end-line="423" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="js学习笔记[抄书之路] — event.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js-tips/js学习笔记[抄书之路] — event.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="403">
+              <caret line="83" column="6" lean-forward="true" selection-start-line="75" selection-start-column="4" selection-end-line="83" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -167,7 +178,6 @@
         <option value="$PROJECT_DIR$/clockDemo.html" />
         <option value="$PROJECT_DIR$/gaugeDemo.html" />
         <option value="$PROJECT_DIR$/前端安全问题及解决方法.md" />
-        <option value="$PROJECT_DIR$/css-tips/ie6下css碰到的坑.md" />
         <option value="$PROJECT_DIR$/http-tips/三次握手和四次挥手的详细介绍.md" />
         <option value="$PROJECT_DIR$/js-tips/toLowerCase 和 toLocaleLowerCase 的区别.md" />
         <option value="$PROJECT_DIR$/work-experience/看不到的捣蛋鬼---Zero Width Space.md" />
@@ -204,6 +214,7 @@
         <option value="$PROJECT_DIR$/home/css/content.css" />
         <option value="$PROJECT_DIR$/js-tips/js防抖和节流.md" />
         <option value="$PROJECT_DIR$/js-tips/捕获右键粘贴事件.md" />
+        <option value="$PROJECT_DIR$/css-tips/ie6下css碰到的坑.md" />
       </list>
     </option>
   </component>
@@ -251,18 +262,7 @@
             <path>
               <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
               <item name="can-Share" type="462c0819:PsiDirectoryNode" />
-              <item name="css-tips" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
-              <item name="can-Share" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
-              <item name="can-Share" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
-              <item name="ie6" type="462c0819:PsiDirectoryNode" />
+              <item name="js-tips" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -354,12 +354,12 @@
       <workItem from="1568616593404" duration="846000" />
       <workItem from="1568681338485" duration="1384000" />
       <workItem from="1568721133323" duration="632000" />
-      <workItem from="1568724520971" duration="2310000" />
+      <workItem from="1568724520971" duration="2746000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101904000" />
+    <option name="totallyTimeSpent" value="102340000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
@@ -627,13 +627,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js-tips/js学习笔记[抄书之路] — event.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/home/css/common.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -700,10 +693,17 @@
     <entry file="file://$PROJECT_DIR$/image/ie6/404.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/js-tips/js学习笔记[抄书之路] — event.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="83" column="6" lean-forward="true" selection-start-line="75" selection-start-column="4" selection-end-line="83" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css-tips/ie6下css碰到的坑.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="159" column="14" lean-forward="true" selection-start-line="159" selection-start-column="14" selection-end-line="159" selection-end-column="14" />
+        <state relative-caret-position="890">
+          <caret line="423" lean-forward="true" selection-start-line="423" selection-end-line="423" />
         </state>
       </provider>
     </entry>
