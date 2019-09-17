@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00c786fa-9b44-4a14-891d-5b6e2f880132" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/image/ie6/4.3.2.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/ie6/4.3.2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/ie6/4.4.1.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/ie6/4.4.1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/ie6/404jpg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image/ie6/404.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -358,16 +356,15 @@
       <workItem from="1568616593404" duration="846000" />
       <workItem from="1568681338485" duration="1384000" />
       <workItem from="1568721133323" duration="632000" />
-      <workItem from="1568724520971" duration="1531000" />
+      <workItem from="1568724520971" duration="1818000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101125000" />
+    <option name="totallyTimeSpent" value="101412000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17239301" />
       <window_info anchor="bottom" id="TODO" order="6" />
