@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00c786fa-9b44-4a14-891d-5b6e2f880132" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/image/ie6/404.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/ie6/4.3.2.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/ie6/4.3.2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/ie6/4.4.1.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/ie6/4.4.1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/ie6/404jpg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image/ie6/404.jpg" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -47,8 +48,8 @@
       <file leaf-file-name="ie6下css碰到的坑.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css-tips/ie6下css碰到的坑.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="152" column="37" selection-start-line="152" selection-start-column="31" selection-end-line="152" selection-end-column="37" />
+            <state relative-caret-position="511">
+              <caret line="159" column="14" lean-forward="true" selection-start-line="159" selection-start-column="14" selection-end-line="159" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -85,15 +86,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="3135">
               <caret line="214" lean-forward="true" selection-start-line="214" selection-end-line="214" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="common.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home/css/common.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -301,18 +293,18 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/home/images" />
-      <recent name="$PROJECT_DIR$/image/clock" />
-      <recent name="$PROJECT_DIR$/image/other" />
-      <recent name="$PROJECT_DIR$/image/ie6" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/work-experience" />
       <recent name="$PROJECT_DIR$/san-tips" />
       <recent name="$PROJECT_DIR$/js-tips" />
       <recent name="$PROJECT_DIR$/basic-tips" />
       <recent name="$PROJECT_DIR$/dev-tools" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/image/ie6" />
+      <recent name="$PROJECT_DIR$/home/images" />
+      <recent name="$PROJECT_DIR$/image/clock" />
+      <recent name="$PROJECT_DIR$/image/other" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -366,15 +358,16 @@
       <workItem from="1568616593404" duration="846000" />
       <workItem from="1568681338485" duration="1384000" />
       <workItem from="1568721133323" duration="632000" />
-      <workItem from="1568724520971" duration="877000" />
+      <workItem from="1568724520971" duration="1531000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100471000" />
+    <option name="totallyTimeSpent" value="101125000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17239301" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -402,9 +395,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js-tips/给定一个整数数组和一个目标值，在数组中找出和为目标值的那两个整数，并返回下标.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/js-tips/获取dom到window左侧和顶部的距离.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -711,10 +701,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/image/ie6/404.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/css-tips/ie6下css碰到的坑.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="152" column="37" selection-start-line="152" selection-start-column="31" selection-end-line="152" selection-end-column="37" />
+        <state relative-caret-position="511">
+          <caret line="159" column="14" lean-forward="true" selection-start-line="159" selection-start-column="14" selection-end-line="159" selection-end-column="14" />
         </state>
       </provider>
     </entry>
