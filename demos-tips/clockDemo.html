@@ -13,7 +13,7 @@
             left: 49%;
             bottom: 47%;
             transform-origin: center bottom;
-            background: url(../image/clock/hourPoint.png) no-repeat;
+            background: url(https://jhcan333.github.io/can-Share//image/clock/hourPoint.png) no-repeat;
             background-size: 100% 100%;
         }
 
@@ -25,7 +25,7 @@
             left: 49%;
             bottom: 47%;
             transform-origin: center bottom;
-            background: url(../image/clock/minPoint.png) no-repeat;
+            background: url(https://jhcan333.github.io/can-Share//image/clock/minPoint.png) no-repeat;
             background-size: 100% 100%;
         }
 
@@ -42,7 +42,7 @@
             position: absolute;
             top: 0px;
             left: 0px;
-            background: url(../image/clock/clockBack.png) no-repeat;
+            background: url(https://jhcan333.github.io/can-Share//image/clock/clockBack.png) no-repeat;
             background-size: 100% 100%;
         }
 
@@ -100,11 +100,11 @@
                     <div :class="clockDot"></div>
                     <div :class="clockBack"></div>
                 </div>
-                <div :class="clockTitle" :style="style">当前时间</div>
+                <div :class="clockTitle" :style="style">当前时间 {{timeDisplayArea}}</div>
             </div>`,
         data () {
             return {
-                prefixCss: 'jhc-',
+                prefixCss: 'jhc-', // css 前缀
                 cssClock: { //整个钟的盒子
                     position: 'absolute',
                     width: '100%',
@@ -113,13 +113,11 @@
                 },
                 cssDotWrap: { //装刻度的盒子
                     width: '100%',
-                    height: '100%',
-                    transform: 'translateX(250px)'
+                    height: '100%'
                 },
                 cssDot: { //刻度们
                     position: 'absolute',
-                    backgroundColor: '#509fef',
-                    transformOrigin: '0px 165px'
+                    backgroundColor: '#509fef'
                 },
                 longDot: { //长刻度
                     width: '3px',
@@ -134,6 +132,7 @@
                 style: {
                     bottom: '1px'
                 }, //时钟的title的style
+                scale:0.8, // 时钟占外层的百分比
                 currTime: new Date() //当前日期对象
             }
         },
@@ -157,18 +156,18 @@
                 let width = this.getWidth()
                 let height = this.getHeight()
                 //时钟占外层的百分比
-                let beishu = 0.8
+                let scale = this.scale
                 //获取较短边
                 let shortLth = width
                 if (width > height) {
                     shortLth = height
                 }
                 //对时钟的直径做处理
-                shortLth = shortLth * beishu
+                shortLth = shortLth * scale
                 //获取到顶部和左部的距离
                 let paddingW = (width - shortLth) / 2
                 let paddingH = (height - shortLth) / 2
-                //设置钟表整体的大小形状
+                //设置钟表整体的大小以及位置
                 this.setStates('cssClock', {
                     height: shortLth + 'px',
                     width: shortLth + 'px',
@@ -177,7 +176,7 @@
                 })
                 //设置刻度所围绕区域的位置
                 this.setStates('cssDotWrap', {
-                    transform: `translate(${shortLth * 0.52}px,${shortLth * 0.16}px)`
+                    transform: `translate(${shortLth * 0.52}px,${shortLth * 0.16}px)` // 0.52 和 0.16 是我一点一点挪出来的，啊哈哈
                 })
                 //设置长短刻度的半径,以及尺寸
                 let dotRadius = shortLth * 0.75 / 2 - 1
@@ -202,18 +201,15 @@
 
             },
             getWidth () { //获取指定容器的宽度
-                return this.ifHaveThisRefs('area') && this.getRef('area').offsetWidth
+                return this.getRef('area').offsetWidth || 200
             },
             getHeight () { //获取指定容器的高度
-                return this.ifHaveThisRefs('area') && this.getRef('area').offsetHeight
+                return this.getRef('area').offsetHeight || 200
             },
-            ifHaveThisRefs (ref) {
-                return this.$refs && this.$refs[ref]
+            getRef (ref) { // 获取指定 ref 对象
+                return this.$refs && this.$refs[ref] || {}
             },
-            getRef (ref) {
-                return this.$refs[ref]
-            },
-            //设置data中对象的值
+            //模仿 react 的states
             setStates (prop, data) {
                 let cache = this[prop]
                 this[prop] = Object.assign({}, cache, JSON.parse(JSON.stringify(data)))
@@ -224,10 +220,16 @@
                 return this.currTime.getSeconds() * 6
             },
             min () { //将当前的分钟数转化为分针旋转的度数
-                return this.currTime.getMinutes() * 6 + this.currTime.getSeconds() / 10
+                return this.currTime.getMinutes() * 6 + this.currTime.getSeconds() / 60 * 6
             },
             hour () { //将当前的小时数转化为时针旋转的度数
-                return this.currTime.getHours() * 30 + this.currTime.getMinutes() / 2
+                return this.currTime.getHours() * 30 + this.currTime.getMinutes() / 60 * 30
+            },
+            timeDisplayArea(){ // 时间展示区
+                let hours = this.currTime.getHours() > 9 ? this.currTime.getHours() : ('0' + this.currTime.getHours())
+                let minutes = this.currTime.getMinutes() > 9 ? this.currTime.getMinutes() : ('0' + this.currTime.getMinutes())
+                let seconds = this.currTime.getSeconds() > 9 ? this.currTime.getSeconds() : ('0' + this.currTime.getSeconds())
+                return hours + ':' + minutes + ':' + seconds
             },
             hourNeedle () { //时针的class
                 return `${this.prefixCss}hour-needle`
