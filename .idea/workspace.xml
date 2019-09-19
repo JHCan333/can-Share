@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="00c786fa-9b44-4a14-891d-5b6e2f880132" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demos-tips/clockDemo.html" beforeDir="false" afterPath="$PROJECT_DIR$/demos-tips/clockDemo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http-tips/What is Socket?.md" beforeDir="false" afterPath="$PROJECT_DIR$/http-tips/socket 是什么.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+            <state relative-caret-position="330">
+              <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -45,10 +44,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="clockDemo.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="clockDemo.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demos-tips/clockDemo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3825">
+            <state relative-caret-position="895">
               <caret line="255" column="7" selection-start-line="255" selection-start-column="7" selection-end-line="255" selection-end-column="7" />
             </state>
           </provider>
@@ -57,8 +56,8 @@
       <file leaf-file-name="ie6下css碰到的坑.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css-tips/ie6下css碰到的坑.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="389" column="5" lean-forward="true" selection-start-line="389" selection-start-column="5" selection-end-line="389" selection-end-column="5" />
+            <state relative-caret-position="5835">
+              <caret line="389" column="5" selection-start-line="389" selection-start-column="5" selection-end-line="389" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -67,7 +66,7 @@
         <entry file="file://$PROJECT_DIR$/js-tips/js学习笔记[抄书之路] — event.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1245">
-              <caret line="83" column="6" lean-forward="true" selection-start-line="75" selection-start-column="4" selection-end-line="83" selection-end-column="6" />
+              <caret line="83" column="6" selection-start-line="75" selection-start-column="4" selection-end-line="83" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -76,7 +75,7 @@
         <entry file="file://$PROJECT_DIR$/home/css/content.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1095">
-              <caret line="73" column="13" lean-forward="true" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
+              <caret line="73" column="13" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -85,7 +84,7 @@
         <entry file="file://$PROJECT_DIR$/js-tips/js防抖和节流.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="510">
-              <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+              <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -94,7 +93,7 @@
         <entry file="file://$PROJECT_DIR$/js-tips/捕获右键粘贴事件.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -103,7 +102,7 @@
         <entry file="file://$PROJECT_DIR$/home/js/common.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="3135">
-              <caret line="214" lean-forward="true" selection-start-line="214" selection-end-line="214" />
+              <caret line="214" selection-start-line="214" selection-end-line="214" />
             </state>
           </provider>
         </entry>
@@ -210,7 +209,6 @@
         <option value="$PROJECT_DIR$/home/css/common.css" />
         <option value="$PROJECT_DIR$/home/css/login.css" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/home/css/search_content.css" />
         <option value="$PROJECT_DIR$/home/js/common.js" />
         <option value="$PROJECT_DIR$/home/css/content.css" />
@@ -218,6 +216,7 @@
         <option value="$PROJECT_DIR$/js-tips/捕获右键粘贴事件.md" />
         <option value="$PROJECT_DIR$/css-tips/ie6下css碰到的坑.md" />
         <option value="$PROJECT_DIR$/demos-tips/clockDemo.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -244,7 +243,7 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="7" />
+    <option name="x" value="26" />
     <option name="y" value="23" />
     <option name="width" value="1673" />
     <option name="height" value="1027" />
@@ -376,12 +375,13 @@
       <workItem from="1568681338485" duration="1384000" />
       <workItem from="1568721133323" duration="632000" />
       <workItem from="1568724520971" duration="3583000" />
-      <workItem from="1568771790396" duration="1659000" />
+      <workItem from="1568771790396" duration="2139000" />
+      <workItem from="1568855729543" duration="84000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104836000" />
+    <option name="totallyTimeSpent" value="105400000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -653,17 +653,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/home/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3135">
-          <caret line="214" lean-forward="true" selection-start-line="214" selection-end-line="214" />
+          <caret line="214" selection-start-line="214" selection-end-line="214" />
         </state>
       </provider>
     </entry>
@@ -677,21 +670,21 @@
     <entry file="file://$PROJECT_DIR$/home/css/content.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1095">
-          <caret line="73" column="13" lean-forward="true" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
+          <caret line="73" column="13" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js-tips/js防抖和节流.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
-          <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js-tips/捕获右键粘贴事件.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -701,14 +694,14 @@
     <entry file="file://$PROJECT_DIR$/js-tips/js学习笔记[抄书之路] — event.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1245">
-          <caret line="83" column="6" lean-forward="true" selection-start-line="75" selection-start-column="4" selection-end-line="83" selection-end-column="6" />
+          <caret line="83" column="6" selection-start-line="75" selection-start-column="4" selection-end-line="83" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css-tips/ie6下css碰到的坑.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="389" column="5" lean-forward="true" selection-start-line="389" selection-start-column="5" selection-end-line="389" selection-end-column="5" />
+        <state relative-caret-position="5835">
+          <caret line="389" column="5" selection-start-line="389" selection-start-column="5" selection-end-line="389" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -724,8 +717,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demos-tips/clockDemo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3825">
+        <state relative-caret-position="895">
           <caret line="255" column="7" selection-start-line="255" selection-start-column="7" selection-end-line="255" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
         </state>
       </provider>
     </entry>
