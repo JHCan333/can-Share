@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00c786fa-9b44-4a14-891d-5b6e2f880132" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/image/ie6/1.3.1.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/ie6/1.3.1.png" afterDir="false" />
-    </list>
+    <list default="true" id="00c786fa-9b44-4a14-891d-5b6e2f880132" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -69,8 +67,8 @@
       <file leaf-file-name="ie6下css碰到的坑.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css-tips/ie6下css碰到的坑.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
-              <caret line="396" column="25" lean-forward="true" selection-start-line="396" selection-start-column="25" selection-end-line="396" selection-end-column="25" />
+            <state relative-caret-position="645">
+              <caret line="43" column="63" lean-forward="true" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -362,12 +360,12 @@
       <workItem from="1568883248963" duration="370000" />
       <workItem from="1568900129161" duration="1429000" />
       <workItem from="1568943440260" duration="893000" />
-      <workItem from="1569057659618" duration="2576000" />
+      <workItem from="1569057659618" duration="2744000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111131000" />
+    <option name="totallyTimeSpent" value="111299000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -706,8 +704,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css-tips/ie6下css碰到的坑.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="396" column="25" lean-forward="true" selection-start-line="396" selection-start-column="25" selection-end-line="396" selection-end-column="25" />
+        <state relative-caret-position="645">
+          <caret line="43" column="63" lean-forward="true" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="63" />
         </state>
       </provider>
     </entry>
