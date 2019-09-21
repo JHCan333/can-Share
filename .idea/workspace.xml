@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00c786fa-9b44-4a14-891d-5b6e2f880132" name="Default" comment="" />
+    <list default="true" id="00c786fa-9b44-4a14-891d-5b6e2f880132" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/css-tips/ie6下css碰到的坑.md" beforeDir="false" afterPath="$PROJECT_DIR$/css-tips/ie6下css碰到的坑.md" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -55,7 +57,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gaugeDemo.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gaugeDemo.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demos-tips/gaugeDemo.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="895">
@@ -64,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ie6下css碰到的坑.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ie6下css碰到的坑.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css-tips/ie6下css碰到的坑.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5835">
-              <caret line="389" column="5" selection-start-line="389" selection-start-column="5" selection-end-line="389" selection-end-column="5" />
+            <state relative-caret-position="485">
+              <caret line="396" column="25" lean-forward="true" selection-start-line="396" selection-start-column="25" selection-end-line="396" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -78,15 +80,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1245">
               <caret line="83" column="6" selection-start-line="75" selection-start-column="4" selection-end-line="83" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="js防抖和节流.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js-tips/js防抖和节流.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -206,11 +199,11 @@
         <option value="$PROJECT_DIR$/home/css/content.css" />
         <option value="$PROJECT_DIR$/js-tips/js防抖和节流.md" />
         <option value="$PROJECT_DIR$/js-tips/捕获右键粘贴事件.md" />
-        <option value="$PROJECT_DIR$/css-tips/ie6下css碰到的坑.md" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/dev-tips/关于mock.md" />
         <option value="$PROJECT_DIR$/demos-tips/clockDemo.html" />
         <option value="$PROJECT_DIR$/demos-tips/gaugeDemo.html" />
+        <option value="$PROJECT_DIR$/css-tips/ie6下css碰到的坑.md" />
       </list>
     </option>
   </component>
@@ -369,12 +362,12 @@
       <workItem from="1568883248963" duration="370000" />
       <workItem from="1568900129161" duration="1429000" />
       <workItem from="1568943440260" duration="893000" />
-      <workItem from="1569057659618" duration="1830000" />
+      <workItem from="1569057659618" duration="2282000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110385000" />
+    <option name="totallyTimeSpent" value="110837000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -406,13 +399,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js-tips/toLowerCase 和 toLocaleLowerCase 的区别.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/safe-tips/前端安全问题及解决方法.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -674,13 +660,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css-tips/ie6下css碰到的坑.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5835">
-          <caret line="389" column="5" selection-start-line="389" selection-start-column="5" selection-end-line="389" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/http-tips/socket 是什么.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -715,10 +694,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/image/clock/gaugePreview.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/demos-tips/gaugeDemo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="895">
           <caret line="314" column="7" selection-start-line="314" selection-start-column="7" selection-end-line="314" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-tips/ie6下css碰到的坑.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="396" column="25" lean-forward="true" selection-start-line="396" selection-start-column="25" selection-end-line="396" selection-end-column="25" />
         </state>
       </provider>
     </entry>
