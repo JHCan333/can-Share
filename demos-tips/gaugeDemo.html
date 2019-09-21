@@ -2,10 +2,11 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>一个基于vue的仪表盘小demo</title>
+    <title>一个基于vue的仪表盘demo</title>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <style>
         /**仪表盘的css开始**/
+        /* 仪表盘区域 */
         .jhc-gauge-area {
             width: 500px;
             height: 500px;
@@ -13,17 +14,19 @@
             background: #050842;
         }
 
+        /* 仪表盘中圆形的环 */
         .jhc-gauge-circle {
-            width: 86%;
-            height: 86%;
+            width: 88%;
+            height: 88%;
             border: 2px solid #509fef;
             border-radius: 50%;
             position: absolute;
-            top: 7%;
-            left: 7%;
+            top: 5%;
+            left: 6%;
         }
 
-        .jhc-gauge-dot {
+        /* 仪表盘的圆心 */
+        .jhc-gauge-center {
             width: 8%;
             height: 8%;
             border-radius: 50%;
@@ -35,18 +38,20 @@
             box-shadow: 0px 0px 10px 1px #000;
         }
 
+        /* 仪表盘的背景图片 */
         .jhc-gauge-back {
-            width: 62%;
-            height: 62%;
+            width: 66%;
+            height: 66%;
             border-radius: 50%;
             position: absolute;
             top: 4%;
-            left: -31%;
-            background: url(./image/clock/gaugeBack.png) no-repeat;
+            left: -33%;
+            background: url(https://jhcan333.github.io/can-Share/image/clock/gaugeBack.png) no-repeat;
             background-size: 95% 95%;
             background-position: center center;
         }
 
+        /* 仪表盘的指针 */
         .jhc-gauge-needle {
             z-index: 5;
             width: 8%;
@@ -55,25 +60,27 @@
             left: 46%;
             bottom: 50%;
             transform-origin: center bottom;
-            background: url(./image/clock/hourPoint.png) no-repeat;
+            background: url(https://jhcan333.github.io/can-Share/image/clock/hourPoint.png) no-repeat;
             background-size: 100% 100%;
         }
 
+        /* 仪表盘的标题 */
         .jhc-gauge-title {
             color: #fff;
             position: absolute;
-            bottom: 10px;
             width: 100%;
             text-align: center;
             font-weight: bold;
+            bottom: 3px;
         }
 
+        /* 仪表盘的刻度 */
         .jhc-gauge-scale {
             color: #fff;
             z-index: 2;
             text-align: center;
             width: 10%;
-            height: 42%;
+            height: 43%;
             position: absolute;
             left: 45%;
             bottom: 50%;
@@ -85,8 +92,8 @@
 </head>
 
 <body>
-<div id="app">
-</div>
+<!-- 仪表盘所挂载的 dom 节点 -->
+<div id="app"></div>
 <script>
     var app = new Vue({
         el: '#app',
@@ -125,36 +132,39 @@
                     <div :class="gaugeCircle"></div>
                     <div :class="gaugeDot"></div>
                 </div>
-                <div :class="gaugeTitle" :style="style">仪表盘</div>
+                <div :class="gaugeTitle">仪表盘</div>
             </div>`,
         data () {
             return {
-                prefixCss: 'jhc-',
-                value: 1.5,//当前默认value
+                prefixCss: 'jhc-', // 所有 CSS 的前缀
+                value: 1.5, //当前默认value
+                max: 100, //当前刻度最大值
+                outerScale: 0.85, // 表盘整体占整个 div 元素的比例
+                innerScale: 0.75,// 内层刻度占外层的百分比
                 cssGauge: {//整个仪表盘的盒子
                     position: 'absolute',
                     width: '100%',
                     height: '100%',
                     borderRadius: '50%'
                 },
-                cssDotWrap: {//装刻度的盒子
+                cssDotWrap: {//装外层装饰刻度的盒子
                     width: '100%',
                     height: '100%',
                     position: 'absolute',
                     transform: 'translateX(250px)'
                 },
-                cssDotWrap2: {//装刻度的盒子2
+                cssDotWrap2: {//装内层指示刻度的盒子
                     width: '100%',
                     height: '100%',
                     position: 'absolute',
                     transform: 'translateX(120px)'
                 },
-                cssDot: {//刻度们
+                cssDot: {//外层装饰刻度们
                     position: 'absolute',
                     backgroundColor: '#509fef',
                     transformOrigin: '0px 165px'
                 },
-                cssDot2: {//刻度们2
+                cssDot2: {//内层指示刻度们
                     position: 'absolute',
                     backgroundColor: '#509fef',
                     transformOrigin: '0px 165px'
@@ -164,24 +174,20 @@
                 style: {bottom: '1px'},//仪表盘标题的style
             }
         },
-        created () {
-        },
         mounted () {
-            let that = this
-            //获取仪表盘的值
-            that.getValue()
-            //获取从红到蓝的颜色
-            that.getColorList()
-            //设置仪表盘图的size
-            that.setSize()
+            // 定时修改 value 值
+            this.timer = setInterval(() => {
+                this.value = Math.random() * 100
+            }, 3000)
+            //获取内层指示刻度的颜色
+            this.getColorList()
+            //设置仪表盘图的 size
+            this.setSize()
         },
         beforeDestroy () {
+            clearInterval(this.timer)
         },
         methods: {
-            //获取仪表盘的值
-            getValue () {
-                this.value = 1.5
-            },
             //设置内环刻度颜色
             setScaleColor (i) {
                 if (i < 50) {
@@ -190,7 +196,7 @@
                     return this.colorList[i - 50]
                 }
             },
-            //获取颜色列表，从蓝色到红色
+            //获取颜色列表：由蓝色逐渐变红
             getColorList () {
                 var colorList = []
                 var red = {
@@ -214,107 +220,91 @@
             },
             //设置仪表盘图的大小
             setSize () {
-                let width = this.getWidth()
-                let height = this.getHeight()
-                //表盘占外层的百分比
-                let beishu = 0.85
-                //获取较短边
-                let shortLth = width
-                if (width > height) {
-                    shortLth = height
-                }
-                shortLth = shortLth * beishu
-                //获取举例顶部和左部的距离
-                let paddingW = (width - shortLth) / 2
-                let paddingH = (height - shortLth) / 2
+                let width = this.getWidth() // 获取 div 的宽度
+                let height = this.getHeight() // 获取 div 的高度
+                let shortLth = width > height ? height : width //获取较短边
+                let length = shortLth * this.outerScale // 根据较短边 以及 外层比例，计算实际使用的长度
+                let paddingW = (width - length) / 2 //获取距离左部的距离
+                let paddingH = (height - length) / 2 //获取距离顶部的距离
                 //设置仪表盘整体的大小形状
                 this.setStates('cssGauge', {
-                    height: shortLth + 'px',
-                    width: shortLth + 'px',
+                    height: length + 'px',
+                    width: length + 'px',
                     top: paddingH + 'px',
                     left: paddingW + 'px',
                 })
-                //设置刻度的半径,以及尺寸
-                let dotRadius = shortLth * 0.5 - 1
-                //由外而内第二层的刻度的半径所占第一层的比例
-                let cssDot2Beishu = 0.7
-                //刻度值所占比例
-                //第一层刻度的高度和宽度
-                let dotHeight = shortLth * 0.05 + 'px'
-                let dotWidth = shortLth * 0.01 + 'px'
-                //第二层刻度的高度
-                let dotHeight2 = shortLth * 0.03 + 'px'
-                //第一层刻度的样式
+                let dotRadius = length * 0.5 //设置外层刻度的半径
+                let innerScale = this.innerScale //内层刻度占外层的比例
+                // 刻度的高度和宽度
+                let dotHeight = length * 0.03 + 'px'
+                let dotWidth = length * 0.01 + 'px'
+                // 外层刻度的样式
                 this.setStates('cssDot', {
                     transformOrigin: `${0}px ${dotRadius}px`,
                     height: dotHeight,
                     width: dotWidth,
                 })
-                //第二层刻度的样式
+                // 内层刻度的样式
                 this.setStates('cssDot2', {
-                    transformOrigin: `${0}px ${dotRadius * cssDot2Beishu}px`,
-                    height: dotHeight2,
+                    transformOrigin: `${0}px ${dotRadius * innerScale}px`,
+                    height: dotHeight,
                     width: dotWidth,
                 })
-                //设置第一层刻度所在区域的位置
+                //设置外层刻度所在区域的位置
                 this.setStates('cssDotWrap', {
-                    transform: `translateX(${shortLth * 0.5}px)`
+                    transform: `translateX(${length * 0.5}px)`
                 })
-                //设置第二层刻度所在区域的位置
+                //设置内刻度所在区域的位置
                 this.setStates('cssDotWrap2', {
-                    transform: `translate(${shortLth * 0.5}px,${shortLth * (1 - cssDot2Beishu) / 2}px)`
+                    transform: `translate(${length * 0.5}px,${length * (1 - innerScale) / 2}px)`
                 })
             },
             //获取表盘的刻度值
             getScaleValue (i) {
                 if (i != 6) {
-                    // return i >= 7 ? ((i - 7) / 10 * 2).toFixed(1) : ((i + 5) / 10 * 2).toFixed(1)
-                    return i >= 7 ? ((i - 7) / 10 * 2) : ((i + 5) / 10 * 2)
+                    return (i >= 7 ? ((i - 7) / 10) : ((i + 5) / 10)) * this.max
                 } else {
                     return ''
                 }
             },
             getWidth () { //获取指定容器的宽度
-                return this.ifHaveThisRefs('area') && this.getRef('area').offsetWidth
+                return this.getRef('area').offsetWidth || 200
             },
             getHeight () { //获取指定容器的高度
-                return this.ifHaveThisRefs('area') && this.getRef('area').offsetHeight
+                return this.getRef('area').offsetHeight || 200
             },
-            ifHaveThisRefs (ref) {
-                return this.$refs && this.$refs[ref]
+            getRef (ref) { // 获取指定 ref 对象
+                return this.$refs && this.$refs[ref] || {}
             },
-            getRef (ref) {
-                return this.$refs[ref]
-            },
-            //设置data中对象的值
+            //模仿 react 的states
             setStates (prop, data) {
                 let cache = this[prop]
                 this[prop] = Object.assign({}, cache, JSON.parse(JSON.stringify(data)))
             },
         },
         computed: {
-            gaugeArea () {//仪表盘的区域
+            gaugeArea () {// 仪表盘的区域的class
                 return `${this.prefixCss}gauge-area`
             },
-            gaugeCircle () {//仪表盘的圆环
+            gaugeCircle () {// 仪表盘的圆环的class
                 return `${this.prefixCss}gauge-circle`
             },
-            gaugeDot () {//仪表盘的中心点
-                return `${this.prefixCss}gauge-dot`
+            gaugeDot () {// 仪表盘的中心点的class
+                return `${this.prefixCss}gauge-center`
             },
-            gaugeBack () {//仪表盘的背景图
+            gaugeBack () {// 仪表盘的背景图的class
                 return `${this.prefixCss}gauge-back`
             },
-            gaugeNeedle () {//仪表盘的指针
+            gaugeNeedle () {// 仪表盘的指针的class
                 return `${this.prefixCss}gauge-needle`
             },
-            gaugeScaleVal () {//仪表盘刻度的读数
+            gaugeScaleVal () {// 仪表盘刻度的读数的class
                 return `${this.prefixCss}gauge-scale`
             },
-            getGaugeRotate () {//获取仪表盘的角度
-                return 150 * this.value - 150
+            getGaugeRotate () {// 获取仪表盘的角度
+                return (this.value / this.max * 100) * (360 / 120) - 150
             },
-            gaugeTitle () {//仪表盘的title
+            gaugeTitle () {// 仪表盘的title的class
                 return `${this.prefixCss}gauge-title`
             }
         },
