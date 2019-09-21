@@ -59,6 +59,7 @@
             position: absolute;
             left: 46%;
             bottom: 50%;
+            transition:all 0.5s ease-in-out;
             transform-origin: center bottom;
             background: url(https://jhcan333.github.io/can-Share/image/clock/hourPoint.png) no-repeat;
             background-size: 100% 100%;
@@ -132,12 +133,12 @@
                     <div :class="gaugeCircle"></div>
                     <div :class="gaugeDot"></div>
                 </div>
-                <div :class="gaugeTitle">仪表盘</div>
+                <div :class="gaugeTitle">仪表盘：{{value}}</div>
             </div>`,
         data () {
             return {
                 prefixCss: 'jhc-', // 所有 CSS 的前缀
-                value: 1.5, //当前默认value
+                value: 33, //当前默认value
                 max: 100, //当前刻度最大值
                 outerScale: 0.85, // 表盘整体占整个 div 元素的比例
                 innerScale: 0.75,// 内层刻度占外层的百分比
@@ -177,8 +178,8 @@
         mounted () {
             // 定时修改 value 值
             this.timer = setInterval(() => {
-                this.value = Math.random() * 100
-            }, 3000)
+                this.value = Math.ceil((Math.random() * 100))
+            }, 2 * 1000)
             //获取内层指示刻度的颜色
             this.getColorList()
             //设置仪表盘图的 size
