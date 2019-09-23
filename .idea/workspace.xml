@@ -20,7 +20,16 @@
         <entry file="file://$PROJECT_DIR$/js-tips/快速获取dom到body左侧和顶部的距离，简单粗暴无bug-getBoundingClientRect.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="890">
-              <caret line="161" lean-forward="true" selection-start-line="161" selection-end-line="161" />
+              <caret line="170" lean-forward="true" selection-start-line="170" selection-end-line="170" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nrmOrder.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev-tips/nrmOrder.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="11" lean-forward="true" selection-start-line="3" selection-end-line="4" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -208,6 +217,11 @@
             <path>
               <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
               <item name="can-Share" type="462c0819:PsiDirectoryNode" />
+              <item name="dev-tips" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="can-Share" type="462c0819:PsiDirectoryNode" />
               <item name="preview" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -315,12 +329,12 @@
       <workItem from="1568900129161" duration="1429000" />
       <workItem from="1568943440260" duration="893000" />
       <workItem from="1569057659618" duration="4893000" />
-      <workItem from="1569202116684" duration="2922000" />
+      <workItem from="1569202116684" duration="3799000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116370000" />
+    <option name="totallyTimeSpent" value="117247000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -352,13 +366,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css-tips/css兼容方案【hack写法】.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/filelist.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -663,10 +670,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dev-tips/nrmOrder.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="11" lean-forward="true" selection-start-line="3" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js-tips/快速获取dom到body左侧和顶部的距离，简单粗暴无bug-getBoundingClientRect.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="890">
-          <caret line="161" lean-forward="true" selection-start-line="161" selection-end-line="161" />
+          <caret line="170" lean-forward="true" selection-start-line="170" selection-end-line="170" />
         </state>
       </provider>
     </entry>

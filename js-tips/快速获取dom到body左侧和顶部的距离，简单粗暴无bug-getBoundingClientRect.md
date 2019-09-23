@@ -16,9 +16,18 @@ let domToBottom = dom.getBoundingClientRect().bottom // dom 的底边到视口�
 let domToRight = dom.getBoundingClientRect().right // dom 的右边到视口左边的距离
 ```
 
-不过有两点需要注意下：
+### 注意事项：
 1. 得到的值是相对于视口而言的，即如果页面的滚动位置发生变化，那么得到的top、left也会发生变化；如果需要计算到body边框的距离，需要再加上网页滚动条的长度。下面会给出完整例子。
 2. 这个方法返回的四个值都是相对于当前视口的左上角而言的。即top和bottom是dom的顶边和底边到视口的顶部的距离，同理left和right是相对于视口左边的距离。
+
+### 兼容性
+
+| 属性 | chrome | Edge | Firefox | IE | Opera | Safari |
+|----|----|----|----|----|----|----|
+| 基础属性：left、top、right、bottom|Yes|12|3|4|Yes|6|
+| height、width|Yes|Yes|3.5|9|Yes|Yes|
+| x、y|Yes|No|Yes|No|Yes|No|
+
 
 ## 2.计算到body左侧和顶部的距离
 因为 getBoundingClientRect 可以获取到视口边界的距离，所以得到的值加上滚动条的长度，就可以得到距离body边界的距离。
@@ -27,7 +36,7 @@ demo预览链接，方便大家查验效果 [预览链接](https://jhcan333.gith
 
 [github地址](https://github.com/JHCan333/can-Share/blob/master/js-tips/%E5%BF%AB%E9%80%9F%E8%8E%B7%E5%8F%96dom%E5%88%B0body%E5%B7%A6%E4%BE%A7%E5%92%8C%E9%A1%B6%E9%83%A8%E7%9A%84%E8%B7%9D%E7%A6%BB%EF%BC%8C%E7%AE%80%E5%8D%95%E7%B2%97%E6%9A%B4%E6%97%A0bug-getBoundingClientRect.md)
 
-实际使用时，直接利用 getScrollPosition 和 getDomToViewPosition这两个方法就好。帮到你的话，点个赞呗~
+实际使用时，直接使用 getScrollPosition 和 getDomToViewPosition这两个方法就好，其余的方法只是为了更好地展现。帮到你的话，点个赞呗~
 
 下面是完整代码：
 ```
