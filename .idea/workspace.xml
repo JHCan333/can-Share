@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00c786fa-9b44-4a14-891d-5b6e2f880132" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/preview/getBoundingClientRect.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js-tips/获取dom到window左侧和顶部的距离.md" beforeDir="false" afterPath="$PROJECT_DIR$/js-tips/快速获取dom到body左侧和顶部的距离，简单粗暴无bug-getBoundingClientRect.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js-tips/快速获取dom到body左侧和顶部的距离，简单粗暴无bug-getBoundingClientRect.md" beforeDir="false" afterPath="$PROJECT_DIR$/js-tips/快速获取dom到body左侧和顶部的距离，简单粗暴无bug-getBoundingClientRect.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,20 +16,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="快速获取dom到body左侧和顶部的距离，简单粗暴无bug-getBoundingClientRect.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="快速获取dom到body左侧和顶部的距离，简单粗暴无bug-getBoundingClientRect.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js-tips/快速获取dom到body左侧和顶部的距离，简单粗暴无bug-getBoundingClientRect.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+            <state relative-caret-position="890">
+              <caret line="159" lean-forward="true" selection-start-line="159" selection-end-line="159" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getBoundingClientRect.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="getBoundingClientRect.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/preview/getBoundingClientRect.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+            <state relative-caret-position="93">
+              <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -160,6 +158,7 @@
         <option value="$PROJECT_DIR$/css-tips/differencesOfThese.md" />
         <option value="$PROJECT_DIR$/browser-tips/config.js" />
         <option value="$PROJECT_DIR$/preview/getBoundingClientRect.html" />
+        <option value="$PROJECT_DIR$/js-tips/快速获取dom到body左侧和顶部的距离，简单粗暴无bug-getBoundingClientRect.md" />
       </list>
     </option>
   </component>
@@ -316,12 +315,12 @@
       <workItem from="1568900129161" duration="1429000" />
       <workItem from="1568943440260" duration="893000" />
       <workItem from="1569057659618" duration="4893000" />
-      <workItem from="1569202116684" duration="2341000" />
+      <workItem from="1569202116684" duration="2705000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115789000" />
+    <option name="totallyTimeSpent" value="116153000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -657,17 +656,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js-tips/快速获取dom到body左侧和顶部的距离，简单粗暴无bug-getBoundingClientRect.md">
+    <entry file="file://$PROJECT_DIR$/preview/getBoundingClientRect.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        <state relative-caret-position="93">
+          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/preview/getBoundingClientRect.html">
+    <entry file="file://$PROJECT_DIR$/js-tips/快速获取dom到body左侧和顶部的距离，简单粗暴无bug-getBoundingClientRect.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        <state relative-caret-position="890">
+          <caret line="159" lean-forward="true" selection-start-line="159" selection-end-line="159" />
         </state>
       </provider>
     </entry>
