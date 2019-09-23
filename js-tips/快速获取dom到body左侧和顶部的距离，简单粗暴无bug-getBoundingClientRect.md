@@ -25,7 +25,9 @@ let domToRight = dom.getBoundingClientRect().right // dom 的右边到视口左�
 
 demo预览链接，方便大家查验效果 [预览链接](https://jhcan333.github.io/can-Share/preview/getBoundingClientRect.html)
 
-实际使用时，直接利用 getScrollPosition 和 getDomToViewPosition这两个方法就好。
+[github地址](https://github.com/JHCan333/can-Share/blob/master/js-tips/%E5%BF%AB%E9%80%9F%E8%8E%B7%E5%8F%96dom%E5%88%B0body%E5%B7%A6%E4%BE%A7%E5%92%8C%E9%A1%B6%E9%83%A8%E7%9A%84%E8%B7%9D%E7%A6%BB%EF%BC%8C%E7%AE%80%E5%8D%95%E7%B2%97%E6%9A%B4%E6%97%A0bug-getBoundingClientRect.md)
+
+实际使用时，直接利用 getScrollPosition 和 getDomToViewPosition这两个方法就好。帮到你的话，点个赞呗~
 
 下面是完整代码：
 ```

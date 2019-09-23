@@ -20,7 +20,7 @@
         <entry file="file://$PROJECT_DIR$/js-tips/快速获取dom到body左侧和顶部的距离，简单粗暴无bug-getBoundingClientRect.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="890">
-              <caret line="159" lean-forward="true" selection-start-line="159" selection-end-line="159" />
+              <caret line="161" lean-forward="true" selection-start-line="161" selection-end-line="161" />
             </state>
           </provider>
         </entry>
@@ -29,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/preview/getBoundingClientRect.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="93">
-              <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+              <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -38,7 +38,7 @@
         <entry file="file://$PROJECT_DIR$/js-tips/js学习笔记[抄书之路] — event.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="748">
-              <caret line="83" column="6" lean-forward="true" selection-start-line="75" selection-start-column="4" selection-end-line="83" selection-end-column="6" />
+              <caret line="83" column="6" selection-start-line="75" selection-start-column="4" selection-end-line="83" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -315,12 +315,12 @@
       <workItem from="1568900129161" duration="1429000" />
       <workItem from="1568943440260" duration="893000" />
       <workItem from="1569057659618" duration="4893000" />
-      <workItem from="1569202116684" duration="2705000" />
+      <workItem from="1569202116684" duration="2922000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116153000" />
+    <option name="totallyTimeSpent" value="116370000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -652,21 +652,21 @@
     <entry file="file://$PROJECT_DIR$/js-tips/js学习笔记[抄书之路] — event.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
-          <caret line="83" column="6" lean-forward="true" selection-start-line="75" selection-start-column="4" selection-end-line="83" selection-end-column="6" />
+          <caret line="83" column="6" selection-start-line="75" selection-start-column="4" selection-end-line="83" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/preview/getBoundingClientRect.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="93">
-          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+          <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js-tips/快速获取dom到body左侧和顶部的距离，简单粗暴无bug-getBoundingClientRect.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="890">
-          <caret line="159" lean-forward="true" selection-start-line="159" selection-end-line="159" />
+          <caret line="161" lean-forward="true" selection-start-line="161" selection-end-line="161" />
         </state>
       </provider>
     </entry>
