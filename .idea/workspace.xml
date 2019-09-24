@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00c786fa-9b44-4a14-891d-5b6e2f880132" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/css/search_content.css" beforeDir="false" afterPath="$PROJECT_DIR$/home/css/search_content.css" afterDir="false" />
-    </list>
+    <list default="true" id="00c786fa-9b44-4a14-891d-5b6e2f880132" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -168,9 +165,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="7" />
     <option name="y" value="23" />
-    <option name="width" value="1673" />
+    <option name="width" value="1680" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -191,13 +187,13 @@
             <path>
               <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
               <item name="can-Share" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="image" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
               <item name="can-Share" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="image" type="462c0819:PsiDirectoryNode" />
+              <item name="CSS_Sprites" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -224,18 +220,19 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/image/ie6" />
-      <recent name="$PROJECT_DIR$/home/images" />
-      <recent name="$PROJECT_DIR$/image/clock" />
-      <recent name="$PROJECT_DIR$/image/other" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/image/clock" />
       <recent name="$PROJECT_DIR$/work-experience" />
       <recent name="$PROJECT_DIR$/san-tips" />
       <recent name="$PROJECT_DIR$/js-tips" />
       <recent name="$PROJECT_DIR$/basic-tips" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/image/CSS_Sprites" />
+      <recent name="$PROJECT_DIR$/image/ie6" />
+      <recent name="$PROJECT_DIR$/home/images" />
+      <recent name="$PROJECT_DIR$/image/clock" />
+      <recent name="$PROJECT_DIR$/image/other" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -305,12 +302,12 @@
       <workItem from="1568943440260" duration="893000" />
       <workItem from="1569057659618" duration="4893000" />
       <workItem from="1569202116684" duration="5142000" />
-      <workItem from="1569246084183" duration="858000" />
+      <workItem from="1569246084183" duration="1241000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119448000" />
+    <option name="totallyTimeSpent" value="119831000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
