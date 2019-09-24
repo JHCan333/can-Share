@@ -247,10 +247,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.sprites.html">
     <configuration name="getBoundingClientRect.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/can-Share/preview/getBoundingClientRect.html" />
+    <configuration name="icon-font.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/can-Share/preview/cssSpritesAndIconFont/icon-font.html" />
+    <configuration name="sprites.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/can-Share/preview/cssSpritesAndIconFont/sprites.html" />
+    <list>
+      <item itemvalue="JavaScript Debug.getBoundingClientRect.html" />
+      <item itemvalue="JavaScript Debug.icon-font.html" />
+      <item itemvalue="JavaScript Debug.sprites.html" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.sprites.html" />
+        <item itemvalue="JavaScript Debug.icon-font.html" />
         <item itemvalue="JavaScript Debug.getBoundingClientRect.html" />
       </list>
     </recent_temporary>
@@ -302,16 +311,15 @@
       <workItem from="1568943440260" duration="893000" />
       <workItem from="1569057659618" duration="4893000" />
       <workItem from="1569202116684" duration="5142000" />
-      <workItem from="1569246084183" duration="1241000" />
+      <workItem from="1569246084183" duration="1599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119831000" />
+    <option name="totallyTimeSpent" value="120189000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17239301" />
       <window_info anchor="bottom" id="TODO" order="6" />

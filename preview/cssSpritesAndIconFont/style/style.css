@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'demo';
+    src: url('fonts/demo.eot?9ruqhl');
+    src: url('fonts/demo.eot?9ruqhl#iefix') format('embedded-opentype'),
+    url('fonts/demo.ttf?9ruqhl') format('truetype'),
+    url('fonts/demo.woff?9ruqhl') format('woff'),
+    url('fonts/demo.svg?9ruqhl#demo') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'demo' !important;
+    speak: none;
+}
+
+.icon-close:before {
+    content: "\e900";
+}
+
+.icon-help:before {
+    content: "\e901";
+}
+
+.icon-lock:before {
+    content: "\e902";
+}
+
+.icon-lock2:before {
+    content: "\e903";
+}
+
+.icon-minimize:before {
+    content: "\e904";
+}
+
+.icon-more:before {
+    content: "\e905";
+}
+
+.icon-network:before {
+    content: "\e906";
+}
+
+.icon-network-break:before {
+    content: "\e907";
+}
+
+.icon-question:before {
+    content: "\e908";
+}
+
+.icon-sign-out:before {
+    content: "\e909";
+}
+
+.icon-usb:before {
+    content: "\e90a";
+}
+
+.icon-usb-break:before {
+    content: "\e90b";
+}
+
+.icon-user-info:before {
+    content: "\e90c";
+}
+
+.icon-home:before {
+    content: "\e90d";
+}
+
+.icon-init-complete:before {
+    content: "\e90e";
+}
+
+.icon-init-set-password:before {
+    content: "\e90f";
+}
+
+.icon-init-setting:before {
+    content: "\e910";
+}
+
+.icon-init-user-info:before {
+    content: "\e911";
+}

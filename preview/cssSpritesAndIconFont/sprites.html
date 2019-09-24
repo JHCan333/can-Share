@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .common {
+            width: 11px;
+            height: 14px;
+            background-image: url("./images/sprites.png");
+            background-repeat: no-repeat;
+        }
+
+        .test1 {
+            background-position: 0px 0px;
+        }
+
+        .test2 {
+            background-position: -26px 0px;
+        }
+
+        .line div {
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+<div class="line">
+    <div>test1</div><div class="common test1"></div>
+</div>
+<div class="line">
+    <div>test2</div><div class="common test2"></div>
+</div>
+</body>
+</html>
