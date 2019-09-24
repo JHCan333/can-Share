@@ -11,7 +11,7 @@
 }
 
 /* 搜索区的outline清除 */
-.home_body *,.home_body *:focus {
+.home_body *, .home_body *:focus {
     outline: 0px !important;
 }
 
@@ -29,9 +29,9 @@
 }
 
 /* input 边框样式设置 */
-.home_search_box .form-control:focus{
+.home_search_box .form-control:focus {
     border-color: #95a3c8;
-    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(5, 1, 4, 0.37);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(5, 1, 4, 0.37);
 }
 
 /* 重写搜索框的圆角 */
@@ -40,29 +40,29 @@
     border-bottom-left-radius: 20px;
 }
 
-.home_search_box .btn{
+.home_search_box .btn {
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-    width:100%;
+    width: 100%;
     background-color: #95a3c8;
     border-color: #95a3c8;
-    color:#fff;
+    color: #fff;
 }
 
 .home_search_box .btn:hover,
 .home_search_box .btn:active:hover,
 .home_search_box .btn:focus,
-.home_search_box .btn:active{
+.home_search_box .btn:active {
     background-color: #95a3c8;
     border-color: #95a3c8;
-    color:#fff;
+    color: #fff;
 }
 
-.home_search_box .input-group-btn{
-    width:15%;
+.home_search_box .input-group-btn {
+    width: 15%;
 }
 
-#home_search_group{
+#home_search_group {
     opacity: 0.7;
     transition: opacity 0.35s;
 }
@@ -73,10 +73,10 @@
 }
 
 /* 搜索框遮罩层 css */
-.home_search_box_mask_layer{
-   position:absolute;
-    width:100%;
-    height:100%;
+.home_search_box_mask_layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
     background-color: #fff;
     opacity: 0.4;
 }
@@ -86,7 +86,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(#f5efc8 30%,#fbfaf7);
+    background: linear-gradient(#f5efc8 30%, #fbfaf7);
 }
 
 /* 搜索条件列表 */
@@ -118,22 +118,21 @@
 .home_search_condition_group .btn {
     border-radius: 4px;
     font-size: 16px;
-    padding:4px 10px;
+    padding: 4px 10px;
 }
 
-.home_search_condition_selected .jhc_search_type_btn{
+.home_search_condition_selected .jhc_search_type_btn {
     background-color: #95a3c8 !important;
     border-color: #95a3c8 !important;
-    color:#fff !important;
+    color: #fff !important;
 }
 
-.jhc_search_type_btn{
+.jhc_search_type_btn {
     background-color: transparent !important;
     border-color: transparent !important;
-    color:#585c68 !important;
+    color: #585c68 !important;
     cursor: unset !important;
 }
-
 
 /* 搜索标签的样式 */
 .home_search_item {
@@ -156,6 +155,7 @@
     justify-content: center;
     max-height: calc(100% - 440px);
     overflow-y: scroll;
+    padding-top: 10px;
 }
 
 /* 搜索结果列表 */
@@ -164,15 +164,15 @@
 }
 
 /* 右上角链接按钮组 */
-.jhc_btn_group{
+.jhc_btn_group {
     position: absolute;
-    right:15px;
-    top:10px;
+    right: 15px;
+    top: 10px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width:70px;
-    height:35px;
+    width: 70px;
+    height: 35px;
     border-radius: 20px;
     background-color: #95a3c8;
 }
@@ -186,8 +186,8 @@
 }
 
 .jhc_link_btn {
-    width:24px;
-    height:24px;
+    width: 24px;
+    height: 24px;
     display: inline-block;
     background-repeat: no-repeat;
     background-position: center center;

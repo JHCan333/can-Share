@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00c786fa-9b44-4a14-891d-5b6e2f880132" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/js-tips/快速获取dom到body左侧和顶部的距离，简单粗暴无bug-getBoundingClientRect.md" beforeDir="false" afterPath="$PROJECT_DIR$/js-tips/快速获取dom到body左侧和顶部的距离，简单粗暴无bug-getBoundingClientRect.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/css/search_content.css" beforeDir="false" afterPath="$PROJECT_DIR$/home/css/search_content.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,39 +16,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="快速获取dom到body左侧和顶部的距离，简单粗暴无bug-getBoundingClientRect.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js-tips/快速获取dom到body左侧和顶部的距离，简单粗暴无bug-getBoundingClientRect.md">
+    <leaf>
+      <file leaf-file-name="search_content.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/home/css/search_content.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="890">
-              <caret line="170" lean-forward="true" selection-start-line="170" selection-end-line="170" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nrmOrder.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev-tips/nrmOrder.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="11" lean-forward="true" selection-start-line="3" selection-end-line="4" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="getBoundingClientRect.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/preview/getBoundingClientRect.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="js学习笔记[抄书之路] — event.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js-tips/js学习笔记[抄书之路] — event.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="83" column="6" selection-start-line="75" selection-start-column="4" selection-end-line="83" selection-end-column="6" />
+            <state relative-caret-position="309">
+              <caret line="157" column="22" lean-forward="true" selection-start-line="157" selection-start-column="22" selection-end-line="157" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -154,7 +128,6 @@
         <option value="$PROJECT_DIR$/home/css/common.css" />
         <option value="$PROJECT_DIR$/home/css/login.css" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/home/css/search_content.css" />
         <option value="$PROJECT_DIR$/home/js/common.js" />
         <option value="$PROJECT_DIR$/home/css/content.css" />
         <option value="$PROJECT_DIR$/js-tips/js防抖和节流.md" />
@@ -168,6 +141,7 @@
         <option value="$PROJECT_DIR$/browser-tips/config.js" />
         <option value="$PROJECT_DIR$/preview/getBoundingClientRect.html" />
         <option value="$PROJECT_DIR$/js-tips/快速获取dom到body左侧和顶部的距离，简单粗暴无bug-getBoundingClientRect.md" />
+        <option value="$PROJECT_DIR$/home/css/search_content.css" />
       </list>
     </option>
   </component>
@@ -217,12 +191,13 @@
             <path>
               <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
               <item name="can-Share" type="462c0819:PsiDirectoryNode" />
-              <item name="dev-tips" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
               <item name="can-Share" type="462c0819:PsiDirectoryNode" />
-              <item name="preview" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -329,12 +304,13 @@
       <workItem from="1568900129161" duration="1429000" />
       <workItem from="1568943440260" duration="893000" />
       <workItem from="1569057659618" duration="4893000" />
-      <workItem from="1569202116684" duration="3799000" />
+      <workItem from="1569202116684" duration="5142000" />
+      <workItem from="1569246084183" duration="858000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117247000" />
+    <option name="totallyTimeSpent" value="119448000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -421,12 +397,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/home/bootStrap/css/bootstrap.css.map">
-      <provider editor-type-id="sourcemapFileViewerProvider" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="649">
           <caret column="133970" selection-start-column="133965" selection-end-column="133970" />
         </state>
       </provider>
+      <provider editor-type-id="sourcemapFileViewerProvider" />
     </entry>
     <entry file="file://$PROJECT_DIR$/http-tips/三次握手和四次挥手的详细介绍.md">
       <provider selected="true" editor-type-id="text-editor">
@@ -453,13 +429,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3135">
           <caret line="214" selection-start-line="214" selection-end-line="214" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/css/search_content.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="88" column="24" selection-start-line="88" selection-start-column="24" selection-end-line="88" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -679,8 +648,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js-tips/快速获取dom到body左侧和顶部的距离，简单粗暴无bug-getBoundingClientRect.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="890">
-          <caret line="170" lean-forward="true" selection-start-line="170" selection-end-line="170" />
+        <state relative-caret-position="313">
+          <caret line="131" column="5" lean-forward="true" selection-start-line="131" selection-start-column="5" selection-end-line="131" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/css/search_content.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="157" column="22" lean-forward="true" selection-start-line="157" selection-start-column="22" selection-end-line="157" selection-end-column="22" />
         </state>
       </provider>
     </entry>
