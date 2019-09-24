@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00c786fa-9b44-4a14-891d-5b6e2f880132" name="Default" comment="" />
+    <list default="true" id="00c786fa-9b44-4a14-891d-5b6e2f880132" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/css-tips/css雪碧图（精灵图）与字体图标的介绍以及对比.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/browser-tips/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/browser-tips/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css-tips/CSS精灵图（雪碧图）介绍.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css-tips/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/css-tips/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preview/cssSpritesAndIconFont/sprites.html" beforeDir="false" afterPath="$PROJECT_DIR$/preview/cssSpritesAndIconFont/sprites.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -14,11 +21,62 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="search_content.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="search_content.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/css/search_content.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="157" column="22" lean-forward="true" selection-start-line="157" selection-start-column="22" selection-end-line="157" selection-end-column="22" />
+            <state relative-caret-position="429">
+              <caret line="165" column="14" lean-forward="true" selection-start-line="165" selection-start-column="14" selection-end-line="165" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sprites.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/preview/cssSpritesAndIconFont/images/sprites.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="icon-font.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/preview/cssSpritesAndIconFont/icon-font.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/preview/cssSpritesAndIconFont/style/style.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="sprites.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/preview/cssSpritesAndIconFont/sprites.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="120" selection-start-line="9" selection-start-column="120" selection-end-line="9" selection-end-column="120" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="css雪碧图（精灵图）与字体图标的介绍以及对比.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css-tips/css雪碧图（精灵图）与字体图标的介绍以及对比.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basic-tips/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/browser-tips/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -135,10 +193,12 @@
         <option value="$PROJECT_DIR$/demos-tips/gaugeDemo.html" />
         <option value="$PROJECT_DIR$/css-tips/ie6下css碰到的坑.md" />
         <option value="$PROJECT_DIR$/css-tips/differencesOfThese.md" />
-        <option value="$PROJECT_DIR$/browser-tips/config.js" />
         <option value="$PROJECT_DIR$/preview/getBoundingClientRect.html" />
         <option value="$PROJECT_DIR$/js-tips/快速获取dom到body左侧和顶部的距离，简单粗暴无bug-getBoundingClientRect.md" />
         <option value="$PROJECT_DIR$/home/css/search_content.css" />
+        <option value="$PROJECT_DIR$/preview/cssSpritesAndIconFont/sprites.html" />
+        <option value="$PROJECT_DIR$/css-tips/CSS精灵图（雪碧图）介绍.md" />
+        <option value="$PROJECT_DIR$/browser-tips/config.js" />
       </list>
     </option>
   </component>
@@ -187,13 +247,37 @@
             <path>
               <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
               <item name="can-Share" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
+              <item name="basic-tips" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
               <item name="can-Share" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
-              <item name="CSS_Sprites" type="462c0819:PsiDirectoryNode" />
+              <item name="browser-tips" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="can-Share" type="462c0819:PsiDirectoryNode" />
+              <item name="preview" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="can-Share" type="462c0819:PsiDirectoryNode" />
+              <item name="preview" type="462c0819:PsiDirectoryNode" />
+              <item name="cssSpritesAndIconFont" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="can-Share" type="462c0819:PsiDirectoryNode" />
+              <item name="preview" type="462c0819:PsiDirectoryNode" />
+              <item name="cssSpritesAndIconFont" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="can-Share" type="462c0819:PsiDirectoryNode" />
+              <item name="preview" type="462c0819:PsiDirectoryNode" />
+              <item name="cssSpritesAndIconFont" type="462c0819:PsiDirectoryNode" />
+              <item name="style" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -228,11 +312,11 @@
       <recent name="$PROJECT_DIR$/basic-tips" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/preview/cssSpritesAndIconFont" />
       <recent name="$PROJECT_DIR$/image/CSS_Sprites" />
       <recent name="$PROJECT_DIR$/image/ie6" />
       <recent name="$PROJECT_DIR$/home/images" />
       <recent name="$PROJECT_DIR$/image/clock" />
-      <recent name="$PROJECT_DIR$/image/other" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -311,15 +395,16 @@
       <workItem from="1568943440260" duration="893000" />
       <workItem from="1569057659618" duration="4893000" />
       <workItem from="1569202116684" duration="5142000" />
-      <workItem from="1569246084183" duration="1599000" />
+      <workItem from="1569246084183" duration="2377000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120189000" />
+    <option name="totallyTimeSpent" value="120967000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17239301" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -347,29 +432,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/filelist.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="49" lean-forward="true" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic-tips/a.md" />
-    <entry file="file://$PROJECT_DIR$/home/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic-tips/测试驱动开发概念介绍.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="23" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log2019年9月4日 16:11:16.txt" />
     <entry file="file://$PROJECT_DIR$/articleList.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -519,13 +581,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic-tips/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database-tips/config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -551,13 +606,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/browser-tips/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -660,8 +708,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/home/css/search_content.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="157" column="22" lean-forward="true" selection-start-line="157" selection-start-column="22" selection-end-line="157" selection-end-column="22" />
+        <state relative-caret-position="429">
+          <caret line="165" column="14" lean-forward="true" selection-start-line="165" selection-start-column="14" selection-end-line="165" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preview/cssSpritesAndIconFont/images/sprites.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preview/cssSpritesAndIconFont/icon-font.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preview/cssSpritesAndIconFont/style/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preview/cssSpritesAndIconFont/sprites.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="120" selection-start-line="9" selection-start-column="120" selection-end-line="9" selection-end-column="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-tips/css雪碧图（精灵图）与字体图标的介绍以及对比.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic-tips/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/browser-tips/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
         </state>
       </provider>
     </entry>
