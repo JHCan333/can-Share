@@ -8,6 +8,26 @@
 var fs = require('fs')
 var path = require('path')
 
+// module的文件夹和name对应关系
+var moduleNameMap = {
+    'basic-tips':'基础知识',
+    'browser-tips':'浏览器',
+    'css-tips':'css',
+    'database-tips':'数据库',
+    'demos-tips':'demo',
+    'dev-tips':'开发经验',
+    'form-tips':'表单',
+    'http-tips':'http',
+    'js-tips':'javaScript',
+    "mobile-tips":'移动端',
+    'optimizing-tips':'性能',
+    'react-tips':'React',
+    'safe-tips':'前端安全',
+    'san-tips':'San',
+    'vue-tips':'Vue',
+    'work-experience-tips':'工作经验'
+}
+
 //解析需要遍历的文件夹，我这以E盘根目录为例
 var filePath = path.resolve('../can-Share')
 // 文章列表
@@ -70,7 +90,6 @@ function fileDisplay (filePath, lastDir) {
                             if (ifList) {
                                 var historyData = getLastConfig(lastDir)
                                 var {moduleName} = historyData
-                                console.log(lastDir, title)
                                 var {finishExtent, tags} = historyData[title]
                                 articleList.push({
                                     title,
@@ -107,22 +126,11 @@ function fileDisplay (filePath, lastDir) {
     })
 }
 
-// var a = {
-//     title: '互联网行业常用术语',
-//     moduleKey: 'basic-tips',
-//     imgSrc: 'home/images/road.jpg',
-//     articleUrl: '互联网行业常用术语.md',
-//     moduleName: '',
-//     tags: [''],
-//     finishExtent: ''
-// }
-
 // 写入到 articleList.js 文件
 function writeArticleList (data) {
     var data = 'var articleList = ' + JSON.stringify(data)
     fs.writeFile(filePath + '/' + 'articleList.js', data + '\n', function (err) {
         if (err) throw err
-        // console.log("写入成功");
     })
 }
 
@@ -132,7 +140,12 @@ function createConfigFile (modulePath, list) {
     logList.push('\n configPath：\n')
     logList.push(configPath)
     recordLog(logList)
-    var historyData = getLastConfig(modulePath)
+    var historyData = {}
+   try{
+       historyData = getLastConfig(modulePath)
+   } catch (e) {
+       
+   }
     logList.push('\n historyData: \n')
     logList.push(historyData)
     recordLog(logList)
@@ -143,14 +156,13 @@ function createConfigFile (modulePath, list) {
             finishExtent: 1 // 完成情况 0：未完成；1：已完成；2：初步完成，待完善
         }
     })
-    data['moduleName'] = historyData['moduleName'] || ''
+    data['moduleName'] = moduleNameMap[modulePath] || ''
     data = 'var config = ' + JSON.stringify(data) + ';\n' + 'module.exports = config;'
     logList.push('\n data: \n')
     logList.push(data)
     recordLog(logList)
     fs.writeFile(configPath, data + '\n', function (err) {
         if (err) throw err
-        // console.log("写入成功");
     })
 }
 
