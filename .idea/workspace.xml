@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00c786fa-9b44-4a14-891d-5b6e2f880132" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/js-tips/js开发技巧.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev-tips/vant组件使用经验.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -43,11 +43,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="js开发技巧.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="js开发技巧.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js-tips/js开发技巧.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
               <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vant组件使用经验.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dev-tips/vant组件使用经验.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="108" selection-start-line="4" selection-start-column="108" selection-end-line="4" selection-end-column="108" />
             </state>
           </provider>
         </entry>
@@ -147,7 +156,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/clockDemo.html" />
         <option value="$PROJECT_DIR$/gaugeDemo.html" />
         <option value="$PROJECT_DIR$/前端安全问题及解决方法.md" />
         <option value="$PROJECT_DIR$/http-tips/三次握手和四次挥手的详细介绍.md" />
@@ -198,6 +206,7 @@
         <option value="$PROJECT_DIR$/mobile-tips/安卓SDK的环境配置流程.md" />
         <option value="$PROJECT_DIR$/mobile-tips/配置Java SDK.md" />
         <option value="$PROJECT_DIR$/js-tips/js开发技巧.md" />
+        <option value="$PROJECT_DIR$/dev-tips/vant组件使用经验.md" />
       </list>
     </option>
   </component>
@@ -248,7 +257,7 @@
             <path>
               <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
               <item name="can-Share" type="462c0819:PsiDirectoryNode" />
-              <item name="js-tips" type="462c0819:PsiDirectoryNode" />
+              <item name="dev-tips" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -381,12 +390,12 @@
       <workItem from="1570670555983" duration="535000" />
       <workItem from="1570757705864" duration="9000" />
       <workItem from="1571128614788" duration="574000" />
-      <workItem from="1571189412746" duration="3630000" />
+      <workItem from="1571189412746" duration="3954000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133001000" />
+    <option name="totallyTimeSpent" value="133325000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -418,13 +427,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js-tips/js防抖和节流.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js-tips/捕获右键粘贴事件.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -720,6 +722,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev-tips/vant组件使用经验.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="108" selection-start-line="4" selection-start-column="108" selection-end-line="4" selection-end-column="108" />
         </state>
       </provider>
     </entry>
