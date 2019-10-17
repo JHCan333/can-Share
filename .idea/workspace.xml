@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00c786fa-9b44-4a14-891d-5b6e2f880132" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-tips/安卓SDK的环境配置流程.md" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-tips/安卓SDK的环境配置流程.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,17 +19,17 @@
       <file leaf-file-name="createFileList.js" pinned="true" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/createFileList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1440">
+            <state>
               <caret line="96" column="42" selection-start-line="96" selection-start-column="36" selection-end-line="96" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="安卓SDK的环境配置流程.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="安卓SDK的环境配置流程.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mobile-tips/安卓SDK的环境配置流程.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+            <state relative-caret-position="600">
+              <caret line="40" column="62" selection-start-line="40" selection-start-column="62" selection-end-line="40" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -52,7 +52,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vant组件使用经验.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="vant组件使用经验.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mobile-tips/vant组件使用经验.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -203,10 +203,10 @@
         <option value="$PROJECT_DIR$/articleList.js" />
         <option value="$PROJECT_DIR$/basic-tips/config.js" />
         <option value="$PROJECT_DIR$/createFileList.js" />
-        <option value="$PROJECT_DIR$/mobile-tips/安卓SDK的环境配置流程.md" />
         <option value="$PROJECT_DIR$/mobile-tips/配置Java SDK.md" />
         <option value="$PROJECT_DIR$/js-tips/js开发技巧.md" />
         <option value="$PROJECT_DIR$/dev-tips/vant组件使用经验.md" />
+        <option value="$PROJECT_DIR$/mobile-tips/安卓SDK的环境配置流程.md" />
       </list>
     </option>
   </component>
@@ -257,6 +257,23 @@
               <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
               <item name="can-Share" type="462c0819:PsiDirectoryNode" />
               <item name="image" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="can-Share" type="462c0819:PsiDirectoryNode" />
+              <item name="image" type="462c0819:PsiDirectoryNode" />
+              <item name="CSS_Sprites" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="can-Share" type="462c0819:PsiDirectoryNode" />
+              <item name="image" type="462c0819:PsiDirectoryNode" />
+              <item name="other" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="can-Share" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile-tips" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -391,15 +408,16 @@
       <workItem from="1570757705864" duration="9000" />
       <workItem from="1571128614788" duration="574000" />
       <workItem from="1571189412746" duration="4220000" />
-      <workItem from="1571276148472" duration="406000" />
+      <workItem from="1571276148472" duration="788000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133997000" />
+    <option name="totallyTimeSpent" value="134379000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16094032" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -427,9 +445,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/image/ie6/404.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/http-tips/socket 是什么.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -692,15 +707,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/createFileList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
+        <state>
           <caret line="96" column="42" selection-start-line="96" selection-start-column="36" selection-end-line="96" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile-tips/安卓SDK的环境配置流程.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -719,10 +727,20 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev-tips/vant组件使用经验.md" />
+    <entry file="file://$PROJECT_DIR$/image/CSS_Sprites/sprites.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/mobile-tips/vant组件使用经验.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile-tips/安卓SDK的环境配置流程.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="62" selection-start-line="40" selection-start-column="62" selection-end-line="40" selection-end-column="62" />
         </state>
       </provider>
     </entry>
