@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00c786fa-9b44-4a14-891d-5b6e2f880132" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/js-tips/js原型常用扩展方法.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -39,16 +38,16 @@
         <entry file="file://$PROJECT_DIR$/css-tips/css小技能总结.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
-              <caret line="26" column="6" lean-forward="true" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+              <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="js原型常用扩展方法.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js-tips/js原型常用扩展方法.md">
+      <file leaf-file-name="ie浏览器的坑.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/browser-tips/ie浏览器的坑.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="890">
-              <caret line="156" lean-forward="true" selection-start-line="156" selection-end-line="156" />
+            <state relative-caret-position="150">
+              <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -252,9 +251,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="26" />
     <option name="y" value="23" />
-    <option name="width" value="1673" />
+    <option name="width" value="1680" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -276,7 +274,12 @@
             <path>
               <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
               <item name="can-Share" type="462c0819:PsiDirectoryNode" />
-              <item name="js-tips" type="462c0819:PsiDirectoryNode" />
+              <item name="image" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="can-Share" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile-tips" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -411,16 +414,20 @@
       <workItem from="1571128614788" duration="574000" />
       <workItem from="1571189412746" duration="4220000" />
       <workItem from="1571276148472" duration="1779000" />
-      <workItem from="1571362892203" duration="1183000" />
+      <workItem from="1571362892203" duration="1481000" />
+      <workItem from="1571471716114" duration="242000" />
+      <workItem from="1571621973678" duration="280000" />
+      <workItem from="1571707570584" duration="303000" />
+      <workItem from="1571884044046" duration="591000" />
+      <workItem from="1571972810939" duration="447000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136553000" />
+    <option name="totallyTimeSpent" value="138714000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15792646" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -448,9 +455,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev-tips/关于mock.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -737,17 +741,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css-tips/css小技能总结.md">
+    <entry file="file://$PROJECT_DIR$/js-tips/js原型常用扩展方法.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="6" lean-forward="true" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+        <state relative-caret-position="830">
+          <caret line="156" selection-start-line="156" selection-end-line="156" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js-tips/js原型常用扩展方法.md">
+    <entry file="file://$PROJECT_DIR$/css-tips/css小技能总结.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="890">
-          <caret line="156" lean-forward="true" selection-start-line="156" selection-end-line="156" />
+        <state relative-caret-position="390">
+          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/browser-tips/ie浏览器的坑.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
         </state>
       </provider>
     </entry>
