@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00c786fa-9b44-4a14-891d-5b6e2f880132" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/mobile-tips/Xcode开发时碰到的问题.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile-tips/移动端开发经验（持续更新）.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -53,11 +53,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Xcode开发时碰到的问题.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Xcode开发时碰到的问题.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mobile-tips/Xcode开发时碰到的问题.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="移动端开发经验（持续更新）.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mobile-tips/移动端开发经验（持续更新）.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="89" selection-start-line="4" selection-start-column="89" selection-end-line="4" selection-end-column="89" />
             </state>
           </provider>
         </entry>
@@ -94,15 +103,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic-tips/config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -175,7 +175,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/js-tips/toLowerCase 和 toLocaleLowerCase 的区别.md" />
         <option value="$PROJECT_DIR$/work-experience/看不到的捣蛋鬼---Zero Width Space.md" />
         <option value="$PROJECT_DIR$/home/js/articleData.js" />
         <option value="$PROJECT_DIR$/home/js/main.js" />
@@ -226,6 +225,7 @@
         <option value="$PROJECT_DIR$/css-tips/css小技能总结.md" />
         <option value="$PROJECT_DIR$/js-tips/js原型常用扩展方法.md" />
         <option value="$PROJECT_DIR$/mobile-tips/Xcode开发时碰到的问题.md" />
+        <option value="$PROJECT_DIR$/mobile-tips/移动端开发经验（持续更新）.md" />
       </list>
     </option>
   </component>
@@ -420,12 +420,16 @@
       <workItem from="1571621973678" duration="280000" />
       <workItem from="1571707570584" duration="303000" />
       <workItem from="1571884044046" duration="591000" />
-      <workItem from="1571972810939" duration="1051000" />
+      <workItem from="1571972810939" duration="1157000" />
+      <workItem from="1572229635977" duration="435000" />
+      <workItem from="1572312034482" duration="505000" />
+      <workItem from="1572402006696" duration="405000" />
+      <workItem from="1572485964402" duration="619000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139318000" />
+    <option name="totallyTimeSpent" value="141388000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -435,12 +439,12 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -457,13 +461,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/demos-tips/clockDemo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2444">
-          <caret line="230" column="67" lean-forward="true" selection-start-line="230" selection-start-column="67" selection-end-line="230" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/image/clock/gaugePreview.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -760,7 +757,14 @@
     <entry file="file://$PROJECT_DIR$/mobile-tips/Xcode开发时碰到的问题.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile-tips/移动端开发经验（持续更新）.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="89" selection-start-line="4" selection-start-column="89" selection-end-line="4" selection-end-column="89" />
         </state>
       </provider>
     </entry>
