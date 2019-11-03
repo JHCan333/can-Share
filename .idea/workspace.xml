@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00c786fa-9b44-4a14-891d-5b6e2f880132" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/mobile-tips/移动端开发经验（持续更新）.md" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-tips/移动端开发经验（持续更新）.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money-tips/各种投资产品的整理分析（持续更新）.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/createFileList.js" beforeDir="false" afterPath="$PROJECT_DIR$/createFileList.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,91 +21,75 @@
       <file leaf-file-name="createFileList.js" pinned="true" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/createFileList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1440">
-              <caret line="96" column="42" selection-start-line="96" selection-start-column="36" selection-end-line="96" selection-end-column="42" />
+            <state relative-caret-position="404">
+              <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="安卓SDK的环境配置流程.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobile-tips/安卓SDK的环境配置流程.md">
+      <file leaf-file-name="各种投资产品的整理分析（持续更新）.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/money-tips/各种投资产品的整理分析（持续更新）.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" column="62" selection-start-line="40" selection-start-column="62" selection-end-line="40" selection-end-column="62" />
+            <state relative-caret-position="470">
+              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="css小技能总结.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css-tips/css小技能总结.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
-            </state>
-          </provider>
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev-tips/config.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="ie浏览器的坑.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/browser-tips/ie浏览器的坑.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-            </state>
-          </provider>
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demos-tips/config.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="Xcode开发时碰到的问题.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobile-tips/Xcode开发时碰到的问题.md">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+              <caret line="9" column="11" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="移动端开发经验（持续更新）.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mobile-tips/移动端开发经验（持续更新）.md">
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/optimizing-tips/config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+            <state>
+              <caret column="110" selection-start-column="110" selection-end-column="110" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="配置Java SDK.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobile-tips/配置Java SDK.md">
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/san-tips/config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+            <state>
+              <caret column="143" selection-start-column="143" selection-end-column="143" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="js开发技巧.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js-tips/js开发技巧.md">
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vue-tips/config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state>
+              <caret column="84" selection-start-column="84" selection-end-column="84" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vant组件使用经验.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobile-tips/vant组件使用经验.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-            </state>
-          </provider>
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/work-experience-tips/config.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="articleList.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/articleList.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basic-tips/config.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -119,7 +105,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>writeArticleList</find>
       <find>createConfigFile</find>
       <find>eror</find>
       <find>writeFile</find>
@@ -149,6 +134,7 @@
       <find>historyData</find>
       <find>RCS</find>
       <find>console.log</find>
+      <find>recordLog</find>
     </findStrings>
     <replaceStrings>
       <replace>.jhc</replace>
@@ -174,7 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/work-experience/看不到的捣蛋鬼---Zero Width Space.md" />
         <option value="$PROJECT_DIR$/home/js/articleData.js" />
         <option value="$PROJECT_DIR$/home/js/main.js" />
         <option value="$PROJECT_DIR$/basic-tips/测试驱动开发概念介绍.md" />
@@ -216,7 +201,6 @@
         <option value="$PROJECT_DIR$/http-tips/域名访问和ip访问区别.md" />
         <option value="$PROJECT_DIR$/articleList.js" />
         <option value="$PROJECT_DIR$/basic-tips/config.js" />
-        <option value="$PROJECT_DIR$/createFileList.js" />
         <option value="$PROJECT_DIR$/mobile-tips/配置Java SDK.md" />
         <option value="$PROJECT_DIR$/js-tips/js开发技巧.md" />
         <option value="$PROJECT_DIR$/dev-tips/vant组件使用经验.md" />
@@ -225,6 +209,8 @@
         <option value="$PROJECT_DIR$/js-tips/js原型常用扩展方法.md" />
         <option value="$PROJECT_DIR$/mobile-tips/Xcode开发时碰到的问题.md" />
         <option value="$PROJECT_DIR$/mobile-tips/移动端开发经验（持续更新）.md" />
+        <option value="$PROJECT_DIR$/createFileList.js" />
+        <option value="$PROJECT_DIR$/money-tips/各种投资产品的整理分析（持续更新）.md" />
       </list>
     </option>
   </component>
@@ -251,9 +237,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="1027" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -274,12 +259,87 @@
             <path>
               <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
               <item name="can-Share" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
+              <item name="basic-tips" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="can-Share" type="462c0819:PsiDirectoryNode" />
+              <item name="browser-tips" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="can-Share" type="462c0819:PsiDirectoryNode" />
+              <item name="css-tips" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="can-Share" type="462c0819:PsiDirectoryNode" />
+              <item name="database-tips" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="can-Share" type="462c0819:PsiDirectoryNode" />
+              <item name="demos-tips" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="can-Share" type="462c0819:PsiDirectoryNode" />
+              <item name="dev-tips" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="can-Share" type="462c0819:PsiDirectoryNode" />
+              <item name="form-tips" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="can-Share" type="462c0819:PsiDirectoryNode" />
+              <item name="http-tips" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="can-Share" type="462c0819:PsiDirectoryNode" />
+              <item name="js-tips" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
               <item name="can-Share" type="462c0819:PsiDirectoryNode" />
               <item name="mobile-tips" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="can-Share" type="462c0819:PsiDirectoryNode" />
+              <item name="money-tips" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="can-Share" type="462c0819:PsiDirectoryNode" />
+              <item name="optimizing-tips" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="can-Share" type="462c0819:PsiDirectoryNode" />
+              <item name="react-tips" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="can-Share" type="462c0819:PsiDirectoryNode" />
+              <item name="safe-tips" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="can-Share" type="462c0819:PsiDirectoryNode" />
+              <item name="san-tips" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="can-Share" type="462c0819:PsiDirectoryNode" />
+              <item name="vue-tips" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="can-Share" type="462c0819:PsiDirectoryNode" />
+              <item name="work-experience-tips" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -428,29 +488,38 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141916000" />
+    <option name="totallyTimeSpent" value="142084000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15792646" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15792646" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32923076" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -460,9 +529,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/image/clock/gaugePreview.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/demos-tips/gaugeDemo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="895">
@@ -513,11 +579,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/work-experience-tips/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/js-tips/获取网页宽度和高度.md">
       <provider selected="true" editor-type-id="text-editor" />
@@ -598,18 +660,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demos-tips/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="157" selection-start-column="157" selection-end-column="157" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/dev-tips/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/form-tips/config.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -659,13 +713,6 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mobile-tips/config.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -680,23 +727,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/basic-tips/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/articleList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/createFileList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="96" column="42" selection-start-line="96" selection-start-column="36" selection-end-line="96" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -764,6 +800,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/createFileList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/money-tips/各种投资产品的整理分析（持续更新）.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
         </state>
       </provider>
     </entry>

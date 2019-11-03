@@ -25,7 +25,8 @@ var moduleNameMap = {
     'safe-tips':'前端安全',
     'san-tips':'San',
     'vue-tips':'Vue',
-    'work-experience-tips':'工作经验'
+    'work-experience-tips':'工作经验',
+    'money-tips':'理财知识'
 }
 
 //解析需要遍历的文件夹，我这以E盘根目录为例
