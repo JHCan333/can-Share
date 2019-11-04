@@ -2,12 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00c786fa-9b44-4a14-891d-5b6e2f880132" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/log/log2019年11月4日 15:47:34.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/articleList.js" beforeDir="false" afterPath="$PROJECT_DIR$/articleList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/basic-tips/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/basic-tips/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/createFileList.js" beforeDir="false" afterPath="$PROJECT_DIR$/createFileList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css-tips/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/css-tips/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demos-tips/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/demos-tips/config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dev-tips/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/dev-tips/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http-tips/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/http-tips/config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js-tips/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/js-tips/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log2019年10月16日 15:50:59.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log2019年10月16日 15:51:59.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log2019年10月16日 15:55:58.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log2019年10月16日 15:55:9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log2019年10月16日 15:59:18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log2019年10月16日 16:10:11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log2019年10月16日 16:53:55.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log2019年10月16日 16:9:29.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log2019年10月16日 17:16:14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log2019年10月16日 17:17:23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log2019年10月16日 17:7:37.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log2019年10月18日 14:39:39.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log2019年10月25日 11:31:33.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log2019年10月31日 10:45:56.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log2019年11月3日 19:30:0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log2019年11月3日 19:34:29.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log2019年11月3日 19:35:52.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log2019年11月3日 19:36:12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log2019年11月3日 19:38:40.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log2019年9月10日 11:24:23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log2019年9月10日 15:3:39.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log2019年9月17日 17:10:55.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log2019年9月22日 16:14:41.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log2019年9月22日 16:16:14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log2019年9月23日 12:36:9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log2019年9月24日 15:39:35.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log2019年9月24日 15:40:25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log2019年9月4日 16:19:58.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log2019年9月4日 17:38:14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/work-experience-tips/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/work-experience-tips/config.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -22,38 +56,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="createFileList.js" pinned="true" current-in-tab="false">
+      <file leaf-file-name="createFileList.js" pinned="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/createFileList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="718">
-              <caret line="132" column="56" selection-start-line="132" selection-start-column="52" selection-end-line="132" selection-end-column="56" />
+            <state relative-caret-position="375">
+              <caret line="226" column="28" lean-forward="true" selection-start-line="226" selection-start-column="28" selection-end-line="226" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="articleList.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/articleList.js">
+      <file leaf-file-name="logInfoList.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/logInfoList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2753">
-              <caret line="369" column="30" selection-start-line="369" selection-start-column="30" selection-end-line="369" selection-end-column="30" />
+            <state relative-caret-position="15">
+              <caret line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/san-tips/config.js">
+      <file leaf-file-name="package.json" pinned="true" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="143" selection-start-column="143" selection-end-column="143" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/work-experience-tips/config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="165">
+              <caret line="11" column="14" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -71,36 +96,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>writeFile</find>
-      <find>data</find>
-      <find>fileArr</find>
-      <find>modulePath</find>
-      <find>互联网行业常用术语</find>
-      <find>home_roll_item_title</find>
-      <find>goAssignPage</find>
-      <find>this</find>
-      <find>getLastConfig</find>
-      <find>home_roll_item_background</find>
-      <find>home_start_background</find>
-      <find>home_search_box</find>
-      <find>btn-group</find>
-      <find>input-group-btn</find>
-      <find>home_back_to_home_btn</find>
-      <find>input-group</find>
-      <find>home_search_condition_group</find>
-      <find>contentTotalData</find>
-      <find>home_search_condition_selected</find>
       <find>.home_roll_item_background</find>
       <find>home_roll_item</find>
       <find>[1]</find>
       <find>css</find>
       <find>moduleName</find>
-      <find>historyData</find>
       <find>RCS</find>
       <find>console.log</find>
+      <find>createConfigFile</find>
+      <find>historyData</find>
+      <find>finishExtent</find>
       <find>recordLog</find>
       <find>writeArticleList</find>
+      <find>current</find>
+      <find>fileDisplay</find>
+      <find>filedir</find>
+      <find>getLastConfig</find>
+      <find>filePath</find>
       <find>articleList</find>
+      <find>dataStash</find>
+      <find>ifConfig</find>
+      <find>ifList</find>
+      <find>moduleNameMap</find>
+      <find>isFile</find>
+      <find>commonObj</find>
+      <find>getLogData</find>
+      <find>logList</find>
+      <find>createArticleList</find>
+      <find>getFileStats</find>
+      <find>fileShowTypeList</find>
+      <find>console</find>
     </findStrings>
     <replaceStrings>
       <replace>.jhc</replace>
@@ -126,7 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/home/js/articleData.js" />
         <option value="$PROJECT_DIR$/home/js/main.js" />
         <option value="$PROJECT_DIR$/basic-tips/测试驱动开发概念介绍.md" />
         <option value="$PROJECT_DIR$/css-tips/config.js" />
@@ -138,7 +162,6 @@
         <option value="$PROJECT_DIR$/optimizing-tips/config.js" />
         <option value="$PROJECT_DIR$/react-tips/config.js" />
         <option value="$PROJECT_DIR$/safe-tips/config.js" />
-        <option value="$PROJECT_DIR$/san-tips/config.js" />
         <option value="$PROJECT_DIR$/vue-tips/config.js" />
         <option value="$PROJECT_DIR$/work-experience-tips/config.js" />
         <option value="$PROJECT_DIR$/basic-tips/CDN技术原理.md" />
@@ -146,7 +169,6 @@
         <option value="$PROJECT_DIR$/js-tips/js学习笔记[抄书之路] — event.md" />
         <option value="$PROJECT_DIR$/home/css/common.css" />
         <option value="$PROJECT_DIR$/home/css/login.css" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/home/js/common.js" />
         <option value="$PROJECT_DIR$/home/css/content.css" />
         <option value="$PROJECT_DIR$/js-tips/js防抖和节流.md" />
@@ -173,10 +195,13 @@
         <option value="$PROJECT_DIR$/js-tips/js原型常用扩展方法.md" />
         <option value="$PROJECT_DIR$/mobile-tips/Xcode开发时碰到的问题.md" />
         <option value="$PROJECT_DIR$/mobile-tips/移动端开发经验（持续更新）.md" />
-        <option value="$PROJECT_DIR$/createFileList.js" />
         <option value="$PROJECT_DIR$/money-tips/各种投资产品的整理分析（持续更新）.md" />
         <option value="$PROJECT_DIR$/http-tips/config.js" />
         <option value="$PROJECT_DIR$/articleList.js" />
+        <option value="$PROJECT_DIR$/san-tips/config.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/logInfoList.js" />
+        <option value="$PROJECT_DIR$/createFileList.js" />
       </list>
     </option>
   </component>
@@ -203,8 +228,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="1050" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -224,87 +250,12 @@
             <path>
               <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
               <item name="can-Share" type="462c0819:PsiDirectoryNode" />
-              <item name="basic-tips" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
-              <item name="can-Share" type="462c0819:PsiDirectoryNode" />
-              <item name="browser-tips" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
-              <item name="can-Share" type="462c0819:PsiDirectoryNode" />
-              <item name="css-tips" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
-              <item name="can-Share" type="462c0819:PsiDirectoryNode" />
-              <item name="database-tips" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
-              <item name="can-Share" type="462c0819:PsiDirectoryNode" />
-              <item name="demos-tips" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
-              <item name="can-Share" type="462c0819:PsiDirectoryNode" />
-              <item name="dev-tips" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
-              <item name="can-Share" type="462c0819:PsiDirectoryNode" />
-              <item name="form-tips" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
-              <item name="can-Share" type="462c0819:PsiDirectoryNode" />
-              <item name="http-tips" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
-              <item name="can-Share" type="462c0819:PsiDirectoryNode" />
-              <item name="js-tips" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
-              <item name="can-Share" type="462c0819:PsiDirectoryNode" />
-              <item name="mobile-tips" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
-              <item name="can-Share" type="462c0819:PsiDirectoryNode" />
-              <item name="money-tips" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
-              <item name="can-Share" type="462c0819:PsiDirectoryNode" />
-              <item name="optimizing-tips" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
               <item name="can-Share" type="462c0819:PsiDirectoryNode" />
               <item name="react-tips" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
-              <item name="can-Share" type="462c0819:PsiDirectoryNode" />
-              <item name="safe-tips" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
-              <item name="can-Share" type="462c0819:PsiDirectoryNode" />
-              <item name="san-tips" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
-              <item name="can-Share" type="462c0819:PsiDirectoryNode" />
-              <item name="vue-tips" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
-              <item name="can-Share" type="462c0819:PsiDirectoryNode" />
-              <item name="work-experience-tips" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -450,12 +401,13 @@
       <workItem from="1572312034482" duration="505000" />
       <workItem from="1572402006696" duration="405000" />
       <workItem from="1572485964402" duration="1147000" />
-      <workItem from="1572780834734" duration="298000" />
+      <workItem from="1572780834734" duration="520000" />
+      <workItem from="1572836272770" duration="12176000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142382000" />
+    <option name="totallyTimeSpent" value="154780000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -465,7 +417,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.19589743" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" />
@@ -483,58 +435,20 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/demos-tips/gaugeDemo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="895">
-          <caret line="314" column="7" selection-start-line="314" selection-start-column="7" selection-end-line="314" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css-tips/ie6下css碰到的坑.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1848">
-          <caret line="207" column="8" lean-forward="true" selection-start-line="207" selection-start-column="8" selection-end-line="207" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css-tips/CSS 中 transform、animation、transition、translate的区别.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-tips/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="72" selection-start-column="72" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/safe-tips/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="75" selection-start-column="75" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue-tips/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="84" selection-start-column="84" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js-tips/获取网页宽度和高度.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demos-tips/js操作style.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/js-tips/js学习笔记[抄书之路] — event.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
@@ -644,13 +558,6 @@
     <entry file="file://$PROJECT_DIR$/dev-tips/nvmOrder.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/js-tips/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -737,13 +644,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/money-tips/各种投资产品的整理分析（持续更新）.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -757,28 +657,76 @@
     <entry file="file://$PROJECT_DIR$/work-experience-tips/config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js-tips/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/articleList.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/san-tips/config.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-tips/config.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="143" selection-start-column="143" selection-end-column="143" />
+          <caret column="72" selection-start-column="72" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/log2019年9月4日 16:19:58.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/log2019年11月4日 13:31:32.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1389" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/log2019年11月4日 13:31:31.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-673" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/log2019年11月4日 15:47:34.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-577" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/log2019年11月4日 15:56:51.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/log2019年9月10日 11:24:23.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logInfoList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/createFileList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="718">
-          <caret line="132" column="56" selection-start-line="132" selection-start-column="52" selection-end-line="132" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/articleList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2753">
-          <caret line="369" column="30" selection-start-line="369" selection-start-column="30" selection-end-line="369" selection-end-column="30" />
+        <state relative-caret-position="375">
+          <caret line="226" column="28" lean-forward="true" selection-start-line="226" selection-start-column="28" selection-end-line="226" selection-end-column="28" />
         </state>
       </provider>
     </entry>

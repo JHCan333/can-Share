@@ -6,10 +6,11 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "pre":"npm run config && npm run list",
-    "config":"node createFileList.js $* config",
-    "list":"node createFileList.js $* list",
-    "dev":" http-server -p8081 -o -c-1"
+    "pre": "npm run config && npm run list",
+    "config": "node createFileList.js $* config",
+    "list": "node createFileList.js $* list",
+    "clear_log": "node createFileList.js",
+    "dev": " http-server -p8081 -o -c-1"
   },
   "repository": {
     "type": "git",
