@@ -2,47 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00c786fa-9b44-4a14-891d-5b6e2f880132" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/log/log2019年11月4日 15:47:34.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/articleList.js" beforeDir="false" afterPath="$PROJECT_DIR$/articleList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-tips/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/basic-tips/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/createFileList.js" beforeDir="false" afterPath="$PROJECT_DIR$/createFileList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css-tips/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/css-tips/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demos-tips/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/demos-tips/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev-tips/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/dev-tips/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http-tips/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/http-tips/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js-tips/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/js-tips/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/log2019年10月16日 15:50:59.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/log2019年10月16日 15:51:59.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/log2019年10月16日 15:55:58.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/log2019年10月16日 15:55:9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/log2019年10月16日 15:59:18.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/log2019年10月16日 16:10:11.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/log2019年10月16日 16:53:55.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/log2019年10月16日 16:9:29.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/log2019年10月16日 17:16:14.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/log2019年10月16日 17:17:23.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/log2019年10月16日 17:7:37.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/log2019年10月18日 14:39:39.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/log2019年10月25日 11:31:33.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/log2019年10月31日 10:45:56.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/log2019年11月3日 19:30:0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/log2019年11月3日 19:34:29.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/log2019年11月3日 19:35:52.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/log2019年11月3日 19:36:12.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/log2019年11月3日 19:38:40.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/log2019年9月10日 11:24:23.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/log2019年9月10日 15:3:39.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/log2019年9月17日 17:10:55.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/log2019年9月22日 16:14:41.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/log2019年9月22日 16:16:14.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/log2019年9月23日 12:36:9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/log2019年9月24日 15:39:35.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/log2019年9月24日 15:40:25.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/log2019年9月4日 16:19:58.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/log2019年9月4日 17:38:14.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work-experience-tips/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/work-experience-tips/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-tips/移动端开发经验（持续更新）.md" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-tips/移动端开发经验（持续更新）.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -56,11 +16,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="createFileList.js" pinned="true" current-in-tab="true">
+      <file leaf-file-name="createFileList.js" pinned="true" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/createFileList.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
-              <caret line="226" column="28" lean-forward="true" selection-start-line="226" selection-start-column="28" selection-end-line="226" selection-end-column="28" />
+              <caret line="226" column="28" selection-start-line="226" selection-start-column="28" selection-end-line="226" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="移动端开发经验（持续更新）.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mobile-tips/移动端开发经验（持续更新）.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="255">
+                <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -69,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/logInfoList.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" selection-end-line="1" />
+              <caret line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -194,7 +166,6 @@
         <option value="$PROJECT_DIR$/css-tips/css小技能总结.md" />
         <option value="$PROJECT_DIR$/js-tips/js原型常用扩展方法.md" />
         <option value="$PROJECT_DIR$/mobile-tips/Xcode开发时碰到的问题.md" />
-        <option value="$PROJECT_DIR$/mobile-tips/移动端开发经验（持续更新）.md" />
         <option value="$PROJECT_DIR$/money-tips/各种投资产品的整理分析（持续更新）.md" />
         <option value="$PROJECT_DIR$/http-tips/config.js" />
         <option value="$PROJECT_DIR$/articleList.js" />
@@ -202,6 +173,7 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/logInfoList.js" />
         <option value="$PROJECT_DIR$/createFileList.js" />
+        <option value="$PROJECT_DIR$/mobile-tips/移动端开发经验（持续更新）.md" />
       </list>
     </option>
   </component>
@@ -250,12 +222,7 @@
             <path>
               <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
               <item name="can-Share" type="462c0819:PsiDirectoryNode" />
-              <item name="log" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
-              <item name="can-Share" type="462c0819:PsiDirectoryNode" />
-              <item name="react-tips" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile-tips" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -402,12 +369,12 @@
       <workItem from="1572402006696" duration="405000" />
       <workItem from="1572485964402" duration="1147000" />
       <workItem from="1572780834734" duration="520000" />
-      <workItem from="1572836272770" duration="12176000" />
+      <workItem from="1572836272770" duration="12501000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154780000" />
+    <option name="totallyTimeSpent" value="155105000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -637,13 +604,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobile-tips/移动端开发经验（持续更新）.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/money-tips/各种投资产品的整理分析（持续更新）.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -719,14 +679,29 @@
     <entry file="file://$PROJECT_DIR$/logInfoList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" selection-end-line="1" />
+          <caret line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/createFileList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="226" column="28" lean-forward="true" selection-start-line="226" selection-start-column="28" selection-end-line="226" selection-end-column="28" />
+          <caret line="226" column="28" selection-start-line="226" selection-start-column="28" selection-end-line="226" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile-tips/移动端开发经验（持续更新）.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="255">
+            <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
         </state>
       </provider>
     </entry>
