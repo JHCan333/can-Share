@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00c786fa-9b44-4a14-891d-5b6e2f880132" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/mobile-tips/移动端开发经验（持续更新）.md" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-tips/移动端开发经验（持续更新）.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,18 +19,28 @@
       <file leaf-file-name="createFileList.js" pinned="true" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/createFileList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="226" column="28" selection-start-line="226" selection-start-column="28" selection-end-line="226" selection-end-column="28" />
+            <state relative-caret-position="2745">
+              <caret line="183" column="24" selection-start-line="183" selection-start-column="24" selection-end-line="183" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="移动端开发经验（持续更新）.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="nvmOrder.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dev-tips/nvmOrder.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="移动端开发经验（持续更新）.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mobile-tips/移动端开发经验（持续更新）.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="255">
-                <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+                <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
               </first_editor>
               <second_editor />
             </state>
@@ -40,7 +50,7 @@
       <file leaf-file-name="logInfoList.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/logInfoList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="30">
               <caret line="2" selection-end-line="2" />
             </state>
           </provider>
@@ -222,6 +232,11 @@
             <path>
               <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
               <item name="can-Share" type="462c0819:PsiDirectoryNode" />
+              <item name="dev-tips" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="can-Share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="can-Share" type="462c0819:PsiDirectoryNode" />
               <item name="mobile-tips" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -369,22 +384,31 @@
       <workItem from="1572402006696" duration="405000" />
       <workItem from="1572485964402" duration="1147000" />
       <workItem from="1572780834734" duration="520000" />
-      <workItem from="1572836272770" duration="12501000" />
+      <workItem from="1572836272770" duration="12726000" />
+      <workItem from="1572918628353" duration="468000" />
+      <workItem from="1573005696253" duration="1598000" />
+      <workItem from="1573096383377" duration="551000" />
+      <workItem from="1573176014564" duration="456000" />
+      <workItem from="1573453154909" duration="492000" />
+      <workItem from="1573526347499" duration="340000" />
+      <workItem from="1573608180679" duration="381000" />
+      <workItem from="1573695454349" duration="1723000" />
+      <workItem from="1573788230315" duration="595000" />
+      <workItem from="1573981121592" duration="9000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155105000" />
+    <option name="totallyTimeSpent" value="161943000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15792646" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15430982" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.19589743" />
+      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.1774359" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" />
@@ -522,9 +546,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev-tips/nvmOrder.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -645,19 +666,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log/log2019年9月4日 16:19:58.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/log2019年11月4日 13:31:32.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1389" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/log2019年11月4日 13:31:31.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-673" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/log/log2019年9月4日 16:19:58.txt" />
+    <entry file="file://$PROJECT_DIR$/log/log2019年11月4日 13:31:32.txt" />
+    <entry file="file://$PROJECT_DIR$/log/log2019年11月4日 13:31:31.txt" />
     <entry file="file://$PROJECT_DIR$/log/log2019年11月4日 15:47:34.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-577" />
@@ -673,35 +684,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log/log2019年9月10日 11:24:23.txt">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/log/log2019年9月10日 11:24:23.txt" />
+    <entry file="file://$PROJECT_DIR$/mobile-tips/移动端开发经验（持续更新）.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="255">
+            <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/logInfoList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="30">
           <caret line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/createFileList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="226" column="28" selection-start-line="226" selection-start-column="28" selection-end-line="226" selection-end-column="28" />
+        <state relative-caret-position="2745">
+          <caret line="183" column="24" selection-start-line="183" selection-start-column="24" selection-end-line="183" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobile-tips/移动端开发经验（持续更新）.md">
+    <entry file="file://$PROJECT_DIR$/dev-tips/nvmOrder.md">
+      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="255">
-            <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-          </first_editor>
+          <first_editor />
           <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
         </state>
       </provider>
     </entry>
