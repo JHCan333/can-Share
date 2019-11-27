@@ -13,3 +13,7 @@ input.selectionStart = 0
 input.selectionEnd = input.value.length
 ```
 
+### 3. export 和 module.exports
+export default 是作为一个整体导出的，只能整体导入，不能解构。
+export default 转义后是 module.exports.default。
+同样的 export 转义后是 module.exports
