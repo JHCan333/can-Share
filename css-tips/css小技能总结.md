@@ -36,7 +36,9 @@
 
 ### 其他
 1、cursor：设置鼠标指示器的形状。常用的：default（箭头)，crosshair（十字线），pointer（一只手），wait（程序正忙，一只表或者沙漏），help（指示可用的帮助，问号或者气球）；
+
 2、visible:值为visible时展示，为hidden时，不展示，但是还占位置；
+
 3、多出部分转省略号
 ```
 overflow: hidden;
@@ -60,3 +62,17 @@ height: 100%;
 4. 圣杯布局:容器设置左右margin，main设置100%；左右两侧根据容器的margin设置负margin、left、right；
 
 6、 CSS就近原则：在CSS优先级相同的时候，CSS遵循后来者居上的原则，同名的属性，写的靠后面的会被渲染，前面的会被覆盖；
+
+7、 CSS叠加原则：
+1. 同辈元素定位方式相同，且无z-index设置时，html靠后者居上；
+2. 同辈元素同为动态定位时，且有z-index设置时，z-index值大者居上；
+3. 同辈元素定位方式不同时，动态定位居上；
+4. 非同辈元素，任意一者及其祖元素不具备动态布局时，html靠后者居上；
+5. 非同辈元素，任意一者或其祖元素拥有动态定位时，同时各自向上寻找动态定位的祖元素，并分别从中拿出具备最高级别的祖元素（或其本身）进行比较。 
+
+8、 实现0.5px的线
+1. 缩放：伪类元素设置scale(0.5);
+2. 渐变：background-image: linear-gradient(0deg, transparent 50%, #e0e0e0 50%);
+3. 图片：把线做成背景图片，利用background的属性来控制；
+4. box-shadow:box-shadow: 0px 0.5px 0px 0px #F00 inset;
+5. 如果是四条边都有0.5px细线，则使用缩放scale(0.5)，不过伪类的元素设置宽高均为200%；
