@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Echarts 展示两线交点</title>
+  <script src="./js/jquery.js"></script>
+  <script src="./js/echarts.js"></script>
+  <style>
+    .chartsArea {
+      width: 1000px;
+      height: 600px;
+      position: relative;
+      background: url('./backgroundImage.jpg') no-repeat;
+      background-size: 100% 100%;
+    }
+
+    .chartsAreaBack {
+      background-color: #010139;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      opacity: 0.7;
+      top: 0;
+    }
+
+    .charts {
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="chartsArea">
+    <div class="chartsAreaBack"></div>
+    <!-- 准备好一个 dom，并且设置好 width 和 height，后续在此 dom 中绘制图表 -->
+    <div id="chart" class="charts"></div>
+  </div>
+  <script>
+    // 两条折线图的数据，横坐标是日期，纵坐标为当前日期的数值
+    var chartData = {
+      line1: ["114", "114", "118", "114", "130", "130", "126", "130", "126", "130", "130", "134", "135", "135", "135", "135", "134", "132", "130", "128", "126", "124", "121", "119", "117", "116", "114", "112", "111", "110", "109", "108", "107", "106", "106", "105", "105", "105", "105", "106", "106", "108", "109", "112", "113", "115", "116", "118", "120", "123", "125", "128", "129", "130", "131", "131", "131", "131", "131", "130", "128", "126", "123", "119", "117", "115", "113", "112", "111", "110", "109", "107", "106", "105", "103", "103", "102", "101", "100", "99", "99", "99", "99", "101", "102", "104", "107", "109", "112", "114", "117", "119", "122", "124", "126", "127", "128", "129", "129", "130", "129", "128", "127", "126", "124", "122", "120", "117", "115", "113", "111", "109", "107", "105", "103", "100", "99", "98", "97", "97", "97", "98", "99", "101", "104", "107", "109", "112", "115", "117", "120", "123", "125", "128", "129", "130", "131", "131", "131", "131", "131", "130", "128", "126", "123", "119", "104"],
+      line2: ["124", "124", "128", "124", "140", "140", "136", "140", "136", "140", "140", "136", "132", "128", "128", "124", "124", "120", "116", "112", "112", "112", "112", "112", "108", "108", "108", "104", "108", "104", "104", "100", "104", "104", "108", "104", "108", "104", "108", "112", "116", "120", "124", "128", "124", "120", "124", "128", "132", "136", "140", "140", "136", "132", "128", "128", "124", "124", "120", "116", "112", "108", "104", "100", "104", "108", "112", "116", "112", "108", "104", "100", "96", "92", "88", "92", "96", "100", "100", "104", "104", "108", "112", "116", "116", "116", "120", "120", "124", "132", "132", "132", "132", "136", "132", "132", "128", "128", "124", "124", "120", "120", "116", "116", "112", "108", "108", "104", "104", "104", "100", "96", "96", "92", "92", "88", "92", "96", "100", "104", "108", "112", "116", "120", "124", "128", "124", "120", "124", "128", "132", "136", "140", "140", "136", "132", "128", "128", "124", "124", "120", "116", "112", "108", "104", "100", "103"],
+      date: ['200701', '200702', '200703', '200704', '200705', '200706', '200707', '200708', '200709', '200710', '200711', '200712', '200801', '200802', '200803', '200804', '200805', '200806', '200807', '200808', '200809', '200810', '200811', '200812', '200901', '200902', '200903', '200904', '200905', '200906', '200907', '200908', '200909', '200910', '200911', '200912', '201001', '201002', '201003', '201004', '201005', '201006', '201007', '201008', '201009', '201010', '201011', '201012', '201101', '201102', '201103', '201104', '201105', '201106', '201107', '201108', '201109', '201110', '201111', '201112', '201201', '201202', '201203', '201204', '201205', '201206', '201207', '201208', '201209', '201210', '201211', '201212', '201301', '201302', '201303', '201304', '201305', '201306', '201307', '201308', '201309', '201310', '201311', '201312', '201401', '201402', '201403', '201404', '201405', '201406', '201407', '201408', '201409', '201410', '201411', '201412', '201501', '201502', '201503', '201504', '201505', '201506', '201507', '201508', '201509', '201510', '201511', '201512', '201601', '201602', '201603', '201604', '201605', '201606', '201607', '201608', '201609', '201610', '201611', '201612', '201701', '201702', '201703', '201704', '201705', '201706', '201707', '201708', '201709', '201710', '201711', '201712', '201801', '201802', '201803', '201804', '201805', '201806', '201807', '201808', '201809', '201810', '201811', '201812', '201901', '201902', '201903']
+    };
+
+    // 求两条线段交点，a,b 为第一条线段的始末点，c,d 为第二条线段的始末点。x，y 为点的横纵坐标
+    function segmentsIntr({ a, b, c, d } = {}) {
+      var denominator = (b.y - a.y) * (d.x - c.x) - (a.x - b.x) * (c.y - d.y)
+      var x = ((b.x - a.x) * (d.x - c.x) * (c.y - a.y) +
+        (b.y - a.y) * (d.x - c.x) * a.x -
+        (d.y - c.y) * (b.x - a.x) * c.x) / denominator
+      var y = -((b.y - a.y) * (d.y - c.y) * (c.x - a.x) +
+        (b.x - a.x) * (d.y - c.y) * a.y -
+        (d.x - c.x) * (b.y - a.y) * c.y) / denominator
+      return [x, y]
+    }
+
+    // 获取tooltip的dot,radius 为圆点半径，color 为圆点颜色
+    function getTipDot({ radius = 5, color = "red" } = {}) {
+      return `<span style='width:${radius * 2}px;height:${radius * 2}px;display:inline-block;border-radius: ${radius}px;background:${color};margin:0px 3px;'></span>`
+    }
+
+    // 判断两条线段是否有交点, a1、b1 为两条线在 x1 处的值；a2、b2 为两条线在 x2 处的值；
+    // 只要不是一条线段的两个点都高于另一个点就会有交点；
+    function ifHaveIntersectionPoint(a1, b1, a2, b2) {
+      return (+a1 > +b1) != (+a2 > +b2)
+    }
+
+    // 是否执行后续的计算 ？ 不是最后一个点，且有交点时
+    function ifCalculatePoint(idx, lth, [a1, b1, a2, b2] = []) {
+      return idx !== (lth - 1) && ifHaveIntersectionPoint(a1, b1, a2, b2)
+    }
+
+    // 获取两线所有交点
+    function getIntersectionPoint({ line1, line2, date } = {}) {
+      // 交点数组
+      var intersectionPointList = []
+      date.map((seg, idx) => {
+        // 分别是两条线在相邻两处的数值，用于通过比较大小，来确定此段内是否有交点
+        var valueGroup = [line1[idx], line2[idx], line1[idx + 1], line2[idx + 1]]
+        if (ifCalculatePoint(idx, date.length, valueGroup)) {
+          var dotGroup = {
+            a: { x: idx, y: line1[idx] },
+            b: { x: idx + 1, y: line1[idx + 1] },
+            c: { x: idx, y: line2[idx] },
+            d: { x: idx + 1, y: line2[idx + 1] }
+          }
+          // 计算交点的位置
+          var intersectionPoint = this.segmentsIntr(dotGroup)
+          // 给每个数据拼接第三个值，代表是上升还是下降
+          intersectionPoint = [].concat(intersectionPoint, line1[idx + 1] > line2[idx + 1])
+          intersectionPointList.push(intersectionPoint)
+        }
+      })
+      return intersectionPointList;
+    }
+    // 基于准备好的dom，初始化一个 echarts 实例。
+    var myChart = echarts.init(document.getElementById('chart'));
+
+    // 设置图表的配置项
+    var option = {
+      // 标题
+      title: {
+        text: "调整折线图以及散点图的样式",
+        textStyle: {
+          color: '#fff'
+        }
+      },
+      // 提示框组件，鼠标放置上去后，会展示 鼠标 所在位置信息
+      tooltip: {
+        // 设置提示框为：坐标轴触发。此项主要用于柱图、折线图的配置。
+        trigger: 'axis',
+        // params 为一个数组，数组的每个元素 包含了 该折线图的点 所有的参数信息
+        // 比如 value(数值)、seriesName（系列名）、dataIndex（数据项的序号）、color(系列颜色)
+        formatter: function (params) {
+          let dateIndex = 0; // 当前指示点的 日期序号
+          let tipList = params.map((seg) => {
+            let { value, seriesName, dataIndex, color, seriesType } = seg;
+            dateIndex = dataIndex;
+            return `${getTipDot({ color })}${seriesName}：${value}` // 添加对于 dot 的配置
+          })
+          tipList.unshift(`${chartData.date[dateIndex]}`)
+          return tipList.join('<br/>')
+        },
+        axisPointer:{
+          // type:'none'
+        }
+      },
+      // 图例组件，与 series 中的 name 对应，用于表示不同系列的标记、颜色和名字。也可以通过点击图例控制哪些系列不显示。
+      legend: {
+        data: ['折线1', '折线2'],
+        textStyle: {
+          color: '#fff'
+        },
+      },
+      // x 轴的配置，默认类型为 type="category" 类目轴。
+      xAxis: [{
+        // 设置 x 轴的数据, 使用 日期 在数据中的 序列号 来表示 横坐标数值。
+        data: chartData.date.map((seg, idx) => {
+          return idx
+        }),
+        // 设置 x 轴的 展示标签， 使其根据 当前标签的序列号转换为 日期
+        axisLabel: {
+          formatter: function (params) {
+            return chartData.date[params]
+          },
+          color: '#04a5bd',
+          fontWeight: 'bold'
+        },
+        // 坐标轴线的颜色调整一下
+        axisLine: {
+          lineStyle: {
+            color: '#00386d',
+            opacity: 0.6
+          }
+        },
+        // 坐标轴刻度取消展示
+        axisTick: {
+          show: false
+        },
+        boundaryGap: false
+      },
+      // 添加一个x轴用于展示散点图（交点）
+      {
+        type: 'value',
+        min: 0,
+        max: chartData.date.length - 1,
+        show: false
+      }],
+      // y 轴的配置
+      yAxis: {
+        axisLabel: {
+          color: '#04a5bd',
+          fontWeight: 'bold'
+        },
+        splitLine: {
+          show: true,
+          lineStyle: {
+            color: '#00386d',
+            opacity: 0.4
+          }
+        },
+        axisLine: {
+          show: false
+        },
+        scale: true
+      },
+      // 系列列表，一个系列即可理解为一个图表，通过 type 决定所展示的图表类型。
+      series: [
+        {
+        name: '折线1', // 单个图表系列的 name, 和 legend 中的 data 对应
+        type: 'line',
+        symbol: 'none', // 取消折线图上圆点的展示
+        smooth: true, // 将折线进行平滑展示
+        itemStyle: { // 设置折线图颜色
+          color: '#6B72E7'
+        },
+        lineStyle: { // 设置线条的宽度
+          width: 0.7,
+        },
+        data: chartData.line1
+      }, {
+        name: '折线2', // 单个图表系列的 name, 和 legend 中的 data 对应
+        type: 'line',
+        symbol: 'none',
+        smooth: true,
+        itemStyle: {
+          color: '#E93AC8'
+        },
+        lineStyle: {
+          width: 0.7,
+        },
+        data: chartData.line2
+      }, 
+      {
+        name: '交点',
+        type: 'scatter',
+        xAxisIndex: 1,
+        data: getIntersectionPoint(chartData).map((seg) => {
+          return {
+            value: seg.slice(0, 2),
+            symbol: 'pin',
+            symbolSize: 30,
+            itemStyle: {
+              color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
+                offset: 0,
+                color: seg[2] ? '#E93AC8' : '#6B72E7'
+              }, {
+                offset: 0.9,
+                color: '#08178c'
+              }, {
+                offset: 1,
+                color: '#08178c'
+              }], false)
+            }
+          }
+        })
+      }]
+    }
+    console.log('option', option)
+    // 使用数据和配置项展示图表
+    myChart.setOption(option)
+  </script>
+</body>
+
+</html>
