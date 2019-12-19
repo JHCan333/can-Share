@@ -1,4 +1,2 @@
-var config = {"browserRender":{"tags":[],"finishExtent":1},"moduleName":"浏览器"};
-module.exports = config;
-duleName":"浏览器"};
+var config = {"browserRender":{"tags":[],"finishExtent":1},"ie浏览器的坑":{"tags":[],"finishExtent":1},"moduleName":"浏览器"};
 module.exports = config;
